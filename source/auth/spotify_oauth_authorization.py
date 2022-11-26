@@ -42,7 +42,15 @@ SERVERPORT = 8888
 class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
 
     def __init__(self, scopes:list, client_id:str =None, client_secret:str =None, login_redirect:str =None, local_test=None):
+        """
+        The login_redirect is currently locked to one port on local host, please ensure your spotify app is configured correctly.
+        I will update this in a future release.
 
+        :param scopes:
+        :param client_id:
+        :param client_secret:
+        :param local_test:
+        """
         super().__init__() #<-- Init logger build out additional options if needed
         self._load_env(scopes)
         self.__validate_env(client_id, client_secret, login_redirect)
