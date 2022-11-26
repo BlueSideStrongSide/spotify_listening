@@ -194,7 +194,7 @@ class SpotifyHandler(SpotifyLogger):
         #Make Request To API
         self.request(v2_data=self._api_requested)
 
-    def spotify_scope_validation(self, scope:str):
+    def _spotify_scope_validation(self, scope:str):
         for needed_scope  in scope.split(','):
             if needed_scope not in self._auth_manager._auth_scopes.split(' '):
                 raise Exception(f"You do not have the needed scopes to work with this Endpoint '{needed_scope}' is missing")
@@ -224,6 +224,10 @@ class SpotifyHandler(SpotifyLogger):
         return self.api_response
 
     def spotify_me(self) -> dict:
+        """
+
+        :return: Spotify API response for this endpoint
+        """
         api_settings = sp_api.SpotifyMe()
 
         # Setter will validate and make request to API
@@ -232,7 +236,11 @@ class SpotifyHandler(SpotifyLogger):
         return self.api_response
 
     def spotify_me_playlist(self, playlist_name:str ="") -> dict:
+        """
 
+        :param playlist_name: Playlist name within the spotify account
+        :return: Spotify API response for this endpoint
+        """
         api_settings = sp_api.SpotifyMePlaylist()
 
         # can we create one function to validate for each API?
@@ -250,7 +258,7 @@ class SpotifyHandler(SpotifyLogger):
 
     def spotify_get_tracks(self,spotify_ids:str) -> dict:
         """
-        :param spotify_ids: a comma seperated list of track ids
+        :param spotify_ids: comma seperated list of track ids
         :return: If used with realtime nothing is returned, without realtime the response is a dict of the spotify response
         """
         api_settings = sp_api.SpotifyGetTracks()
@@ -267,7 +275,11 @@ class SpotifyHandler(SpotifyLogger):
         return self.api_response
 
     def spotify_get_users_playlists(self,user_id:str) -> dict:
+        """
 
+        :param user_id: user ID as shown from the spotify API, use the spotify_me endpoint to determine if needed
+        :return: Spotify API response for this endpoint
+        """
         api_settings = sp_api.SpotifyGetUsersPlaylists()
 
         #can we create one function to validate for each API?
@@ -279,10 +291,15 @@ class SpotifyHandler(SpotifyLogger):
         return self.api_response
 
     def spotify_top_items(self,top_type:str) -> dict:
+        """
+
+        :param top_type: The correct top type, only valid options are "artists" and "tracks"
+        :return: Spotify API response for this endpoint
+        """
         api_settings = sp_api.SpotifyTopItems()
 
         if api_settings.required_scope:
-            self.spotify_scope_validation(scope=api_settings.required_scope)
+            self._spotify_scope_validation(scope=api_settings.required_scope)
 
         # can we create one function to validate for each API?
         if top_type in api_settings.allowed_variable_type:
@@ -296,7 +313,13 @@ class SpotifyHandler(SpotifyLogger):
         return self.api_response
 
     def spotify_track_audio_analysis(self,spotify_id:str,realtime: bool = False,interval:int = 5) -> dict:
+        """
 
+        :param spotify_id: the spotify track/episode ID as returned by the API
+        :param realtime: If multiple IDs are submitted we will show you a real time print of the data as it is retunred
+        :param interval:  THe time between each GET request, be kind to the spotify API.
+        :return: Spotify API response for this endpoint
+        """
         api_settings = sp_api.SpotifyTrackAudioAnalysis()
 
         # can we create one function to validate for each API?
@@ -308,7 +331,11 @@ class SpotifyHandler(SpotifyLogger):
         return self.api_response
 
     def spotify_track_audio_features(self,spotify_id:str) -> dict:
+        """
 
+        :param spotify_id:  the spotify track/episode ID as returned by the API
+        :return: Spotify API response for this endpoint
+        """
         api_settings = sp_api.SpotifyGetTrackAudioFeatures()
 
         # can we create one function to validate for each API?
@@ -320,7 +347,11 @@ class SpotifyHandler(SpotifyLogger):
         return self.api_response
 
     def spotify_tracks_audio_features(self,spotify_ids:str|list) -> dict:
+        """
 
+        :param spotify_ids: a comma seperated list of multiple spotify IDs, this method will submit them all at once
+        :return: Spotify API response for this endpoint
+        """
         if isinstance(spotify_ids,list):
             spotify_ids = ','.join(spotify_ids)
 
@@ -335,10 +366,18 @@ class SpotifyHandler(SpotifyLogger):
         return self.api_response
 
     def spotify_create_playlist(self, userd_id:str, playlist_name: str, playlist_description:str, playlist_public:bool =False) -> dict:
+        """
+
+        :param userd_id: The user ID as shown in the spotify API. Use the spotif_me method to determine.
+        :param playlist_name: The name of the new spotify playlist
+        :param playlist_description: The desciption of the new spotify playlist
+        :param playlist_public: Should the playlist be public
+        :return: Spotify API response for this endpoint
+        """
         api_settings = sp_api.SpotifyCreatePlaylist()
 
         if api_settings.required_scope:
-            self.spotify_scope_validation(scope=api_settings.required_scope)
+            self._spotify_scope_validation(scope=api_settings.required_scope)
 
         # can we create one function to validate for each API?
         api_settings.api_endpoint = api_settings.api_endpoint.replace('{user_id}', userd_id)
@@ -353,10 +392,17 @@ class SpotifyHandler(SpotifyLogger):
         return self.api_response
 
     def spotify_add_items_to_playlist(self, playlist_id:str ,spotify_tracks:str|list , position:int = False) -> dict:
+        """
+
+        :param playlist_id: The ID of playlist to add the items to
+        :param spotify_tracks: The list of spotify track_ids that will be added
+        :param position: what position should the additions be inserted into, within the playlist
+        :return: Spotify API response for this endpoint
+        """
         api_settings = sp_api.SpotifyAddItemsToPlaylist()
 
         if api_settings.required_scope:
-            self.spotify_scope_validation(scope=api_settings.required_scope)
+            self._spotify_scope_validation(scope=api_settings.required_scope)
 
         # can we create one function to validate for each API?
         api_settings.api_endpoint = api_settings.api_endpoint.replace('{playlist_id}', playlist_id)
@@ -384,12 +430,12 @@ class SpotifyHandler(SpotifyLogger):
         :param playlist_id: Spotify_ID of the playlist to grab the tracks
         :param fields: Filters for the query: a comma-separated list of the fields to return. If omitted, all fields are returned. For example, to get just the playlist''s description and URI: fields=description,uri. A dot separator can be used to specify non-reoccurring fields, while parentheses can be used to specify reoccurring fields within objects. For example, to get just the added date and user ID of the adder: fields=tracks.items(added_at,added_by.id). Use multiple parentheses to drill down into nested objects, for example: fields=tracks.items(track(name,href,album(name,href))). Fields can be excluded by prefixing them with an exclamation mark, for example: fields=tracks.items(track(name,href,album(!name,href)))
                        Example value:"items(track(id,name))"
-        :return:
+        :return: Spotify API response for this endpoint
         """
         api_settings = sp_api.SpotifyGetPlaylistTracks()
 
         if api_settings.required_scope:
-            self.spotify_scope_validation(scope=api_settings.required_scope)
+            self._spotify_scope_validation(scope=api_settings.required_scope)
 
         # can we create one function to validate for each API?
         api_settings.api_endpoint = api_settings.api_endpoint.replace('{playlist_id}', playlist_id)
