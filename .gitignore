@@ -1,0 +1,8 @@
+# created by virtualenv automatically
+*.log
+*.png
+/.env
+/stream_stable_spotify.py
+/pyvenv.cfg
+/source/interact/spotify_endpoints.toml
+/spotify_bpm_sort.py
