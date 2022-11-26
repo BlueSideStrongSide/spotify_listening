@@ -16,6 +16,7 @@ from source.util.logger.logger import SpotifyLogger
 #TODO Fix local web server crashing and not exiting cleanly
 #TODO Need to handle missing scopes easier
 #TODO Integrate new SpotifyAuthSettings Dataclass currently not used
+#TODO create a method to write data to local .env currently using the same logic in two different methods
 
 
 BRUTE_ENV = (os.path.dirname(__file__).replace(r"\source\auth","\.env")) # <-- this sucks update it
@@ -223,8 +224,8 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
         api_response = json.loads(test.content.decode())
 
         if test.status_code == 200:
-            # import logging to track status of 0auth process
-            # review why these calls are in two different places
+
+            # TODO review why these calls are in two different places
             self._refresh_token = api_response["refresh_token"]
             self._access_token = api_response["access_token"]
             self._expires_in = api_response["expires_in"]
@@ -247,8 +248,7 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
 
         if resp.status_code == 200:
             self.logger.debug(f"HTTP_status:{resp.status_code} url:{resp.url} --> TOKEN REFRESHED")
-            #TODO import logging to track status of 0auth process
-            #TODO review why these calls are in two different places
+
             self._access_token = api_response["access_token"]
             self._token_type = api_response["token_type"]
             self._expires_in = api_response["expires_in"]
