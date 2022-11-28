@@ -13,11 +13,6 @@ from dotenv import load_dotenv, set_key
 from source.auth.local_http_server import MyRequestHandler as Custom_RequestHandler
 from source.util.logger.logger import SpotifyLogger
 
-#TODO Fix local web server crashing and not exiting cleanly
-#TODO Need to handle missing scopes easier
-#TODO Integrate new SpotifyAuthSettings Dataclass currently not used
-#TODO create a method to write data to local .env currently using the same logic in two different methods
-
 
 BRUTE_ENV = (os.path.dirname(__file__).replace(r"\source\auth","\.env")) # <-- this sucks update it
 HOSTNAME = "localhost"
@@ -43,11 +38,12 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
 
     def __init__(self, scopes:list, client_id:str =None, client_secret:str =None, login_redirect:str =None, local_test=None):
         """
-        The login_redirect is currently locked to one port on local host, please ensure your spotify app is configured correctly.
+        The login_redirect is currently locked to one port on local host http://localhost:8888, please ensure your spotify app is configured correctly.
+
         I will update this in a future release.
 
-        :param scopes:
-        :param client_id:
+        :param scopes:required scopes for whatever endpoints you plan to communicate with. Review the documentation for more info
+        :param client_id: Cli
         :param client_secret:
         :param local_test:
         """

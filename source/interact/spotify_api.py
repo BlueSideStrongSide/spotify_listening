@@ -12,16 +12,6 @@ from source.qr_generate import generate_spotify_qr
 from source.util.logger.logger import SpotifyLogger
 from source.auth.spotify_oauth_authorization import OauthSpotify_Authorization_Code_Flow
 
-#TODO replace requests with aiohttp
-#TODO the auth instance should inheritted from base class
-#TODO fix logging issue to force logging to root folder
-#TODO add validation to API_Resolver for all supported endpoints
-#TODO extend the logic for each api endpoint
-#TODO export default_headers this to our base API
-#TODO deal with pagination when more than the limit is returned
-#TODO update to make logging file more dynamic and consistent
-#TODO import logging update logging schemes
-
 
 class SpotifyInternalHelper(SpotifyLogger):
 
@@ -69,11 +59,11 @@ class SpotifyInternalHelper(SpotifyLogger):
                     self.api_response = json.loads(self._resp.content.decode())
                     asyncio.create_task(self._update_logging())
 
-                    if prepared_api_endpoint_parameters.get("realtime"): #TODO fix this
+                    if prepared_api_endpoint_parameters.get("realtime"):
                         await self.realtime_process_response()
 
                 if self._resp.status_code == 204:
-                    self.api_response = f"{self._resp.status_code} Nothing Is Currently Playing" #TODO Fix this
+                    self.api_response = f"{self._resp.status_code} Nothing Is Currently Playing"
                     self.logger.debug(f'{self.api_response}')
 
                 if self._resp.status_code == 401:
@@ -85,7 +75,7 @@ class SpotifyInternalHelper(SpotifyLogger):
                 if not prepared_api_endpoint_parameters.get("realtime"):
                     return self.api_response
 
-                await asyncio.sleep(prepared_api_endpoint_parameters.get("interval")) #TODO make this variable
+                await asyncio.sleep(prepared_api_endpoint_parameters.get("interval"))
 
     async def _build_request_v2(self, format_api_endpoint_parameters:sp_api.SpotifyApiBase,
                              auth_manager: OauthSpotify_Authorization_Code_Flow,
@@ -97,7 +87,7 @@ class SpotifyInternalHelper(SpotifyLogger):
         :return: a dict containing the api response
         """
 
-        self._auth_manager = auth_manager #TODO move this to base class make available to all children
+        self._auth_manager = auth_manager
         self._headers = headers or self.default_headers
         self._current_endpoint = format_api_endpoint_parameters.api_endpoint
 
@@ -199,7 +189,7 @@ class SpotifyHandler(SpotifyLogger):
             if needed_scope not in self._auth_manager._auth_scopes.split(' '):
                 raise Exception(f"You do not have the needed scopes to work with this Endpoint '{needed_scope}' is missing")
 
-    def request(self,v2_data:sp_api =None): #TODO Fix Typing
+    def request(self,v2_data:sp_api =None):
 
         self.api_response = asyncio.run(self._internals._build_request_v2(format_api_endpoint_parameters=v2_data,
                                                              auth_manager=self._auth_manager))
