@@ -16,7 +16,7 @@ from dotenv import load_dotenv, set_key, find_dotenv
 from source.auth.local_http_server import MyRequestHandler as Custom_RequestHandler
 from source.util.logger.logger import SpotifyLogger
 
-BRUTE_ENV = dotenv.find_dotenv() #<-- this should find the github ENV path
+BRUTE_ENV = dotenv.find_dotenv()
 HOSTNAME = "localhost"
 SERVERPORT = 8888
 
@@ -56,6 +56,7 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
         self.authenticated = False
         self._token_type = None
         self._expired = None
+        self._backend_dynamic = False
 
         self._client_state = ''.join(random.choices(string.ascii_letters+string.digits, k=16))
         self._local_http_server = http.server.HTTPServer((HOSTNAME, SERVERPORT), Custom_RequestHandler)
@@ -63,12 +64,17 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
 
         self.logger.debug("Hello From 0Auth Class")
 
+        if not BRUTE_ENV:
+            self.logger.debug("Unable to Locate env disabling set key writes")
+            self._backend_dynamic = True
+
         if not local_test:
             asyncio.run(self.auth_flow())
 
     def _load_env(self,p_scopes):
         try:
             load_dotenv(BRUTE_ENV)
+
             self._client_id = os.getenv("_client_id")
             self._client_secret = os.getenv("_client_secret")
             self._redirect_uri = os.getenv("_redirect_uri")
@@ -86,7 +92,7 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
         required_settings = [self._client_id, self._client_secret, self._redirect_uri]
         provided_settings = [p_client_id, p_client_secret, p_login_redirect]
 
-        if not os.path.exists(BRUTE_ENV):
+        if not os.path.exists(BRUTE_ENV) and not self._backend_dynamic:
             self.logger.debug("Please create at least a blank .env in your project directory")
             exit()
             # with open(BRUTE_ENV,'w+') as env:
@@ -97,9 +103,10 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
             if all(provided_settings):
                 try:
                     self.logger.debug("Attempting to stor provided settings")
-                    set_key(BRUTE_ENV, "_client_id", p_client_id)
-                    set_key(BRUTE_ENV, "_client_secret", p_client_secret)
-                    set_key(BRUTE_ENV, "_redirect_uri", p_login_redirect)
+                    if not self._backend_dynamic:
+                        set_key(BRUTE_ENV, "_client_id", p_client_id)
+                        set_key(BRUTE_ENV, "_client_secret", p_client_secret)
+                        set_key(BRUTE_ENV, "_redirect_uri", p_login_redirect)
 
                     self.logger.debug("Attempting to read after storing provided settings")
                     load_dotenv(BRUTE_ENV)
@@ -288,13 +295,14 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
 
     async  def _write_values_to_env(self, test_value=None):
 
-        set_key(BRUTE_ENV, "_refresh_token", self._refresh_token)
-        set_key(BRUTE_ENV, "_scopes", self._scope)
-        set_key(BRUTE_ENV, "_expired_at", str(self._expired))
+        if not self._backend_dynamic:
+            set_key(BRUTE_ENV, "_refresh_token", self._refresh_token)
+            set_key(BRUTE_ENV, "_scopes", self._scope)
+            set_key(BRUTE_ENV, "_expired_at", str(self._expired))
 
-        # Currently Not Capturing
-        # set_key(BRUTE_ENV, "_auth_code", self._auth_code)
-        # set_key(BRUTE_ENV, "_access_token", self._access_token)
+            # Currently Not Capturing
+            # set_key(BRUTE_ENV, "_auth_code", self._auth_code)
+            # set_key(BRUTE_ENV, "_access_token", self._access_token)
 
 async def auth_flow() -> None:
     spotify_auth = OauthSpotify_Authorization_Code_Flow(local_test=True, scopes=["test"])
