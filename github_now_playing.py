@@ -2,7 +2,7 @@ from source.auth.spotify_oauth_authorization import OauthSpotify_Authorization_C
 from source.interact.spotify_api import SpotifyHandler
 import pprint
 
-spotify_authenticator = OauthSpotify_Authorization_Code_Flow(scopes=["playlist-modify-public","playlist-modify-private"])
+spotify_authenticator = OauthSpotify_Authorization_Code_Flow(scopes=["playlist-modify-public","playlist-modify-private"], enable_env_write=False)
 
 def main():
     if spotify_authenticator.authenticated:

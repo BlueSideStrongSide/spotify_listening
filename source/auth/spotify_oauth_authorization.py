@@ -38,7 +38,7 @@ SERVERPORT = 8888
 
 class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
 
-    def __init__(self, scopes:list, client_id:str =None, client_secret:str =None, login_redirect:str ="http://localhost:8888", local_test=None):
+    def __init__(self, scopes:list, client_id:str =None, client_secret:str =None, login_redirect:str ="http://localhost:8888", local_test=None, enable_env_write:bool =True):
         """
         The login_redirect is currently locked to one port on local host http://localhost:8888, please ensure your spotify app is configured correctly.
 
@@ -50,13 +50,13 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
         :param local_test:
         """
         super().__init__() #<-- Init logger build out additional options if needed
+        self._enable_env_write = enable_env_write
         self._load_env(scopes)
         self.__validate_env(client_id, client_secret, login_redirect)
 
         self.authenticated = False
         self._token_type = None
         self._expired = None
-        self._backend_dynamic = False
 
         self._client_state = ''.join(random.choices(string.ascii_letters+string.digits, k=16))
         self._local_http_server = http.server.HTTPServer((HOSTNAME, SERVERPORT), Custom_RequestHandler)
@@ -64,9 +64,6 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
 
         self.logger.debug("Hello From 0Auth Class")
 
-        if not BRUTE_ENV:
-            self.logger.debug("Unable to Locate env disabling set key writes")
-            self._backend_dynamic = True
 
         if not local_test:
             asyncio.run(self.auth_flow())
@@ -92,7 +89,7 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
         required_settings = [self._client_id, self._client_secret, self._redirect_uri]
         provided_settings = [p_client_id, p_client_secret, p_login_redirect]
 
-        if not os.path.exists(BRUTE_ENV) and not self._backend_dynamic:
+        if not os.path.exists(BRUTE_ENV) and self._enable_env_write:
             self.logger.debug("Please create at least a blank .env in your project directory")
             exit()
             # with open(BRUTE_ENV,'w+') as env:
@@ -103,7 +100,7 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
             if all(provided_settings):
                 try:
                     self.logger.debug("Attempting to stor provided settings")
-                    if not self._backend_dynamic:
+                    if self._enable_env_write:
                         set_key(BRUTE_ENV, "_client_id", p_client_id)
                         set_key(BRUTE_ENV, "_client_secret", p_client_secret)
                         set_key(BRUTE_ENV, "_redirect_uri", p_login_redirect)
@@ -296,7 +293,7 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
 
     async  def _write_values_to_env(self, test_value=None):
 
-        if not self._backend_dynamic:
+        if self._enable_env_write:
             set_key(BRUTE_ENV, "_refresh_token", self._refresh_token)
             set_key(BRUTE_ENV, "_scopes", self._scope)
             set_key(BRUTE_ENV, "_expired_at", str(self._expired))
