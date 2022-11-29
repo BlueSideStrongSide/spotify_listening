@@ -1,0 +1,49 @@
+name: run github_now_playing.py
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+      -name: checkout repo content
+      uses: actions/checkout@v2
+
+      -name: setup python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+      -name: install python packages
+      run: | 
+        python -m pip intstall --upgrade pip 
+        pip install -r requirements.txt
+
+      -name: install python packages
+      run: | 
+        python -m pip intstall --upgrade pip 
+        pip install -r requirements.txt
+
+      -name: run python script
+      env:
+        _client_id: ${{ secrets._CLIENT_ID }}
+        _client_secret: ${{ secrets._CLIENT_ID }}
+        _redirect_uri: ${{ secrets._REDIRECT_URI }}
+        _refresh_token: ${{ secrets._REFRESH_TOKEN }}
+
+      -name: commit log file
+      run: | 
+        git config --local user.email "actions@github.com"
+        git config --local user.name "Github Action"
+        git add -A
+        git diff-index -queit HEAD || (git commit -a -m "updated run" --allow-empty)
+
+      -name: push changes
+      users: ad-m/github-push-action@v0.6.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: master
+      run: | 
+        git config --local user.email "actions@github.com"
+        git config --local user.name "Github Action"
+        git add -A
+        git diff-index -queit HEAD || (git commit -a -m "updated run" --allow-empty)

@@ -3,18 +3,19 @@ import os
 import string
 import time
 import webbrowser
+
+import dotenv
 import requests
 import asyncio
 import http.server
 import base64
 import json
 from urllib.parse import urlencode
-from dotenv import load_dotenv, set_key
+from dotenv import load_dotenv, set_key, find_dotenv
 from source.auth.local_http_server import MyRequestHandler as Custom_RequestHandler
 from source.util.logger.logger import SpotifyLogger
 
-
-BRUTE_ENV = (os.path.dirname(__file__).replace(r"\source\auth","\.env")) # <-- this sucks update it
+BRUTE_ENV = dotenv.find_dotenv() #<-- this should find the github ENV path
 HOSTNAME = "localhost"
 SERVERPORT = 8888
 
@@ -36,7 +37,7 @@ SERVERPORT = 8888
 
 class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
 
-    def __init__(self, scopes:list, client_id:str =None, client_secret:str =None, login_redirect:str =None, local_test=None):
+    def __init__(self, scopes:list, client_id:str =None, client_secret:str =None, login_redirect:str ="http://localhost:8888", local_test=None):
         """
         The login_redirect is currently locked to one port on local host http://localhost:8888, please ensure your spotify app is configured correctly.
 
@@ -85,8 +86,10 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
         provided_settings = [p_client_id, p_client_secret, p_login_redirect]
 
         if not os.path.exists(BRUTE_ENV):
-            with open(BRUTE_ENV,'w+') as env:
-                env.write("# Spotify_Sensitive_Settings")
+            self.logger.debug("Please create at least a blank .env in your project directory")
+            exit()
+            # with open(BRUTE_ENV,'w+') as env:
+            #     env.write("# Spotify_Sensitive_Settings")
 
         if not all(required_settings):
             self.logger.debug("Unable to find required settings")
@@ -114,20 +117,20 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
     async def auth_flow(self):
 
         if not await self._auth_cache_available:
+            self.logger.info("Auth Cache Is Not Available")
             await self._first_request_authorization()
             await self._second_request_access_token()
             await self._third_request_refreshed_access_token()
 
-        if self._cache_token_expired:
-            self.logger.debug("Refreshing expired cached token")
-            await self._third_request_refreshed_access_token()
+        self.logger.info("Requesting New Access Token")
+        await self._third_request_refreshed_access_token()
 
         self.logger.debug("Token acquired with requested or cache scopes")
         self.authenticated = True
 
     @property
     async def _auth_cache_available(self):
-        if self._auth_code and self._refresh_token:
+        if self._refresh_token:
             return True
         else:
             return False
@@ -135,12 +138,12 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
     @property
     def _cache_token_expired(self) ->bool:
         current_token_timer = self._expired_at or self._expired
-
-        if time.time() > float(current_token_timer):
-            self.logger.debug("Token Is Expired")
-            return True
-        else:
-            return False
+        if current_token_timer:
+            if time.time() > float(current_token_timer):
+                self.logger.debug("Token Is Expired")
+                return True
+            else:
+                return False
 
     @property
     def current_time_fmt(self):
@@ -206,7 +209,9 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
         while self._local_http_server_wait > wait_timer:
             if self._auth_code:
                 self.logger.debug("capturing authentication code")
-                set_key('.env', "_auth_code", self._auth_code)
+
+                # Captruing has been disabled in this release
+                # set_key(BRUTE_ENV, "_auth_code", self._auth_code)
                 break
             if wait_timer == self._local_http_server_wait:
                 try:
@@ -229,7 +234,6 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
 
         if test.status_code == 200:
 
-            # TODO review why these calls are in two different places
             self._refresh_token = api_response["refresh_token"]
             self._access_token = api_response["access_token"]
             self._expires_in = api_response["expires_in"]
@@ -283,11 +287,13 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
 
     async  def _write_values_to_env(self, test_value=None):
 
-        set_key(BRUTE_ENV, "_auth_code", self._auth_code)
         set_key(BRUTE_ENV, "_refresh_token", self._refresh_token)
-        set_key(BRUTE_ENV, "_access_token", self._access_token)
         set_key(BRUTE_ENV, "_scopes", self._scope)
         set_key(BRUTE_ENV, "_expired_at", str(self._expired))
+
+        # Currently Not Capturing
+        # set_key(BRUTE_ENV, "_auth_code", self._auth_code)
+        # set_key(BRUTE_ENV, "_access_token", self._access_token)
 
 async def auth_flow() -> None:
     spotify_auth = OauthSpotify_Authorization_Code_Flow(local_test=True, scopes=["test"])
