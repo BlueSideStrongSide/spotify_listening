@@ -1,6 +1,7 @@
 # created by virtualenv automatically
 *.log
 *.png
+*.pyc
 /.env
 /stream_stable_spotify.py
 /pyvenv.cfg
