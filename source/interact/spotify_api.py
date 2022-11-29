@@ -5,7 +5,6 @@ import aiohttp
 import requests
 import json
 import pprint
-import tomli
 import json
 import source.interact.spotify_endpoints as sp_api
 from source.qr_generate import generate_spotify_qr
