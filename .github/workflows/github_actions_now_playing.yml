@@ -30,6 +30,7 @@ jobs:
 
       - name: run python script
         env:
+          HELLO_ME: ${{ secrets.HELLO_ME }}
           _client_id: ${{ secrets._CLIENT_ID }}
           _client_secret: ${{ secrets._CLIENT_SECRET }}
           _redirect_uri: ${{ secrets._REDIRECT_URI }}
