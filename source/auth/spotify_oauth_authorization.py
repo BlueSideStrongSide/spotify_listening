@@ -70,12 +70,13 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
 
     def _load_env(self,p_scopes):
         try:
-            load_dotenv(BRUTE_ENV)
+            if BRUTE_ENV:
+                load_dotenv(BRUTE_ENV)
 
-            self._client_id = os.getenv("_client_id")
-            self._client_secret = os.getenv("_client_secret")
-            self._redirect_uri = os.getenv("_redirect_uri")
-            self._refresh_token = os.getenv("_refresh_token")
+            self._client_id = os.environ("_client_id")
+            self._client_secret = os.environ("_client_secret")
+            self._redirect_uri = os.environ("_redirect_uri")
+            self._refresh_token = os.environ("_refresh_token")
             self._auth_code = os.getenv("_auth_code")
             self._access_token = os.getenv("_access_token")
             self._expired_at = os.getenv("_expired_at")
