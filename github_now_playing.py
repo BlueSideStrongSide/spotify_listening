@@ -20,5 +20,5 @@ def export_to_file(api_result):
 
 if __name__ == '__main__':
     api_result = main()
-    pprint.pprint(result, compact=True)
+    pprint.pprint(api_result, compact=True)
     export_to_file(api_result)
