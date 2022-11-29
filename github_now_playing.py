@@ -15,7 +15,7 @@ def main():
 def export_to_file(api_result):
     print("Attemtping To Export")
 
-    with open("github_now_playing.log",mode="a+") as export_file:
+    with open("github_now_playing.txt",mode="a+") as export_file:
         pprint.pprint(api_result, export_file)
 
 
