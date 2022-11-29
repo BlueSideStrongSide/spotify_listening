@@ -109,6 +109,7 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
                         set_key(BRUTE_ENV, "_redirect_uri", p_login_redirect)
 
                     self.logger.debug("Attempting to read after storing provided settings")
+
                     load_dotenv(BRUTE_ENV)
                     self._client_id = os.getenv("_client_id")
                     self._client_secret = os.getenv("_client_secret")
