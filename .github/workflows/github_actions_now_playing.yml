@@ -21,7 +21,7 @@ jobs:
 
       - name: install python packages
         run: | 
-          python -m pip intstall --upgrade pip 
+          python -m pip install --upgrade pip 
           pip install -r requirements.txt
 
       - name: run python script
