@@ -24,17 +24,13 @@ jobs:
           python -m pip intstall --upgrade pip 
           pip install -r requirements.txt
 
-      - name: install python packages
-        run: | 
-          python -m pip intstall --upgrade pip 
-          pip install -r requirements.txt
-
       - name: run python script
         env:
           _client_id: ${{ secrets._CLIENT_ID }}
           _client_secret: ${{ secrets._CLIENT_ID }}
           _redirect_uri: ${{ secrets._REDIRECT_URI }}
           _refresh_token: ${{ secrets._REFRESH_TOKEN }}
+        run: python github_now_playing.py
 
       - name: commit log file
         run: | 
