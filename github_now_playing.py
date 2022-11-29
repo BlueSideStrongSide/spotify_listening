@@ -9,10 +9,12 @@ def main():
         spotify_interact = SpotifyHandler(auth_manager=spotify_authenticator)
 
         result = spotify_interact.spotify_currently_playing()
+
         pprint.pprint(result, compact=True)
 
 def export_to_file(api_result):
     print("Attemtping To Export")
+
     with open("github_now_playing.log",mode="a+") as export_file:
         pprint.pprint(api_result, export_file)
 
