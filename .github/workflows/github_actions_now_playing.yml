@@ -37,15 +37,15 @@ jobs:
           _refresh_token: ${{ secrets._REFRESH_TOKEN }}
         run: python github_now_playing.py
 
-#      - name: commit log file
-#        run: |
-#          git config --local user.email "actions@github.com"
-#          git config --local user.name "Github Action"
-#          git add -A
-#          git diff-index -queit HEAD || (git commit -a -m "updated run" --allow-empty)
-#
-#      - name: push changes
-#        uses: ad-m/github-push-action@v0.6.0
-#        with:
-#          github_token: ${{ secrets.GITHUB_TOKEN }}
-#          branch: master
+      - name: commit log file
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "Github Action"
+          git add -A
+          git diff-index -queit HEAD || (git commit -a -m "updated run" --allow-empty)
+
+      - name: push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
