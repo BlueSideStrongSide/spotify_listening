@@ -73,9 +73,6 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
             if BRUTE_ENV:
                 load_dotenv(BRUTE_ENV)
 
-            self.hello_me = os.environ["HELLO_ME"]
-            self.logger.debug(f"{self.hello_me}")
-
             self._client_id = os.environ["_client_id"]
             self._client_secret = os.environ["_client_secret"]
             self._redirect_uri = os.environ["_redirect_uri"]
