@@ -8,9 +8,8 @@ def main():
     if spotify_authenticator.authenticated:
         spotify_interact = SpotifyHandler(auth_manager=spotify_authenticator)
 
-        result = spotify_interact.spotify_currently_playing()
+        return spotify_interact.spotify_currently_playing()
 
-        pprint.pprint(result, compact=True)
 
 def export_to_file(api_result):
     print("Attemtping To Export")
@@ -20,4 +19,6 @@ def export_to_file(api_result):
 
 
 if __name__ == '__main__':
-    export_to_file(main())
+    api_result = main()
+    pprint.pprint(result, compact=True)
+    export_to_file(api_result)
