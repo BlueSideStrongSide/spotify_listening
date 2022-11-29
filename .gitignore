@@ -2,7 +2,7 @@
 *.log
 *.png
 *.pyc
-__pycache__/
+**/__pycache__
 /.env
 /stream_stable_spotify.py
 /pyvenv.cfg
