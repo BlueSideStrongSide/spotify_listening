@@ -70,19 +70,24 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
 
     def _load_env(self,p_scopes):
         try:
-            load_dotenv(BRUTE_ENV)
+            if BRUTE_ENV:
+                load_dotenv(BRUTE_ENV)
 
-            self._client_id = os.getenv("_client_id")
-            self._client_secret = os.getenv("_client_secret")
-            self._redirect_uri = os.getenv("_redirect_uri")
-            self._refresh_token = os.getenv("_refresh_token")
+            self.hello_me = os.environ["HELLO_ME"]
+            self.logger.debug(f"{self.hello_me}")
+
+            self._client_id = os.environ["_client_id"]
+            self._client_secret = os.environ["_client_secret"]
+            self._redirect_uri = os.environ["_redirect_uri"]
+            self._refresh_token = os.environ["_refresh_token"]
+
             self._auth_code = os.getenv("_auth_code")
             self._access_token = os.getenv("_access_token")
             self._expired_at = os.getenv("_expired_at")
             self._auth_scopes = os.getenv("_scopes") or ' '.join(p_scopes)
         except Exception as e:
-            self.logger.debug(f"Failed to load provided .env path review and update settings {BRUTE_ENV}")
             self.logger.debug(e)
+            self.logger.debug(f"Failed to load provided .env path review and update settings {BRUTE_ENV}")
             exit()
 
     def __validate_env(self,p_client_id, p_client_secret, p_login_redirect):

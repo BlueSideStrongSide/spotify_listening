@@ -7,12 +7,16 @@ spotify_authenticator = OauthSpotify_Authorization_Code_Flow(scopes=["playlist-m
 def main():
     if spotify_authenticator.authenticated:
         spotify_interact = SpotifyHandler(auth_manager=spotify_authenticator)
-        return spotify_interact.spotify_currently_playing()
+
+        result = spotify_interact.spotify_currently_playing()
+
+        pprint.pprint(result, compact=True)
 
 def export_to_file(api_result):
+    print("Attemtping To Export")
+
     with open("github_now_playing.log",mode="a+") as export_file:
         pprint.pprint(api_result, export_file)
-
 
 
 if __name__ == '__main__':
