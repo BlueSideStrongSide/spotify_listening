@@ -99,7 +99,7 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
             self.logger.debug("Unable to find required settings")
             if all(provided_settings):
                 try:
-                    self.logger.debug("Attempting to stor provided settings")
+                    self.logger.debug("Attempting to store provided settings")
                     if self._enable_env_write:
                         set_key(BRUTE_ENV, "_client_id", p_client_id)
                         set_key(BRUTE_ENV, "_client_secret", p_client_secret)
