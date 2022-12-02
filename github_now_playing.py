@@ -10,11 +10,6 @@ def main():
 
         return spotify_interact.spotify_currently_playing()
 
-def all_songs_played(time_window:str ="-24"):
-    ...
-
-def all_songs_played_today():
-    ...
 
 def export_to_file(api_result):
     print("Attemtping To Export")
