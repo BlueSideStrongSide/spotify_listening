@@ -20,10 +20,6 @@ BRUTE_ENV = dotenv.find_dotenv()
 HOSTNAME = "localhost"
 SERVERPORT = 8888
 
-# TODO AUTH EXCEPTIONS NEED WORK DO NOT COMMIT WITH THIS COMMENT
-# TODO ADDING NEW SCOPES TO AUTH NEEDS TO BE DYNAMIC
-# TODO STATIC CALLS TO AUTHFLOW SHOULD BE SUPPORTED
-
 # @dataclass
 # class SpotifyAuthSettings:
 #     def __init__(self,scopes:list):
