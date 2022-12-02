@@ -20,6 +20,9 @@ BRUTE_ENV = dotenv.find_dotenv()
 HOSTNAME = "localhost"
 SERVERPORT = 8888
 
+# TODO AUTH EXCEPTIONS NEED WORK DO NOT COMMIT WITH THIS COMMENT
+# TODO ADDING NEW SCOPES TO AUTH NEEDS TO BE DYNAMIC
+# TODO STATIC CALLS TO AUTHFLOW SHOULD BE SUPPORTED
 
 # @dataclass
 # class SpotifyAuthSettings:
@@ -38,19 +41,27 @@ SERVERPORT = 8888
 
 class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
 
-    def __init__(self, scopes:list, client_id:str =None, client_secret:str =None, login_redirect:str ="http://localhost:8888", local_test=None, enable_env_write:bool =True):
+    def __init__(self, scopes:list,
+                 client_id:str =None,
+                 client_secret:str =None,
+                 login_redirect:str ="http://localhost:8888",
+                 local_test=None,
+                 enable_env_write:bool =True):
+
         """
         The login_redirect is currently locked to one port on local host http://localhost:8888, please ensure your spotify app is configured correctly.
 
         I will update this in a future release.
 
         :param scopes:required scopes for whatever endpoints you plan to communicate with. Review the documentation for more info
-        :param client_id: Cli
-        :param client_secret:
-        :param local_test:
+        :param client_id: Client ID as provided by the spotify API developer dashboard
+        :param client_secret: Client Secret as provided by the spotify API developer dashboard
+        :param enable_env_write: Set this to False to run without storing .env settings
         """
+
         super().__init__() #<-- Init logger build out additional options if needed
         self._enable_env_write = enable_env_write
+
         self._load_env(scopes)
         self.__validate_env(client_id, client_secret, login_redirect)
 
@@ -69,33 +80,39 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
             asyncio.run(self.auth_flow())
 
     def _load_env(self,p_scopes):
+        p_scopes = ' '.join(p_scopes)
         try:
             if BRUTE_ENV:
                 load_dotenv(BRUTE_ENV)
 
+            self.logger.debug("Attempting to  load .env settings")
+
             self._client_id = os.environ["_client_id"]
             self._client_secret = os.environ["_client_secret"]
             self._redirect_uri = os.environ["_redirect_uri"]
-            self._refresh_token = os.environ["_refresh_token"]
 
+            self._refresh_token = os.getenv("_refresh_token")
             self._auth_code = os.getenv("_auth_code")
             self._access_token = os.getenv("_access_token")
             self._expired_at = os.getenv("_expired_at")
-            self._auth_scopes = os.getenv("_scopes") or ' '.join(p_scopes)
+
+            self._auth_scopes = os.getenv("_scopes") or p_scopes
+
+            self.__validate_scopes(provided_scopes=p_scopes)
+
         except Exception as e:
             self.logger.debug(e)
             self.logger.debug(f"Failed to load provided .env path review and update settings {BRUTE_ENV}")
             exit()
 
     def __validate_env(self,p_client_id, p_client_secret, p_login_redirect):
+        self.logger.debug("Attempting to validate .env settings")
         required_settings = [self._client_id, self._client_secret, self._redirect_uri]
         provided_settings = [p_client_id, p_client_secret, p_login_redirect]
 
         if not os.path.exists(BRUTE_ENV) and self._enable_env_write:
-            self.logger.debug("Please create at least a blank .env in your project directory")
-            exit()
-            # with open(BRUTE_ENV,'w+') as env:
-            #     env.write("# Spotify_Sensitive_Settings")
+            self.logger.debug("Please create blank .env file, creat this resource is currently not supported")
+
 
         if not all(required_settings):
             self.logger.debug("Unable to find required settings")
@@ -122,10 +139,17 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
                 self.logger.debug("If you are providing settings ensure they are formatted and correctly entered")
                 exit()
 
+    def __validate_scopes(self, provided_scopes=None):
+        self._scopes_valid = True
+        for p_scope in  provided_scopes.split(' '):
+            if p_scope not in self._auth_scopes.split(' '):
+                self._scopes_valid = False
+                break
+
     async def auth_flow(self):
 
-        if not await self._auth_cache_available:
-            self.logger.info("Auth Cache Is Not Available")
+        if not await self._auth_cache_available or not self._scopes_valid:
+            self.logger.info("Auth Cache Is Not Available Or Wanted Scope Is Missing")
             await self._first_request_authorization()
             await self._second_request_access_token()
             await self._third_request_refreshed_access_token()

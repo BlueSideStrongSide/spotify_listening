@@ -7,10 +7,13 @@ class SpotifyApiBase:
     generate_qr: bool = False
     parameters: bool = False
     data: bool = False
+    required_scope: str = ""
     data_parameters: dict = field(default_factory=dict)
     query_parameters: str = field(default_factory=str)
     interval: int = field(default_factory=int)
     method: str = field(default_factory=str)
+    follow_next : bool = False
+    follow_next_results : str = ""
     api_endpoint: str = field(default_factory=str)
     info_api: str = field(default_factory=str)
     info_exception: str = field(default_factory=str)
@@ -135,4 +138,15 @@ class SpotifyGetPlaylistTracks(SpotifyApiBase):
     info_api : str = "https://developer.spotify.com/documentation/web-api/reference/#/operations/get-playlist"
     info_exception : str = f'This endpoint only gets the tracks for a provided Playlist ID'
 
+@dataclass
+class SpotifyGetRecentlyPlayedTracks(SpotifyApiBase):
+    method : str = "GET"
+    required_scope :str = "user-read-recently-played"
+    api_endpoint : str = "me/player/recently-played"
+    follow_next : bool = True
+    follow_next_results: list = field(default_factory=lambda: [])
+    parameters :bool = True
+    query_parameters_list: list = field(default_factory=lambda: ["after","before","limit"])
+    info_api : str = "https://developer.spotify.com/documentation/web-api/reference/#/operations/get-recently-played"
+    info_exception : str = f'Get tracks from the current user\'s recently played tracks. Note: Currently doesn\'t support podcast episodes.'
 
