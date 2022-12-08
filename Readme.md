@@ -47,7 +47,7 @@ Example 2.
 
 Getting the audtio features for a given track ID.
 
-```
+```python
 from source.auth.spotify_oauth_authorization import OauthSpotify_Authorization_Code_Flow
 from source.interact.spotify_api import SpotifyHandler
 import pprint
@@ -59,6 +59,30 @@ if spotify_authenticator.authenticated:
 
     playing = spotify_interact.spotify_track_audio_features(spotify_id="11dFghVXANMlKmJXsNCbNl")
     pprint.pprint(playing, compact=True)
+```
+
+Would return a dict object similar to what is shown below
+
+```commandline
+{'acousticness': 0.011,                                                             
+ 'analysis_url': 'https://api.spotify.com/v1/audio-analysis/11dFghVXANMlKmJXsNCbNl',
+ 'danceability': 0.696,                                                             
+ 'duration_ms': 207960,                                                             
+ 'energy': 0.905,                                                                   
+ 'id': '11dFghVXANMlKmJXsNCbNl',                                                    
+ 'instrumentalness': 0.000905,
+ 'key': 2,
+ 'liveness': 0.302,
+ 'loudness': -2.743,
+ 'mode': 1,
+ 'speechiness': 0.103,
+ 'tempo': 114.944,
+ 'time_signature': 4,
+ 'track_href': 'https://api.spotify.com/v1/tracks/11dFghVXANMlKmJXsNCbNl',
+ 'type': 'audio_features',
+ 'uri': 'spotify:track:11dFghVXANMlKmJXsNCbNl',
+ 'valence': 0.625}
+
 ```
 
 Currently Supported Endpoints Are Below
