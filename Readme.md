@@ -22,8 +22,9 @@ Below are a few of the endpoints we support, and also an example script how how 
 
 You can also fork this project and update the repoisitory secrets and use the provided runner, to communicate directly with Spotify.
 
-Example 1. If want to check what song is currently playing the script can be ran as shown below. 
-```
+Example 1. If want to check what song is currently playing the script can be ran as shown below.
+
+```python
 from source.auth.spotify_oauth_authorization import OauthSpotify_Authorization_Code_Flow
 from source.interact.spotify_api import SpotifyHandler
 import pprint
