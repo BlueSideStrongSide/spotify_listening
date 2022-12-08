@@ -8,11 +8,12 @@ Well that portion ended up turning into a full blown module to interact with Spo
 I am currently building this for fun, and will use it as a base to learn more about various development task.
 
 
-|  Things To Explore |  
-|---|
-|CI/CD |
-|Github Action |
-|Code Test |
+| Things To Explore      |  
+|------------------------|
+| CI/CD                  |
+| Github Action          |
+| Code Test              |
+| Data Classes |
 
 As this is a hobby project, it should work for the examples and the current endpoint built, but just keep in mind that 
 this will get changed quite often as I continue to want to tinker with new things. 
@@ -37,14 +38,28 @@ if spotify_authenticator.authenticated:
 An example of the output is shown below, note the interval time is variable and can be changed using a different parameter. 
 
 
-https://user-images.githubusercontent.com/11384057/206332966-eb00adee-935c-4a31-8ba3-760701a1930d.mp4
-
-
 As shown above we use `realtime=True` This arguement takes a boolean. This will tell the module to keep printing any new songs
 as they are returned from Spotify, using the interval specified. By deafault this is set to yes.
 
 https://user-images.githubusercontent.com/6877923/115474571-03c75800-a23e-11eb-8096-8973aad5fa9f.mp4
 
+Example 2. 
+
+Getting the audtio features for a given track ID.
+
+```
+from source.auth.spotify_oauth_authorization import OauthSpotify_Authorization_Code_Flow
+from source.interact.spotify_api import SpotifyHandler
+import pprint
+
+spotify_authenticator = OauthSpotify_Authorization_Code_Flow(scopes=["user-read-recently-played", 'user-top-read'])
+
+if spotify_authenticator.authenticated:
+    spotify_interact = SpotifyHandler(auth_manager=spotify_authenticator)
+
+    playing = spotify_interact.spotify_track_audio_features(spotify_id="11dFghVXANMlKmJXsNCbNl")
+    pprint.pprint(playing, compact=True)
+```
 
 Currently Supported Endpoints Are Below
 
