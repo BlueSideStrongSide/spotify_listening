@@ -67,7 +67,7 @@ if spotify_authenticator.authenticated:
     pprint.pprint(playing, compact=True)
 ```
 
-Would return a dict object similar to what is shown below
+Would return a dict object similar to what is shown below.
 
 ```commandline
 {'acousticness': 0.011,                                                             
@@ -94,21 +94,21 @@ Would return a dict object similar to what is shown below
 Currently Supported Endpoints Are Below
 
 
-* SpotifyApiBase
-* SpotifyMe
-* SpotifyMePlaylist
-* SpotifyCurrentlyPlaying
-* SpotifyTopItems
-* SpotifyTrackAudioAnalysis
-* SpotifyGetTracks
-* SpotifyGetUsersPlaylists
-* SpotifyGetTrackAudioFeatures
-* SpotifyGetTracksAudioFeatures
-* SpotifyCreatePlaylist
-* SpotifyAddItemsToPlaylist
-* SpotifyGetPlaylist
-* SpotifyGetPlaylistTracks
-* SpotifyGetRecentlyPlayedTracks
+* [SpotifyApiBase](https://developer.spotify.com/documentation/web-api/)
+* [SpotifyMe](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-current-users-profile)
+* [SpotifyMePlaylist](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-a-list-of-current-users-playlists)
+* [SpotifyCurrentlyPlaying](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-the-users-currently-playing-track)
+* [SpotifyTopItems](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-users-top-artists-and-tracks)
+* [SpotifyTrackAudioAnalysis](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-analysis)
+* [SpotifyGetTracks](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-several-tracks)
+* [SpotifyGetUsersPlaylists](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-list-users-playlists)
+* [SpotifyGetTrackAudioFeatures](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features)
+* [SpotifyGetTracksAudioFeatures](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-several-audio-features)
+* [SpotifyCreatePlaylist](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-several-audio-features)
+* [SpotifyAddItemsToPlaylist](https://developer.spotify.com/documentation/web-api/reference/#/operations/add-tracks-to-playlist)
+* [SpotifyGetPlaylist](https://developer.spotify.com/documentation/web-api/reference/#/operations/add-tracks-to-playlist)
+* [SpotifyGetPlaylistTracks](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-playlist)
+* [SpotifyGetRecentlyPlayedTracks](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-playlist)
 
 Most methods if not all should have the proper docstrings and type checks.
 
