@@ -8,12 +8,20 @@ Well that portion ended up turning into a full blown module to interact with Spo
 I am currently building this for fun, and will use it as a base to learn more about various development task.
 
 
-| Things To Explore      |  
-|------------------------|
-| CI/CD                  |
-| Github Action          |
-| Code Test              |
-| Data Classes |
+| Things To Explore\Learn |  
+|-------------------------|
+| CI/CD                   |
+| Github Action           |
+| Code Test               |
+| Data Classes            |
+
+
+| Things To Add             |  
+|---------------------------|
+| Robust token handling     |
+| All Spotify Endpoints     |
+| Result attributes         |
+| Error Checking Throughout |
 
 As this is a hobby project, it should work for the examples and the current endpoint built, but just keep in mind that 
 this will get changed quite often as I continue to want to tinker with new things. 
@@ -22,7 +30,7 @@ Below are a few of the endpoints we support, and also an example script how how 
 
 You can also fork this project and update the repoisitory secrets and use the provided runner, to communicate directly with Spotify.
 
-Example 1. If want to check what song is currently playing the script can be ran as shown below.
+**Example 1. Get currently playing song on Spotify.**
 
 ```python
 from source.auth.spotify_oauth_authorization import OauthSpotify_Authorization_Code_Flow
@@ -44,9 +52,7 @@ as they are returned from Spotify, using the interval specified. By deafault thi
 
 https://user-images.githubusercontent.com/11384057/206332966-eb00adee-935c-4a31-8ba3-760701a1930d.mp4
 
-Example 2. 
-
-Getting the audtio features for a given track ID.
+**Example 2. Getting the audtio features for a given track ID.**
 
 ```python
 from source.auth.spotify_oauth_authorization import OauthSpotify_Authorization_Code_Flow
@@ -104,3 +110,6 @@ Currently Supported Endpoints Are Below
 * SpotifyGetPlaylist
 * SpotifyGetPlaylistTracks
 * SpotifyGetRecentlyPlayedTracks
+
+Most methods if not all should have the proper docstrings and type checks.
+
