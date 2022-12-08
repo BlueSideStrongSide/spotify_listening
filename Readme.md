@@ -46,7 +46,6 @@ if spotify_authenticator.authenticated:
 
 An example of the output is shown below, note the interval time is variable and can be changed using a different parameter. 
 
-
 As shown above we use `realtime=True` This arguement takes a boolean. This will tell the module to keep printing any new songs
 as they are returned from Spotify, using the interval specified. By deafault this is set to yes.
 
