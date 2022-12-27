@@ -169,7 +169,7 @@ class SpotifyInternalHelper(SpotifyLogger):
         track_logging = ["me/player/currently-playing"]
 
         if self._current_endpoint in track_logging:
-            with open("listening_spotify_api_dump.log", "a+") as out:
+            with open("listening_spotify_api_dump.log", "a+",  encoding='utf-8') as out:
                 pprint.pprint(self.api_response, compact=True, indent=0, stream=out)
 
             with open("trim_output.log", "w+") as out:
@@ -370,7 +370,7 @@ class SpotifyHandler(SpotifyLogger):
 
         return self.api_response
 
-    def spotify_tracks_audio_features(self,spotify_ids:str|list) -> dict:
+    def spotify_tracks_audio_features(self,spotify_ids:str | list[str]) -> dict:
         """
         Get audio features for multiple tracks based on their Spotify IDs.
         :param spotify_ids: a comma seperated list of multiple spotify IDs, this method will submit them all at once
@@ -448,12 +448,21 @@ class SpotifyHandler(SpotifyLogger):
 
         return self.api_response
 
-    def spotify_get_playlist_tracks(self, playlist_id:str, fields:str="") -> dict:
+    def spotify_get_playlist_tracks(self, playlist_id:str, fields:str="",limit:int =20, market:int=0 , offset:int=0, additional_types:str="") -> dict:
         """
-        Get a playlist owned by a Spotify user.
+        Get full details of the items of a playlist owned by a Spotify user.
         :param playlist_id: Spotify_ID of the playlist to grab the tracks
-        :param fields: Filters for the query: a comma-separated list of the fields to return. If omitted, all fields are returned. For example, to get just the playlist''s description and URI: fields=description,uri. A dot separator can be used to specify non-reoccurring fields, while parentheses can be used to specify reoccurring fields within objects. For example, to get just the added date and user ID of the adder: fields=tracks.items(added_at,added_by.id). Use multiple parentheses to drill down into nested objects, for example: fields=tracks.items(track(name,href,album(name,href))). Fields can be excluded by prefixing them with an exclamation mark, for example: fields=tracks.items(track(name,href,album(!name,href)))
+        :param limit: The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.
+        :param fields: Filters for the query: a comma-separated list of the fields to return. If omitted, all fields are returned.
+                        For example, to get just the playlist''s description and URI: fields=description,uri.
+                        A dot separator can be used to specify non-reoccurring fields, while parentheses can be used to
+                        specify reoccurring fields within objects. For example, to get just the added date and user ID of the
+                        adder: fields=tracks.items(added_at,added_by.id). Use multiple parentheses to drill down into nested
+                        objects, for example: fields=tracks.items(track(name,href,album(name,href))). Fields can be excluded by
+                        prefixing them with an exclamation mark, for example: fields=tracks.items(track(name,href,album(!name,href)))
                        Example value:"items(track(id,name))"
+        :param market: An ISO 3166-1 alpha-2 country code. If a country code is specified, only content that is available in that market will be returned.
+                        If a valid user access token is specified in the request header, the country associated with the user account will take priority over this parameter.
         :return: Spotify API response for this endpoint
         """
         api_settings = sp_api.SpotifyGetPlaylistTracks()
@@ -461,9 +470,42 @@ class SpotifyHandler(SpotifyLogger):
         if api_settings.required_scope:
             self._spotify_scope_validation(scope=api_settings.required_scope)
 
-        # can we create one function to validate for each API?
         api_settings.api_endpoint = api_settings.api_endpoint.replace('{playlist_id}', playlist_id)
-        api_settings.query_parameters = f'{api_settings.query_parameters}{fields}'
+        # can we create one function to validate for each API?
+        if api_settings.parameters:
+            api_settings.query_parameters = self._update_query_parameters(provided_args=locals(), api_settings=api_settings)
+
+        # Setter will validate and make request to API
+        self.api_requested = api_settings
+
+        return self.api_response
+
+    def spotify_get_playlist(self, playlist_id:str, fields:str="", market:int=0 , additional_types:str="") -> dict:
+        """
+        Get a playlist owned by a Spotify user.
+        :param playlist_id: The Spotify ID of the playlist.
+        :param additional_types: A comma-separated list of item types that your client supports besides the default track type. Valid types are: track and episode.
+        :param fields: Filters for the query: a comma-separated list of the fields to return. If omitted, all fields are returned.
+                        For example, to get just the playlist''s description and URI: fields=description,uri.
+                        A dot separator can be used to specify non-reoccurring fields, while parentheses can be used to
+                        specify reoccurring fields within objects. For example, to get just the added date and user ID of the
+                        adder: fields=tracks.items(added_at,added_by.id). Use multiple parentheses to drill down into nested
+                        objects, for example: fields=tracks.items(track(name,href,album(name,href))). Fields can be excluded by
+                        prefixing them with an exclamation mark, for example: fields=tracks.items(track(name,href,album(!name,href)))
+                       Example value:"items(track(id,name))"
+        :param market: An ISO 3166-1 alpha-2 country code. If a country code is specified, only content that is available in that market will be returned.
+                        If a valid user access token is specified in the request header, the country associated with the user account will take priority over this parameter.
+        :return: Spotify API response for this endpoint
+        """
+        api_settings = sp_api.SpotifyGetPlaylist()
+
+        if api_settings.required_scope:
+            self._spotify_scope_validation(scope=api_settings.required_scope)
+
+        api_settings.api_endpoint = api_settings.api_endpoint.replace('{playlist_id}', playlist_id)
+        # can we create one function to validate for each API?
+        if api_settings.parameters:
+            api_settings.query_parameters = self._update_query_parameters(provided_args=locals(), api_settings=api_settings)
 
         # Setter will validate and make request to API
         self.api_requested = api_settings
@@ -483,6 +525,10 @@ class SpotifyHandler(SpotifyLogger):
 
         if api_settings.required_scope:
             self._spotify_scope_validation(scope=api_settings.required_scope)
+
+        # can we move these checks to the data class?
+        if limit >50:
+            raise ValueError("Requested song limit is to large must be smaller than 50")
 
         # can we create one function to validate for each API?
         if api_settings.parameters:

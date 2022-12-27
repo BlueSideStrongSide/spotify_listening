@@ -41,16 +41,14 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
                  client_id:str =None,
                  client_secret:str =None,
                  login_redirect:str ="http://localhost:8888",
-                 local_test=None,
-                 enable_env_write:bool =True):
+                 enable_env_write:bool =True,
+                 local_test=None):
 
         """
         The login_redirect is currently locked to one port on local host http://localhost:8888, please ensure your spotify app is configured correctly.
 
-        I will update this in a future release.
-
         :param scopes:required scopes for whatever endpoints you plan to communicate with. Review the documentation for more info
-        :param client_id: Client ID as provided by the spotify API developer dashboard
+        :param client_id: Client ID as provided by the spotify API developeqr dashboard
         :param client_secret: Client Secret as provided by the spotify API developer dashboard
         :param enable_env_write: Set this to False to run without storing .env settings
         """
@@ -325,7 +323,7 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
             # set_key(BRUTE_ENV, "_access_token", self._access_token)
 
 async def auth_flow() -> None:
-    spotify_auth = OauthSpotify_Authorization_Code_Flow(local_test=True, scopes=["test"])
+    spotify_auth = OauthSpotify_Authorization_Code_Flow(scopes=["test"], local_test=True)
 
     # if not await spotify_auth._auth_cache_available:
     #     await spotify_auth._first_request_authorization()

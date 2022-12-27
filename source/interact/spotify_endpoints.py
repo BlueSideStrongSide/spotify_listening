@@ -123,19 +123,18 @@ class SpotifyGetPlaylist(SpotifyApiBase):
     method : str = "GET"
     api_endpoint : str = "playlists/{playlist_id}"
     parameters: bool = True
-    required_scope = "playlist-modify-public,playlist-modify-private"
-    query_parameters: str = "ids="
-    info_api : str = "https://developer.spotify.com/documentation/web-api/reference/#/operations/add-tracks-to-playlist"
+    query_parameters_list: list = field(default_factory=lambda: ["fields","additional_types", "market"])
+    info_api : str = "https://developer.spotify.com/documentation/web-api/reference/#/operations/get-playlist"
     info_exception : str = f'This endpoint only allows a proper Playlist ID please see the documentation for more examples'
 
 @dataclass
 class SpotifyGetPlaylistTracks(SpotifyApiBase):
     method : str = "GET"
     api_endpoint : str = "playlists/{playlist_id}/tracks"
-    parameters :bool = True
-    query_parameters : str = "fields="
     required_scope = "playlist-modify-public,playlist-modify-private"
-    info_api : str = "https://developer.spotify.com/documentation/web-api/reference/#/operations/get-playlist"
+    parameters :bool = True
+    query_parameters_list: list = field(default_factory=lambda: ["fields", "limit", "offset","additional_types"])
+    info_api : str = "https://developer.spotify.com/documentation/web-api/reference/#/operations/get-playlists-tracks"
     info_exception : str = f'This endpoint only gets the tracks for a provided Playlist ID'
 
 @dataclass
