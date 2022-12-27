@@ -104,11 +104,11 @@ Currently Supported Endpoints Are Below
 * [SpotifyGetUsersPlaylists](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-list-users-playlists)
 * [SpotifyGetTrackAudioFeatures](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features)
 * [SpotifyGetTracksAudioFeatures](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-several-audio-features)
-* [SpotifyCreatePlaylist](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-several-audio-features)
+* [SpotifyCreatePlaylist](https://developer.spotify.com/documentation/web-api/reference/#/operations/create-playlist)
 * [SpotifyAddItemsToPlaylist](https://developer.spotify.com/documentation/web-api/reference/#/operations/add-tracks-to-playlist)
-* [SpotifyGetPlaylist](https://developer.spotify.com/documentation/web-api/reference/#/operations/add-tracks-to-playlist)
-* [SpotifyGetPlaylistTracks](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-playlist)
-* [SpotifyGetRecentlyPlayedTracks](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-playlist)
+* [SpotifyGetPlaylist](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-playlist)
+* [SpotifyGetPlaylistTracks](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-playlists-tracks)
+* [SpotifyGetRecentlyPlayedTracks](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-recently-played)
 
 Most methods if not all should have the proper docstrings and type checks.
 
