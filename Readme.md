@@ -110,5 +110,4 @@ Currently Supported Endpoints Are Below
 * [SpotifyGetPlaylistTracks](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-playlists-tracks)
 * [SpotifyGetRecentlyPlayedTracks](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-recently-played)
 
-Most methods if not all should have the proper docstrings and type checks.
-
+Most methods if not all should have the proper docstrings and type checks
