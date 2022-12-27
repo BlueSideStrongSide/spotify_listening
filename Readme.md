@@ -3,10 +3,9 @@
 #https://developer.spotify.com/console/player/
 
 This project was originally started to learn about about Oauth for authenitication. 
-So the plan was to build a simply script that would be able to grab whatever song I was currently listenting to in Spotify. 
+The plan was to build a simply script that would be able to grab whatever song I was currently listenting to in Spotify. 
 Well that portion ended up turning into a full blown module to interact with Spotify. 
 I am currently building this for fun, and will use it as a base to learn more about various development task.
-
 
 | Things To Explore\Learn |  
 |-------------------------|
@@ -14,7 +13,6 @@ I am currently building this for fun, and will use it as a base to learn more ab
 | Github Action           |
 | Code Test               |
 | Data Classes            |
-
 
 | Things To Add             |  
 |---------------------------|
