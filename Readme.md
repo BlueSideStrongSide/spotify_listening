@@ -28,6 +28,14 @@ Below are a few of the endpoints we support, and also an example script how how 
 
 You can also fork this project and update the repoisitory secrets and use the provided runner, to communicate directly with Spotify.
 
+| REPO SECRET    | Value                                                                                                                                    |
+|----------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| _CLIENT_ID     | This will be the Application ID generated from the spotify developer dashbaord                                                           |
+| _CLIENT_SECRET | This will be the Application Secret generated from the spotify developer dashbaord                                                       |
+| _REFRESH_TOKEN | After you run the application loca we will generate a refresh token in a local file. Grab this token and update the value of this secret |
+
+
+
 **Example 1. Get currently playing song on Spotify.**
 
 ```python
