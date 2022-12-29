@@ -101,6 +101,8 @@ class SpotifyInternalHelper(SpotifyLogger):
                                api_response=None,
                                follow_next:bool=False):
 
+        self.logger.debug(prepared_api_endpoint_parameters.api_endpoint)
+
         with requests.session() as s:
 
             # print(prepared_api_endpoint_parameters) # <-- DEBUG Print
@@ -218,6 +220,8 @@ class SpotifyHandler(SpotifyLogger):
                                          for parameter in api_settings.query_parameters_list if
                                          provided_args.get(parameter)]
 
+        self.logger.debug(api_settings.query_parameters)
+
         return '&'.join(api_settings.query_parameters)
 
     def _update_data_parameters(self, provided_args=None, api_settings=None):
@@ -226,6 +230,8 @@ class SpotifyHandler(SpotifyLogger):
         for wanted_arg, wanted_value in provided_args.get("api_settings").data_parameters.items():
             temp_dict[wanted_arg] =provided_args[wanted_arg]
 
+        self.logger.debug(temp_dict)
+
         return json.dumps(temp_dict)
 
     def request(self,v2_data:sp_api =None):
@@ -233,7 +239,9 @@ class SpotifyHandler(SpotifyLogger):
         self.api_response = asyncio.run(self._internals._build_request_v2(format_api_endpoint_parameters=v2_data,
                                                              auth_manager=self._auth_manager))
 
-    def spotify_currently_playing(self,realtime:bool =False,interval:int =30) -> dict:
+    def spotify_currently_playing(self,
+                                  realtime:bool =False,
+                                  interval:int =30) -> dict:
         """
 
         :param realtime: module will periodically check the spotify API and return the result immediately to the term.
@@ -265,7 +273,8 @@ class SpotifyHandler(SpotifyLogger):
 
         return self.api_response
 
-    def spotify_me_playlist(self, playlist_name:str ="") -> dict:
+    def spotify_me_playlist(self,
+                            playlist_name:str ="") -> dict:
         """
         Get a list of the playlists owned or followed by the current Spotify user.
         :param playlist_name: Playlist name within the spotify account
@@ -286,7 +295,8 @@ class SpotifyHandler(SpotifyLogger):
 
         return self.api_response
 
-    def spotify_get_tracks(self,ids:str) -> dict:
+    def spotify_get_tracks(self,
+                           ids:str) -> dict:
         """
         Get Spotify catalog information for multiple tracks based on their Spotify IDs.
         :param spotify_ids: comma seperated list of track ids
@@ -306,7 +316,10 @@ class SpotifyHandler(SpotifyLogger):
 
         return self.api_response
 
-    def spotify_get_users_playlists(self,user_id:str ="smedjan", limit:int =20, offset:int =0) -> dict:
+    def spotify_get_users_playlists(self,
+                                    user_id:str ="smedjan",
+                                    limit:int =20,
+                                    offset:int =0) -> dict:
         """
         Get a list of the playlists owned or followed by a Spotify user.
         :param user_id: user ID as shown from the spotify API, use the spotify_me endpoint to determine if needed
@@ -347,7 +360,10 @@ class SpotifyHandler(SpotifyLogger):
 
         return self.api_response
 
-    def spotify_track_audio_analysis(self,spotify_id:str,realtime: bool = False,interval:int = 5) -> dict:
+    def spotify_track_audio_analysis(self,
+                                     spotify_id:str,
+                                     realtime: bool = False,
+                                     interval:int = 5) -> dict:
         """
         Get a low-level audio analysis for a track in the Spotify catalog. The audio analysis describes the track’s structure and musical content, including rhythm, pitch, and timbre.
         :param spotify_id: the spotify track/episode ID as returned by the API
@@ -398,7 +414,11 @@ class SpotifyHandler(SpotifyLogger):
 
         return self.api_response
 
-    def spotify_create_playlist(self, userd_id:str, name:str, description:str="", public:bool =False) -> dict:
+    def spotify_create_playlist(self,
+                                userd_id:str,
+                                name:str,
+                                description:str="",
+                                public:bool =False) -> dict:
         """
         Create a playlist for a Spotify user. (The playlist will be empty until you add tracks.)
         :param userd_id: The user ID as shown in the spotify API. Use the spotif_me method to determine.
@@ -469,7 +489,13 @@ class SpotifyHandler(SpotifyLogger):
 
         return self.api_response
 
-    def spotify_get_playlist_tracks(self, playlist_id:str, fields:str="",limit:int =20, market:str="" , offset:int=0, additional_types:str="") -> dict:
+    def spotify_get_playlist_tracks(self,
+                                    playlist_id:str,
+                                    fields:str="",
+                                    limit:int =20,
+                                    market:str="" ,
+                                    offset:int=0,
+                                    additional_types:str="") -> dict:
         """
         Get full details of the items of a playlist owned by a Spotify user.
 
@@ -502,7 +528,11 @@ class SpotifyHandler(SpotifyLogger):
 
         return self.api_response
 
-    def spotify_get_playlist(self, playlist_id:str, fields:str="", market:str="" , additional_types:str="") -> dict:
+    def spotify_get_playlist(self,
+                             playlist_id:str,
+                             fields:str="",
+                             market:str="" ,
+                             additional_types:str="") -> dict:
         """
         Get a playlist owned by a Spotify user.
         :param playlist_id: The Spotify ID of the playlist.
@@ -534,7 +564,10 @@ class SpotifyHandler(SpotifyLogger):
 
         return self.api_response
 
-    def spotify_get_recently_played_tracks(self, limit:int =20, after:int=0 , before:int=0) -> dict:
+    def spotify_get_recently_played_tracks(self,
+                                           limit:int =20,
+                                           after:int=0 ,
+                                           before:int=0) -> dict:
         """
         Spotify has a hard limit on 50 songs regardless of the before or after setting. You can only see 50 songs MAX
 
@@ -554,10 +587,11 @@ class SpotifyHandler(SpotifyLogger):
 
         # can we create one function to validate for each API?
         if api_settings.parameters:
-            api_settings.query_parameters = self._update_data_parameters(provided_args=locals(), api_settings=api_settings)
+            api_settings.query_parameters = self._update_query_parameters(provided_args=locals(), api_settings=api_settings)
 
         # Setter will validate and make request to API
         self.api_requested = api_settings
+
 
         return self.api_response
 

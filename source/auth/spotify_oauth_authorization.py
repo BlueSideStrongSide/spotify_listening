@@ -42,7 +42,7 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
                  client_secret:str =None,
                  login_redirect:str ="http://localhost:8888",
                  enable_env_write:bool =True,
-                 logging_level: str = "DEBUG",
+                 logging_level: str = "Info",
                  local_test=None):
 
         """
