@@ -149,7 +149,7 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
             await self._second_request_access_token()
             await self._third_request_refreshed_access_token()
 
-        self.logger.info("Requesting New Access Token")
+        self.logger.debug("Requesting New Access Token")
         await self._third_request_refreshed_access_token()
 
         self.logger.debug("Token acquired with requested or cache scopes")

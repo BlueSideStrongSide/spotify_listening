@@ -1,5 +1,3 @@
-
-
 import asyncio
 import aiohttp
 import requests
@@ -8,6 +6,7 @@ import pprint
 import json
 import inspect
 import source.interact.spotify_endpoints as sp_api
+import source.interact.spotify_endpoint_results as sp_results
 from source.qr_generate import generate_spotify_qr
 from source.util.logger.logger import SpotifyLogger
 from source.auth.spotify_oauth_authorization import OauthSpotify_Authorization_Code_Flow
@@ -338,7 +337,8 @@ class SpotifyHandler(SpotifyLogger):
 
         return self.api_response
 
-    def spotify_top_items(self,top_type:str) -> dict:
+    def spotify_top_items(self,
+                          top_type:str) -> dict:
         """
         Get the current user's top artists or tracks based on calculated affinity.
         :param top_type: The correct top type, only valid options are "artists" and "tracks"
@@ -381,7 +381,8 @@ class SpotifyHandler(SpotifyLogger):
 
         return self.api_response
 
-    def spotify_track_audio_features(self,spotify_id:str) -> dict:
+    def spotify_track_audio_features(self,
+                                     spotify_id:str) -> dict:
         """
         Get audio feature information for a single track identified by its unique Spotify ID.
         :param spotify_id:  the spotify track/episode ID as returned by the API
@@ -397,7 +398,8 @@ class SpotifyHandler(SpotifyLogger):
 
         return self.api_response
 
-    def spotify_tracks_audio_features(self,ids:str) -> dict:
+    def spotify_tracks_audio_features(self,
+                                      ids:str) -> dict:
         """
         Get audio features for multiple tracks based on their Spotify IDs.
         :param spotify_ids: a comma seperated list of multiple spotify IDs, this method will submit them all at once

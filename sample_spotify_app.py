@@ -2,10 +2,10 @@ from source.auth.spotify_oauth_authorization import OauthSpotify_Authorization_C
 from source.interact.spotify_api import SpotifyHandler
 import pprint
 
-spotify_authenticator = OauthSpotify_Authorization_Code_Flow(scopes=["user-read-recently-played", 'user-top-read'], logging_level="Debug")
+spotify_authenticator = OauthSpotify_Authorization_Code_Flow(scopes=["user-read-recently-played", 'user-top-read'])
 
 if spotify_authenticator.authenticated:
-    spotify_interact = SpotifyHandler(auth_manager=spotify_authenticator, logging_level="Debug")
+    spotify_interact = SpotifyHandler(auth_manager=spotify_authenticator)
     new_playlist = spotify_interact.spotify_get_recently_played_tracks(limit=1)
     print(new_playlist)
 
