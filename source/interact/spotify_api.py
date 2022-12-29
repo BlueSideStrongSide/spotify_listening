@@ -15,8 +15,8 @@ from source.auth.spotify_oauth_authorization import OauthSpotify_Authorization_C
 
 class SpotifyInternalHelper(SpotifyLogger):
 
-    def __init__(self):
-        super().__init__()
+    def __init__(self, logging_level:str ="Info"):
+        super().__init__(logging_level)
 
         self._auth_manager = None
         self._headers = None
@@ -182,8 +182,8 @@ class SpotifyInternalHelper(SpotifyLogger):
 
 class SpotifyHandler(SpotifyLogger):
 
-    def __init__(self, auth_manager: OauthSpotify_Authorization_Code_Flow):
-        super().__init__()
+    def __init__(self, auth_manager: OauthSpotify_Authorization_Code_Flow, logging_level:str ="Info"):
+        super().__init__(logging_level)
 
         self._auth_manager = auth_manager
         self._internals = SpotifyInternalHelper()
@@ -197,6 +197,8 @@ class SpotifyHandler(SpotifyLogger):
     @api_requested.setter
     def api_requested(self, a):
         self._api_requested = a
+
+        self.logger.debug(self._api_requested)
 
         #Update/Validate/Prepare
         self._api_requested.access_token = self._auth_manager._access_token
@@ -218,8 +220,13 @@ class SpotifyHandler(SpotifyLogger):
 
         return '&'.join(api_settings.query_parameters)
 
-    def _update_data_parameters(self):
-        ...
+    def _update_data_parameters(self, provided_args=None, api_settings=None):
+
+        temp_dict = {}
+        for wanted_arg, wanted_value in provided_args.get("api_settings").data_parameters.items():
+            temp_dict[wanted_arg] =provided_args[wanted_arg]
+
+        return json.dumps(temp_dict)
 
     def request(self,v2_data:sp_api =None):
 
@@ -279,7 +286,7 @@ class SpotifyHandler(SpotifyLogger):
 
         return self.api_response
 
-    def spotify_get_tracks(self,spotify_ids:str) -> dict:
+    def spotify_get_tracks(self,ids:str) -> dict:
         """
         Get Spotify catalog information for multiple tracks based on their Spotify IDs.
         :param spotify_ids: comma seperated list of track ids
@@ -288,8 +295,9 @@ class SpotifyHandler(SpotifyLogger):
         api_settings = sp_api.SpotifyGetTracks()
 
         #can we create one function to validate for each API?
-        if len(spotify_ids.split()) <= 50:
-            api_settings.query_parameters = api_settings.query_parameters+spotify_ids
+        if len(ids.split()) <= 50:
+            if api_settings.parameters:
+                api_settings.query_parameters = self._update_query_parameters(provided_args=locals(),api_settings=api_settings)
         else:
             raise Exception(api_settings.info_exception)
 
@@ -298,7 +306,7 @@ class SpotifyHandler(SpotifyLogger):
 
         return self.api_response
 
-    def spotify_get_users_playlists(self,user_id:str) -> dict:
+    def spotify_get_users_playlists(self,user_id:str ="smedjan", limit:int =20, offset:int =0) -> dict:
         """
         Get a list of the playlists owned or followed by a Spotify user.
         :param user_id: user ID as shown from the spotify API, use the spotify_me endpoint to determine if needed
@@ -308,6 +316,9 @@ class SpotifyHandler(SpotifyLogger):
 
         #can we create one function to validate for each API?
         api_settings.api_endpoint = api_settings.api_endpoint.replace('{user_id}',user_id)
+
+        if api_settings.parameters:
+            api_settings.query_parameters = self._update_query_parameters(provided_args=locals(), api_settings=api_settings)
 
         #Setter will validate and make request to API
         self.api_requested = api_settings
@@ -370,32 +381,30 @@ class SpotifyHandler(SpotifyLogger):
 
         return self.api_response
 
-    def spotify_tracks_audio_features(self,spotify_ids:str | list[str]) -> dict:
+    def spotify_tracks_audio_features(self,ids:str) -> dict:
         """
         Get audio features for multiple tracks based on their Spotify IDs.
         :param spotify_ids: a comma seperated list of multiple spotify IDs, this method will submit them all at once
         :return: Spotify API response for this endpoint
         """
-        if isinstance(spotify_ids,list):
-            spotify_ids = ','.join(spotify_ids)
 
         api_settings = sp_api.SpotifyGetTracksAudioFeatures()
 
-        # can we create one function to validate for each API?
-        api_settings.query_parameters = api_settings.query_parameters + spotify_ids
+        if api_settings.parameters:
+            api_settings.query_parameters = self._update_query_parameters(provided_args=locals(), api_settings=api_settings)
 
         #Setter will validate and make request to API
         self.api_requested = api_settings
 
         return self.api_response
 
-    def spotify_create_playlist(self, userd_id:str, playlist_name: str, playlist_description:str, playlist_public:bool =False) -> dict:
+    def spotify_create_playlist(self, userd_id:str, name:str, description:str="", public:bool =False) -> dict:
         """
         Create a playlist for a Spotify user. (The playlist will be empty until you add tracks.)
         :param userd_id: The user ID as shown in the spotify API. Use the spotif_me method to determine.
-        :param playlist_name: The name of the new spotify playlist
-        :param playlist_description: The desciption of the new spotify playlist
-        :param playlist_public: Should the playlist be public
+        :param name: The name of the new spotify playlist
+        :param description: The desciption of the new spotify playlist
+        :param public: Should the playlist be public
         :return: Spotify API response for this endpoint
         """
         api_settings = sp_api.SpotifyCreatePlaylist()
@@ -403,24 +412,36 @@ class SpotifyHandler(SpotifyLogger):
         if api_settings.required_scope:
             self._spotify_scope_validation(scope=api_settings.required_scope)
 
-        # can we create one function to validate for each API?
+        #static URI updates need to be dynamic and handled in the background
         api_settings.api_endpoint = api_settings.api_endpoint.replace('{user_id}', userd_id)
-        api_settings.data_parameters["name"] = playlist_name
-        api_settings.data_parameters["description"] = playlist_description
-        api_settings.data_parameters["public"] = playlist_public
-        api_settings.data_parameters =  json.dumps(api_settings.data_parameters)
+
+        if api_settings.data:
+            api_settings.data_parameters = self._update_data_parameters(provided_args=locals(),api_settings=api_settings)
 
         # Setter will validate and make request to API
         self.api_requested = api_settings
 
         return self.api_response
 
-    def spotify_add_items_to_playlist(self, playlist_id:str ,spotify_tracks:str|list , position:int = False) -> dict:
+    def spotify_add_items_to_playlist(self,
+                                      playlist_id:str,
+                                      spotify_tracks:list|str,
+                                      position:int = None,
+                                      just_track_ids:bool = False) -> dict:
         """
         Add one or more items to a user's playlist.
+
         :param playlist_id: The ID of playlist to add the items to
-        :param spotify_tracks: The list of spotify track_ids that will be added
-        :param position: what position should the additions be inserted into, within the playlist
+        :param spotify_tracks: You can provide a list of spotify uri strings with the appropiate format.
+                                For Example: ["spotify:track:4iV5W9uYEdYUVa79Axb7Rh","spotify:track:1301WleyT98MSxVHPZCA6M",
+                                "spotify:episode:512ojhOuo1ktJprKbVcKyQ"].
+                                OR you can provide just a list of track id's and the method will format them correctly.
+                                For Example: "4iV5W9uYEdYUVa79Axb7Rh, 1301WleyT98MSxVHPZCA6M". Please note this option
+                                has to be used with the "just_track_ids" argument set to True.
+        :param position: The position to insert the items, a zero-based index. For example, to insert the items in the
+                        first position: position=0 ; to insert the items in the third position: position=2. If omitted,
+                        the items will be appended to the playlist. Items are added in the order they appear in the uris
+                        array.
         :return: Spotify API response for this endpoint
         """
         api_settings = sp_api.SpotifyAddItemsToPlaylist()
@@ -431,18 +452,18 @@ class SpotifyHandler(SpotifyLogger):
         # can we create one function to validate for each API?
         api_settings.api_endpoint = api_settings.api_endpoint.replace('{playlist_id}', playlist_id)
 
-        correct_format = []
         if isinstance(spotify_tracks,list):
-            for track in spotify_tracks:
-                if track.startswith("spotify:track:"):
-                    correct_format.append(track)
-        else:
-            for track in spotify_tracks.split(","):
-                correct_format.append(f'spotify:track:{track}')
+            correct_format = spotify_tracks
+
+        if isinstance(spotify_tracks, str):
+            correct_format = []
+            if just_track_ids:
+                for track in spotify_tracks.split(","):
+                    correct_format.append(f'spotify:track:{track}')
 
         api_settings.data_parameters["uris"] = correct_format
         api_settings.data_parameters =  json.dumps(api_settings.data_parameters)
-        
+
         # Setter will validate and make request to API
         self.api_requested = api_settings
 
@@ -533,7 +554,7 @@ class SpotifyHandler(SpotifyLogger):
 
         # can we create one function to validate for each API?
         if api_settings.parameters:
-            api_settings.query_parameters = self._update_query_parameters(provided_args=locals(), api_settings=api_settings)
+            api_settings.query_parameters = self._update_data_parameters(provided_args=locals(), api_settings=api_settings)
 
         # Setter will validate and make request to API
         self.api_requested = api_settings

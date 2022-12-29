@@ -42,6 +42,7 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
                  client_secret:str =None,
                  login_redirect:str ="http://localhost:8888",
                  enable_env_write:bool =True,
+                 logging_level: str = "DEBUG",
                  local_test=None):
 
         """
@@ -53,7 +54,7 @@ class OauthSpotify_Authorization_Code_Flow(SpotifyLogger):
         :param enable_env_write: Set this to False to run without storing .env settings
         """
 
-        super().__init__() #<-- Init logger build out additional options if needed
+        super().__init__(logging_level) #<-- Init logger build out additional options if needed
         self._enable_env_write = enable_env_write
 
         self._load_env(scopes)

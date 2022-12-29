@@ -27,14 +27,12 @@ class SpotifyMe(SpotifyApiBase):
     method : str = "GET"
     api_endpoint : str = "me/"
     info_api : str = "https://developer.spotify.com/documentation/web-api/reference/#/operations/get-current-users-profile"
-    info_exception : str = ""
 
 @dataclass
 class SpotifyMePlaylist(SpotifyApiBase):
     method : str = "GET"
     api_endpoint : str = "me/playlists"
     info_api : str = "https://developer.spotify.com/documentation/web-api/reference/#/operations/get-a-list-of-current-users-playlists"
-    info_exception : str = ""
 
 @dataclass
 class SpotifyCurrentlyPlaying(SpotifyApiBase):
@@ -45,7 +43,6 @@ class SpotifyCurrentlyPlaying(SpotifyApiBase):
     realtime : bool = False
     generate_qr : bool = True
     info_api : str = "https://developer.spotify.com/documentation/web-api/reference/#/operations/get-the-users-currently-playing-track"
-    info_exception : str = ""
 
 @dataclass
 class SpotifyTopItems(SpotifyApiBase):
@@ -68,17 +65,16 @@ class SpotifyGetTracks(SpotifyApiBase):
     method : str = "GET"
     api_endpoint : str = "tracks"
     parameters : bool = True
-    query_parameters: str = "ids="
+    query_parameters_list: list = field(default_factory=lambda: ["ids","market"])
     info_api : str = "https://developer.spotify.com/documentation/web-api/reference/#/operations/get-several-tracks"
     info_exception : str = f'This endpoint only allows a list of track ids, no more than 50 at a time. Please see the documentation for more examples'
 
 @dataclass
 class SpotifyGetUsersPlaylists(SpotifyApiBase):
-    #1230441980 <-- My ID For Testing
     method : str = "GET"
     api_endpoint : str = "users/{user_id}/playlists"
     parameters : bool = True
-    query_parameters: str = "ids="
+    query_parameters_list: list = field(default_factory=lambda: ["limit","offset"])
     info_api : str = "https://developer.spotify.com/documentation/web-api/reference/#/operations/get-list-users-playlists"
     info_exception : str = f'This endpoint only allows a list of track ids, no more than 100 at a time. Please see the documentation for more examples'
 
@@ -94,7 +90,7 @@ class SpotifyGetTracksAudioFeatures(SpotifyApiBase):
     method : str = "GET"
     api_endpoint : str = "audio-features"
     parameters : bool = True
-    query_parameters: str = "ids="
+    query_parameters_list: list = field(default_factory=lambda: ["ids"])
     info_api : str = "https://developer.spotify.com/documentation/web-api/reference/#/operations/get-several-audio-features"
     info_exception : str = f'This endpoint only allows a proper Spotify ID please see the documentation for more examples'
 
@@ -102,8 +98,8 @@ class SpotifyGetTracksAudioFeatures(SpotifyApiBase):
 class SpotifyCreatePlaylist(SpotifyApiBase):
     method : str = "POST"
     api_endpoint : str = "users/{user_id}/playlists"
-    data: bool = True
     required_scope = "playlist-modify-public,playlist-modify-private"
+    data: bool = True
     data_parameters: dict = field(default_factory=lambda: {"name":"","description":"","public":""})
     info_api : str = "https://developer.spotify.com/documentation/web-api/reference/#/operations/get-several-audio-features"
     info_exception : str = f'This endpoint only allows a proper Spotify ID please see the documentation for more examples'
@@ -113,8 +109,8 @@ class SpotifyAddItemsToPlaylist(SpotifyApiBase):
     method : str = "POST"
     api_endpoint : str = "playlists/{playlist_id}/tracks"
     data: bool = True
+    data_parameters: dict = field(default_factory=lambda: {"uris": [], "position": ""})
     required_scope = "playlist-modify-public,playlist-modify-private"
-    data_parameters: dict = field(default_factory=lambda: {"uris":[]})
     info_api : str = "https://developer.spotify.com/documentation/web-api/reference/#/operations/add-tracks-to-playlist"
     info_exception : str = f'This endpoint only allows a proper Playlist ID please see the documentation for more examples'
 
