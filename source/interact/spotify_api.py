@@ -448,9 +448,10 @@ class SpotifyHandler(SpotifyLogger):
 
         return self.api_response
 
-    def spotify_get_playlist_tracks(self, playlist_id:str, fields:str="",limit:int =20, market:int=0 , offset:int=0, additional_types:str="") -> dict:
+    def spotify_get_playlist_tracks(self, playlist_id:str, fields:str="",limit:int =20, market:str="" , offset:int=0, additional_types:str="") -> dict:
         """
         Get full details of the items of a playlist owned by a Spotify user.
+
         :param playlist_id: Spotify_ID of the playlist to grab the tracks
         :param limit: The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.
         :param fields: Filters for the query: a comma-separated list of the fields to return. If omitted, all fields are returned.
@@ -480,7 +481,7 @@ class SpotifyHandler(SpotifyLogger):
 
         return self.api_response
 
-    def spotify_get_playlist(self, playlist_id:str, fields:str="", market:int=0 , additional_types:str="") -> dict:
+    def spotify_get_playlist(self, playlist_id:str, fields:str="", market:str="" , additional_types:str="") -> dict:
         """
         Get a playlist owned by a Spotify user.
         :param playlist_id: The Spotify ID of the playlist.
