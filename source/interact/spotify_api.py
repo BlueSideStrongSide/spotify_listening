@@ -138,8 +138,6 @@ class SpotifyInternalHelper(SpotifyLogger):
                     #
                     #     return json.loads(pag_result.content.decode())
 
-
-
                 if self._resp.status_code == 204:
                     self.api_response = f"{self._resp.status_code} Nothing Is Currently Playing"
 
@@ -164,7 +162,7 @@ class SpotifyInternalHelper(SpotifyLogger):
 
         trimmed_out = f"HTTP_Status_Code {self._resp.status_code} Runner_Timestamp:'{self._auth_manager.current_time_fmt}' Artist: '{self.api_response['item']['artists'][0]['name']}' Song: '{self.api_response['item']['name']}' API_timestamp: {self.api_response['timestamp']}"
 
-        self.logger.debug(f'{trimmed_out}')
+        self.logger.info(f'{trimmed_out}')
 
     async def _update_logging(self):
         track_logging = ["me/player/currently-playing"]

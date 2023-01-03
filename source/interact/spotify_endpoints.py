@@ -145,3 +145,4 @@ class SpotifyGetRecentlyPlayedTracks(SpotifyApiBase):
     info_api : str = "https://developer.spotify.com/documentation/web-api/reference/#/operations/get-recently-played"
     info_exception : str = f'Get tracks from the current user\'s recently played tracks. Note: Currently doesn\'t support podcast episodes.'
 
+

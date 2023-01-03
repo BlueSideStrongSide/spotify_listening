@@ -6,7 +6,6 @@ spotify_authenticator = OauthSpotify_Authorization_Code_Flow(scopes=["user-read-
 
 if spotify_authenticator.authenticated:
     spotify_interact = SpotifyHandler(auth_manager=spotify_authenticator)
-    new_playlist = spotify_interact.spotify_get_recently_played_tracks(limit=1)
-    print(new_playlist)
+    new_playlist = spotify_interact.spotify_currently_playing(realtime=True, interval=3)
 
 
