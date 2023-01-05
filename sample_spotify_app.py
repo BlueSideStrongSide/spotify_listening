@@ -6,6 +6,9 @@ spotify_authenticator = OauthSpotify_Authorization_Code_Flow(scopes=["user-read-
 
 if spotify_authenticator.authenticated:
     spotify_interact = SpotifyHandler(auth_manager=spotify_authenticator)
-    new_playlist = spotify_interact.spotify_currently_playing(realtime=True, interval=3)
+    new_playlist = spotify_interact.spotify_get_playlist_tracks(playlist_id="3wjg8guJFz1lbuPBXCizKj", limit=30)
+
+    for track in new_playlist.tracks:
+        print(track.artist_name,"-->" , track.track_name)
 
 

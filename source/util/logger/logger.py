@@ -2,6 +2,7 @@ import logging
 from abc import ABC
 
 class SpotifyLogger(ABC):
+
     def __init__(self, logging_level:str="Info"):
 
         self.logger = logging.getLogger(self.__class__.__name__)

@@ -7,9 +7,11 @@ import json
 import inspect
 import source.interact.spotify_endpoints as sp_api
 import source.interact.spotify_endpoint_results as sp_results
+from typing import Type, List
 from source.qr_generate import generate_spotify_qr
 from source.util.logger.logger import SpotifyLogger
 from source.auth.spotify_oauth_authorization import OauthSpotify_Authorization_Code_Flow
+
 
 
 class SpotifyInternalHelper(SpotifyLogger):
@@ -182,6 +184,7 @@ class SpotifyInternalHelper(SpotifyLogger):
 class SpotifyHandler(SpotifyLogger):
 
     def __init__(self, auth_manager: OauthSpotify_Authorization_Code_Flow, logging_level:str ="Info"):
+
         super().__init__(logging_level)
 
         self._auth_manager = auth_manager
@@ -278,9 +281,6 @@ class SpotifyHandler(SpotifyLogger):
         :return: Spotify API response for this endpoint
         """
         api_settings = sp_api.SpotifyMePlaylist()
-
-        # can we create one function to validate for each API?
-        #need to dynamically take arguments and update API dataclass
 
         #Setter will validate and make request to API
         self.api_requested = api_settings
@@ -495,7 +495,8 @@ class SpotifyHandler(SpotifyLogger):
                                     limit:int =20,
                                     market:str="" ,
                                     offset:int=0,
-                                    additional_types:str="") -> dict:
+                                    additional_types:str="") -> type[sp_results.SpotifyGetPlaylistTracksResult]:
+
         """
         Get full details of the items of a playlist owned by a Spotify user.
 
@@ -519,14 +520,16 @@ class SpotifyHandler(SpotifyLogger):
             self._spotify_scope_validation(scope=api_settings.required_scope)
 
         api_settings.api_endpoint = api_settings.api_endpoint.replace('{playlist_id}', playlist_id)
-        # can we create one function to validate for each API?
+
         if api_settings.parameters:
             api_settings.query_parameters = self._update_query_parameters(provided_args=locals(), api_settings=api_settings)
 
         # Setter will validate and make request to API
         self.api_requested = api_settings
 
-        return self.api_response
+        # return self.api_response
+        return sp_results.SpotifyGetPlaylistTracksResult(self.api_requested,response=self.api_response)
+
 
     def spotify_get_playlist(self,
                              playlist_id:str,
@@ -555,7 +558,7 @@ class SpotifyHandler(SpotifyLogger):
             self._spotify_scope_validation(scope=api_settings.required_scope)
 
         api_settings.api_endpoint = api_settings.api_endpoint.replace('{playlist_id}', playlist_id)
-        # can we create one function to validate for each API?
+
         if api_settings.parameters:
             api_settings.query_parameters = self._update_query_parameters(provided_args=locals(), api_settings=api_settings)
 
@@ -568,6 +571,7 @@ class SpotifyHandler(SpotifyLogger):
                                            limit:int =20,
                                            after:int=0 ,
                                            before:int=0) -> dict:
+
         """
         Spotify has a hard limit on 50 songs regardless of the before or after setting. You can only see 50 songs MAX
 
@@ -585,13 +589,11 @@ class SpotifyHandler(SpotifyLogger):
         if limit >50:
             raise ValueError("Requested song limit is to large must be smaller than 50")
 
-        # can we create one function to validate for each API?
         if api_settings.parameters:
             api_settings.query_parameters = self._update_query_parameters(provided_args=locals(), api_settings=api_settings)
 
         # Setter will validate and make request to API
         self.api_requested = api_settings
-
 
         return self.api_response
 
