@@ -243,7 +243,6 @@ class SpotifyHandler(SpotifyLogger):
                                   realtime:bool =False,
                                   interval:int =30) -> dict:
         """
-
         :param realtime: module will periodically check the spotify API and return the result immediately to the term.
         :param interval: The delay in seconds to wait between making another request
         :return: If used with realtime nothing is returned, without realtime the response is a dict of the spotify response
@@ -293,7 +292,7 @@ class SpotifyHandler(SpotifyLogger):
         return self.api_response
 
     def spotify_get_tracks(self,
-                           ids:str) -> dict:
+                           ids:str) -> type[sp_results.SpotifyResultApiBase]:
         """
         Get Spotify catalog information for multiple tracks based on their Spotify IDs.
         :param spotify_ids: comma seperated list of track ids
@@ -311,7 +310,7 @@ class SpotifyHandler(SpotifyLogger):
         #Setter will validate and make request to API
         self.api_requested = api_settings
 
-        return self.api_response
+        return sp_results.SpotifyResultApiBase(self.api_requested, response=self.api_response)
 
     def spotify_get_users_playlists(self,
                                     user_id:str ="smedjan",

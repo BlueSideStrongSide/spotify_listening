@@ -58,10 +58,18 @@ class SpotifyResultApiBase:
         """
 
         response_tracks: list[type[SpotifyTrackResult]] = []
-        if self.response["items"]:
-            for item in self.response["items"]:
+
+
+        if self.response.get("items"):
+            for item in self.response.get("items"):
                 spotify_track = SpotifyTrackResult(spotify_track=item["track"])
                 response_tracks.append(spotify_track)
+
+        if self.response.get("tracks"):
+            for item in self.response.get("tracks"):
+                spotify_track = SpotifyTrackResult(spotify_track=item)
+                response_tracks.append(spotify_track)
+
 
         return response_tracks
 

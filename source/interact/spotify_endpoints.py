@@ -7,13 +7,13 @@ class SpotifyApiBase:
     generate_qr: bool = False
     parameters: bool = False
     data: bool = False
-    required_scope: str = ""
+    required_scope: str = field(default_factory=str)
     data_parameters: dict = field(default_factory=dict)
     query_parameters: str = field(default_factory=str)
     interval: int = field(default_factory=int)
     method: str = field(default_factory=str)
     follow_next : bool = False
-    follow_next_results : str = ""
+    follow_next_results : str = field(default_factory=str)
     api_endpoint: str = field(default_factory=str)
     info_api: str = field(default_factory=str)
     info_exception: str = field(default_factory=str)
