@@ -2,14 +2,13 @@ from source.auth.spotify_oauth_authorization import OauthSpotify_Authorization_C
 from source.interact.spotify_api import SpotifyHandler
 import pprint
 
-
 def main():
     spotify_authenticator = OauthSpotify_Authorization_Code_Flow(
         scopes=["playlist-modify-public", "playlist-modify-private"], enable_env_write=False)
     if spotify_authenticator.authenticated:
         spotify_interact = SpotifyHandler(auth_manager=spotify_authenticator)
 
-        return spotify_interact.spotify_currently_playing()
+        return spotify_interact.spotify_currently_playing().response
 
 
 def export_to_file(api_result):
