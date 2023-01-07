@@ -599,7 +599,6 @@ class SpotifyHandler(SpotifyLogger):
 
 if __name__ == "__main__":
     spotify_authenticator = OauthSpotify_Authorization_Code_Flow(scopes=[])
-
     if spotify_authenticator.authenticated:
         spotify_interact = SpotifyHandler(auth_manager=spotify_authenticator)
         spotify_interact.spotify_currently_playing(realtime=True)

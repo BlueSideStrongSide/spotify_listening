@@ -1,5 +1,6 @@
 from typing import Type, List
 from dataclasses import dataclass, field
+import pprint
 import source.interact.spotify_endpoints as sp_api
 
 @dataclass
@@ -73,6 +74,8 @@ class SpotifyResultApiBase:
 
         return response_tracks
 
+    def response_pretty(self):
+        return pprint.pprint(self.response, indent=4, compact=True)
 
 @dataclass
 class SpotifyGetPlaylistTracksResult(SpotifyResultApiBase):
