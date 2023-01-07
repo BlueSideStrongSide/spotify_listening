@@ -5,4 +5,4 @@ spotify_authenticator = OauthSpotify_Authorization_Code_Flow(scopes=["user-read-
 
 if spotify_authenticator.authenticated:
     spotify_interact = SpotifyHandler(auth_manager=spotify_authenticator)
-    spotify_interact.spotify_currently_playing().response_pretty
+    spotify_interact.spotify_get_recently_played_tracks().response_pretty()
