@@ -6,7 +6,7 @@ spotify_authenticator = OauthSpotify_Authorization_Code_Flow(scopes=["user-read-
 
 if spotify_authenticator.authenticated:
     spotify_interact = SpotifyHandler(auth_manager=spotify_authenticator)
-    # test = spotify_interact.spotify_currently_playing()
-    test = spotify_interact.spotify_get_tracks(ids="7ouMYWpwJ422jRcDASZB7P,4VqPOruhp5EdPBeR92t6lQ,2takcwOaAZWiXQijPHIx7B")
-    for track in test.tracks:
-        print(track.track_name,"-->", track.track_name, "-->", track.track_duration)
+    test = spotify_interact.spotify_currently_playing()
+    # test = spotify_interact.spotify_get_tracks(ids="7ouMYWpwJ422jRcDASZB7P,4VqPOruhp5EdPBeR92t6lQ,2takcwOaAZWiXQijPHIx7B")
+
+    print(test)
