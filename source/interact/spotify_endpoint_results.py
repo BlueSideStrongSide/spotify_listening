@@ -45,7 +45,9 @@ class SpotifyResultApiBase:
     tracks: list[type[SpotifyTrackResult]] = field(default_factory=SpotifyTrackResult, init=False)
 
     def __post_init__(self):
-        self.tracks = self._add_tracks()
+        exempt = ["204 Nothing Is Currently Playing"]
+        if self.response not in exempt:
+            self.tracks = self._add_tracks()
 
     def replace_sensitive_values(self):
         ...
@@ -60,7 +62,6 @@ class SpotifyResultApiBase:
 
         response_tracks: list[type[SpotifyTrackResult]] = []
 
-
         if self.response.get("items"):
             for item in self.response.get("items"):
                 spotify_track = SpotifyTrackResult(spotify_track=item["track"])
@@ -70,7 +71,6 @@ class SpotifyResultApiBase:
             for item in self.response.get("tracks"):
                 spotify_track = SpotifyTrackResult(spotify_track=item)
                 response_tracks.append(spotify_track)
-
 
         return response_tracks
 

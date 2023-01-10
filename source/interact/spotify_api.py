@@ -58,12 +58,14 @@ class SpotifyInternalHelper(SpotifyLogger):
 
                 if self._resp.status_code == 200:
                     self.api_response = json.loads(self._resp.content.decode())
+
                     asyncio.create_task(self._update_logging())
 
                     if prepared_api_endpoint_parameters.get("realtime"):
                         await self.realtime_process_response()
 
                 if self._resp.status_code == 204:
+
                     self.api_response = f"{self._resp.status_code} Nothing Is Currently Playing"
                     self.logger.debug(f'{self.api_response}')
 
@@ -102,11 +104,9 @@ class SpotifyInternalHelper(SpotifyLogger):
                                api_response=None,
                                follow_next:bool=False):
 
-        self.logger.debug(prepared_api_endpoint_parameters.api_endpoint)
+        self.logger.debug(f'Initial Requested URL: {prepared_api_endpoint_parameters.api_endpoint}')
 
         with requests.session() as s:
-
-            # print(prepared_api_endpoint_parameters) # <-- DEBUG Print
 
             while True:
                 do_action = getattr(s,prepared_api_endpoint_parameters.method.lower())
@@ -116,7 +116,10 @@ class SpotifyInternalHelper(SpotifyLogger):
                                 params=prepared_api_endpoint_parameters.query_parameters,
                                data=prepared_api_endpoint_parameters.data_parameters)
 
-                self.logger.debug(f'{self._resp.status_code} {self._resp.url}')#<-- Debug Printer
+                self.logger.debug(f'Returned status_code="{self._resp.status_code}" '
+                                  f'endpoint_url="{self._resp.url}" '
+                                  f'endpoint_info="{prepared_api_endpoint_parameters.info_api}" '
+                                  f'endpoint_content="{json.loads(self._resp.content.decode()) if self._resp.content else {"response":"No Content"} }"')
 
                 if self._resp.status_code == 200 or self._resp.status_code == 201:
                     self.api_response = json.loads(self._resp.content.decode())
@@ -125,23 +128,9 @@ class SpotifyInternalHelper(SpotifyLogger):
                     if prepared_api_endpoint_parameters.realtime:
                         await self.realtime_process_response()
 
-                    # if prepared_api_endpoint_parameters.follow_next and self.api_response["next"]:
-                    #     captured_responses = [self.api_response]
-                    #     counter = 0
-                    #
-                    #     self.logger.debug("Follwing Pagination to gather all items")
-                    #     print(self.api_response["next"], self.api_response["cursors"])
-                    #     self.logger.debug("NEXT URL ABOVE")
-                    #
-                    #     pag_result = do_action(self.api_response["next"],
-                    #               headers=self.default_headers())
-                    #
-                    #     print(pag_result)
-                    #
-                    #     return json.loads(pag_result.content.decode())
-
                 if self._resp.status_code == 204:
                     self.api_response = f"{self._resp.status_code} Nothing Is Currently Playing"
+                    self.logger.info(self.api_response)
 
                 if self._resp.status_code == 401:
                     self.api_response = f"{self._resp.status_code} Access Token Is Not Valid"
@@ -188,7 +177,7 @@ class SpotifyHandler(SpotifyLogger):
         super().__init__(logging_level)
 
         self._auth_manager = auth_manager
-        self._internals = SpotifyInternalHelper()
+        self._internals = SpotifyInternalHelper(logging_level=logging_level)
         self._api_requested = None
         self.api_response = None
 
@@ -247,6 +236,7 @@ class SpotifyHandler(SpotifyLogger):
         :param interval: The delay in seconds to wait between making another request
         :return: If used with realtime nothing is returned, without realtime the response is a dict of the spotify response
         """
+
         #Grab Settings
         api_settings = sp_api.SpotifyCurrentlyPlaying()
 
@@ -257,6 +247,7 @@ class SpotifyHandler(SpotifyLogger):
         #Setter will validate and make request to API
         self.api_requested = api_settings
 
+        # return self.api_response
         return sp_results.SpotifyResultApiBase(self.api_requested, response=self.api_response)
 
     def spotify_me(self) -> type[sp_results.SpotifyResultApiBase]:
