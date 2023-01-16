@@ -13,6 +13,7 @@ jobs:
     steps:
       - name: checkout repo content
         uses: actions/checkout@v2
+        with: github_runner
 
       - name: setup python
         uses: actions/setup-python@v4
@@ -30,6 +31,7 @@ jobs:
           _client_secret: ${{ secrets._CLIENT_SECRET }}
           _redirect_uri: ${{ secrets._REDIRECT_URI }}
           _refresh_token: ${{ secrets._REFRESH_TOKEN }}
+
         run: python github_now_playing.py
 
       - name: commit log file
