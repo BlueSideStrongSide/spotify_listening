@@ -2,6 +2,19 @@
 # Simple Spotify App
 #https://developer.spotify.com/console/player/
 
+<picture>
+<source 
+  srcset="https://github-readme-stats.vercel.app/api?username=BlueSideStrongSide&show_icons=true&theme=dark"
+  media="(prefers-color-scheme: dark)"
+/>
+<source
+  srcset="https://github-readme-stats.vercel.app/api?username=BlueSideStrongSide&show_icons=true"
+  media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+/>
+<img src="https://github-readme-stats.vercel.app/api?username=BlueSideStrongSide&show_icons=true" />
+</picture>
+
+
 This project was originally started to learn about about Oauth for authenitication. 
 The plan was to build a simply script that would be able to grab whatever song I was currently listenting to in Spotify. 
 Well that portion ended up turning into a full blown module to interact with Spotify. 
