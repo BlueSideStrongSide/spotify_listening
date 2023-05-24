@@ -30,4 +30,4 @@ jobs:
           _refresh_token: ${{ secrets._REFRESH_TOKEN }}
         working-directory: ./tests
 
-        run: pytest
+        run: pytest -v
