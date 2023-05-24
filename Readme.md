@@ -48,7 +48,6 @@ You can also fork this project and update the repoisitory secrets and use the pr
 | _REFRESH_TOKEN | After you run the application loca we will generate a refresh token in a local file. Grab this token and update the value of this secret |
 
 
-
 **Example 1. Get currently playing song on Spotify.**
 
 ```python
@@ -109,6 +108,8 @@ Would return a dict object similar to what is shown below.
  'valence': 0.625}
 
 ```
+
+
 
 Currently Supported Endpoints Are Below
 

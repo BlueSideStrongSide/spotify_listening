@@ -159,21 +159,24 @@ class SpotifyInternalHelper(SpotifyLogger):
         track_logging = ["me/player/currently-playing"]
 
         if self._current_endpoint in track_logging:
-            with open("listening_spotify_api_dump.log", "a+",  encoding='utf-8') as out:
+            with open("stream_outputs/listening_spotify_api_dump.log", "a+",  encoding='utf-8') as out:
                 pprint.pprint(self.api_response, compact=True, indent=0, stream=out)
 
-            with open("trim_output.log", "w+") as out:
+            with open("stream_outputs/trim_output.log", "w+") as out:
                 out.write(f"Artist: '{self.api_response['item']['artists'][0]['name']}' Song: '{self.api_response['item']['name']}'")
 
             track_url = self.api_response['item']['external_urls']['spotify']
 
-            await generate_spotify_qr.SpotifyQRGenerator(spotify_url=track_url).generate_qr(qr_save_path="spotify.png")
+            await generate_spotify_qr.SpotifyQRGenerator(spotify_url=track_url).generate_qr(qr_save_path="stream_outputs/spotify.png")
 
 
 class SpotifyHandler(SpotifyLogger):
 
     def __init__(self, auth_manager: OauthSpotify_Authorization_Code_Flow, logging_level:str ="Info"):
-
+        """
+        :param auth_manager: Currently uses the included 0auth manager to handle access_authorization
+        :param logging_level: sets the logging level for the module. THe default value is Info
+        """
         super().__init__(logging_level)
 
         self._auth_manager = auth_manager
@@ -264,7 +267,7 @@ class SpotifyHandler(SpotifyLogger):
         return sp_results.SpotifyResultApiBase(self.api_requested, response=self.api_response)
 
     def spotify_me_playlist(self,
-                            playlist_name:str ="") -> type[sp_results.SpotifyResultApiBase]:
+                            wanted_playlist_name:str ="") -> type[sp_results.SpotifyResultApiBase]:
         """
         Get a list of the playlists owned or followed by the current Spotify user.
         :param playlist_name: Playlist name within the spotify account
@@ -275,9 +278,9 @@ class SpotifyHandler(SpotifyLogger):
         #Setter will validate and make request to API
         self.api_requested = api_settings
 
-        if playlist_name:
+        if wanted_playlist_name:
             for playlist in self.api_response["items"]:
-                if playlist.get("name").lower() == playlist_name.lower():
+                if playlist.get("name").lower() == wanted_playlist_name.lower():
                     self.api_response = playlist
 
         return sp_results.SpotifyResultApiBase(self.api_requested, response=self.api_response)
@@ -326,16 +329,21 @@ class SpotifyHandler(SpotifyLogger):
         return sp_results.SpotifyResultApiBase(self.api_requested, response=self.api_response)
 
     def spotify_top_items(self,
-                          top_type:str) -> type[sp_results.SpotifyResultApiBase]:
+                          top_type:str, limit:int=20, time_range:str="medium_term") -> type[sp_results.SpotifyResultApiBase]:
         """
         Get the current user's top artists or tracks based on calculated affinity.
         :param top_type: The correct top type, only valid options are "artists" and "tracks"
+        :param limit: limit the number of captured items by this integer
+        :param time_range: Over what time frame the affinities are computed. Valid values: long_term (calculated from several years of data and including all new data as it becomes available), medium_term (approximately last 6 months), short_term (approximately last 4 weeks). Default: medium_term
         :return: Spotify API response for this endpoint
         """
         api_settings = sp_api.SpotifyTopItems()
 
         if api_settings.required_scope:
             self._spotify_scope_validation(scope=api_settings.required_scope)
+
+        if api_settings.parameters:
+            api_settings.query_parameters = self._update_query_parameters(provided_args=locals(), api_settings=api_settings)
 
         # can we create one function to validate for each API?
         if top_type in api_settings.allowed_variable_type:
@@ -584,7 +592,6 @@ class SpotifyHandler(SpotifyLogger):
 
         # Setter will validate and make request to API
         self.api_requested = api_settings
-
         return sp_results.SpotifyResultApiBase(self.api_requested, response=self.api_response)
 
 

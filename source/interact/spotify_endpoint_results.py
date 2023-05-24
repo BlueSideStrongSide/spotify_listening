@@ -1,7 +1,8 @@
-from typing import Type, List
-from dataclasses import dataclass, field
 import pprint
 import source.interact.spotify_endpoints as sp_api
+from typing import Type, List
+from dataclasses import dataclass, field
+
 
 @dataclass
 class SpotifyTrackResult:
@@ -42,10 +43,12 @@ class SpotifyResultApiBase:
     response: dict = field(default_factory=dict)
     info_api: str = field(default_factory=str)
     show_sensitive_values: bool = True
+
     tracks: list[type[SpotifyTrackResult]] = field(default_factory=SpotifyTrackResult, init=False)
 
     def __post_init__(self):
         exempt = ["204 Nothing Is Currently Playing"]
+
         if self.response not in exempt:
             self.tracks = self._add_tracks()
 
@@ -62,15 +65,16 @@ class SpotifyResultApiBase:
 
         response_tracks: list[type[SpotifyTrackResult]] = []
 
-        if self.response.get("items"):
-            for item in self.response.get("items"):
-                spotify_track = SpotifyTrackResult(spotify_track=item["track"])
-                response_tracks.append(spotify_track)
+        if self.api_data.has_tracks:
+            if self.response.get("items"):
+                for item in self.response.get("items"):
+                    spotify_track = SpotifyTrackResult(spotify_track=item["track"])
+                    response_tracks.append(spotify_track)
 
-        if self.response.get("tracks"):
-            for item in self.response.get("tracks"):
-                spotify_track = SpotifyTrackResult(spotify_track=item)
-                response_tracks.append(spotify_track)
+            if self.response.get("tracks"):
+                for item in self.response.get("tracks"):
+                    spotify_track = SpotifyTrackResult(spotify_track=item)
+                    response_tracks.append(spotify_track)
 
         return response_tracks
 

@@ -7,13 +7,12 @@ class SpotifyApiBase:
     generate_qr: bool = False
     parameters: bool = False
     data: bool = False
+    has_tracks: bool = False
     required_scope: str = field(default_factory=str)
     data_parameters: dict = field(default_factory=dict)
     query_parameters: str = field(default_factory=str)
     interval: int = field(default_factory=int)
     method: str = field(default_factory=str)
-    follow_next : bool = False
-    follow_next_results : str = field(default_factory=str)
     api_endpoint: str = field(default_factory=str)
     info_api: str = field(default_factory=str)
     info_exception: str = field(default_factory=str)
@@ -49,6 +48,8 @@ class SpotifyTopItems(SpotifyApiBase):
     method : str = "GET"
     api_endpoint : str = "me/top/{top_type}"
     required_scope = "user-top-read"
+    parameters: bool = True
+    query_parameters_list: list = field(default_factory=lambda: ["limit", "time_range",])
     allowed_variable_type: list = field(default_factory=lambda: ['artists', 'tracks'] )
     info_api : str = "https://developer.spotify.com/documentation/web-api/reference/#/operations/get-users-top-artists-and-tracks"
     info_exception : str = f'This endpoint only allows "artits" or "tracks" for the wanted top type'
@@ -65,6 +66,7 @@ class SpotifyGetTracks(SpotifyApiBase):
     method : str = "GET"
     api_endpoint : str = "tracks"
     parameters : bool = True
+    has_tracks: bool = True
     query_parameters_list: list = field(default_factory=lambda: ["ids","market"])
     info_api : str = "https://developer.spotify.com/documentation/web-api/reference/#/operations/get-several-tracks"
     info_exception : str = f'This endpoint only allows a list of track ids, no more than 50 at a time. Please see the documentation for more examples'
@@ -129,6 +131,7 @@ class SpotifyGetPlaylistTracks(SpotifyApiBase):
     api_endpoint : str = "playlists/{playlist_id}/tracks"
     required_scope = "playlist-modify-public,playlist-modify-private"
     parameters :bool = True
+    has_tracks: bool = True
     query_parameters_list: list = field(default_factory=lambda: ["fields", "limit", "offset","additional_types"])
     info_api : str = "https://developer.spotify.com/documentation/web-api/reference/#/operations/get-playlists-tracks"
     info_exception : str = f'This endpoint only gets the tracks for a provided Playlist ID'
@@ -138,9 +141,8 @@ class SpotifyGetRecentlyPlayedTracks(SpotifyApiBase):
     method : str = "GET"
     required_scope :str = "user-read-recently-played"
     api_endpoint : str = "me/player/recently-played"
-    follow_next : bool = True
-    follow_next_results: list = field(default_factory=lambda: [])
     parameters :bool = True
+    has_tracks: bool = True
     query_parameters_list: list = field(default_factory=lambda: ["after","before","limit"])
     info_api : str = "https://developer.spotify.com/documentation/web-api/reference/#/operations/get-recently-played"
     info_exception : str = f'Get tracks from the current user\'s recently played tracks. Note: Currently doesn\'t support podcast episodes.'
