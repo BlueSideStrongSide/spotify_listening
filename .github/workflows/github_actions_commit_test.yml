@@ -1,4 +1,4 @@
-name: run project_test
+name: run github_actions_commit_test
 
 on: [push]
 

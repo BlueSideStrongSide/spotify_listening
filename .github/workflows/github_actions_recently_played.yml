@@ -1,4 +1,4 @@
-name: run github_now_playing
+name: run github_actions_recenetly_played
 
 on:
   workflow_dispatch:
