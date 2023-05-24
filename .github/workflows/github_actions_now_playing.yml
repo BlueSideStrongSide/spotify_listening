@@ -33,4 +33,4 @@ jobs:
           _redirect_uri: ${{ secrets._REDIRECT_URI }}
           _refresh_token: ${{ secrets._REFRESH_TOKEN }}
 
-        run: python sample_spotify_app.py
+        run: python sample_github_recently_played.py
