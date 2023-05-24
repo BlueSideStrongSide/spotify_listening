@@ -7,5 +7,5 @@
 /pyvenv.cfg
 /source/interact/spotify_endpoints.toml
 /sample_scripts/
-**/__pycache__
 /stream_outputs/
+**/__pycache__

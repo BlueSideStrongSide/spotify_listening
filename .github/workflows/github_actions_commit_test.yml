@@ -1,10 +1,6 @@
-name: run github_now_playing
+name: run project_test
 
-on:
-  workflow_dispatch:
-  schedule:
-   # Run every Tuesday at 0 UTC
-    - cron: '0 0 * * 2'
+on: [push]
 
 jobs:
   build:
@@ -26,11 +22,12 @@ jobs:
           python -m pip install --upgrade pip 
           pip install -r requirements.txt
 
-      - name: run python script
+      - name: run test
         env:
           _client_id: ${{ secrets._CLIENT_ID }}
           _client_secret: ${{ secrets._CLIENT_SECRET }}
           _redirect_uri: ${{ secrets._REDIRECT_URI }}
           _refresh_token: ${{ secrets._REFRESH_TOKEN }}
+        working-directory: ./tests
 
-        run: python sample_github_recently_played.py
+        run: pytest
