@@ -33,17 +33,4 @@ jobs:
           _redirect_uri: ${{ secrets._REDIRECT_URI }}
           _refresh_token: ${{ secrets._REFRESH_TOKEN }}
 
-        run: python github_now_playing.py
-
-      - name: commit log file
-        run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "Github Action"
-          git add github_now_playing.txt
-          git commit -a -m "Latest GitHub Action Run"
-
-      - name: push changes
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: github_runner
+        run: python sample_spotify_app.py
