@@ -30,4 +30,4 @@ jobs:
           _refresh_token: ${{ secrets._REFRESH_TOKEN }}
           working-directory: /home/runner/work/Spotify_Listening/Spotify_Listening/tests/unit
 
-        run: pytest -v
+        run: python -m pytest
