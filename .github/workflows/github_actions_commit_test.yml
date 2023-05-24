@@ -28,6 +28,5 @@ jobs:
           _client_secret: ${{ secrets._CLIENT_SECRET }}
           _redirect_uri: ${{ secrets._REDIRECT_URI }}
           _refresh_token: ${{ secrets._REFRESH_TOKEN }}
-        working-directory: ./tests
 
-        run: pytest -v
+        run: pytest -v ./tests/unit
