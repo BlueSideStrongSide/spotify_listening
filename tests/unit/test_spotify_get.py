@@ -6,7 +6,7 @@ from source.interact.spotify_api import SpotifyHandler
 
 @pytest.fixture
 def sample_track_data():
-    with open("../tests/fixtures/sample_track.json", 'r') as f:
+    with open("sample_track.json", 'r') as f:
         data = json.load(f)
 
     return data
