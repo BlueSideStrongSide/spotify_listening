@@ -28,6 +28,5 @@ jobs:
           _client_secret: ${{ secrets._CLIENT_SECRET }}
           _redirect_uri: ${{ secrets._REDIRECT_URI }}
           _refresh_token: ${{ secrets._REFRESH_TOKEN }}
-          working-directory: /home/runner/work/Spotify_Listening/Spotify_Listening/tests/unit
 
-        run: python -m pytest
+        run: pytest -v

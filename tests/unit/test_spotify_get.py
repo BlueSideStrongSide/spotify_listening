@@ -38,3 +38,7 @@ def test_live_get_playlist(spotify_interact):
 def test_live_get_audio_features(spotify_interact):
     result = spotify_interact.spotify_track_audio_features(spotify_id="11dFghVXANMlKmJXsNCbNl")
     assert result.response.get("instrumentalness") == 0.000905
+
+
+if __name__ == '__main__':
+    print("Local Testing")
