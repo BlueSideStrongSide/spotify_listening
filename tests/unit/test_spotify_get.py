@@ -23,7 +23,7 @@ def test_offline_get_tracks_track_handler(sample_track_data):
 
 @pytest.fixture(scope="module")
 def spotify_interact():
-    spotify_authenticator = OauthSpotify_Authorization_Code_Flow(scopes=["user-read-recently-played", 'user-top-read'])
+    spotify_authenticator = OauthSpotify_Authorization_Code_Flow(scopes=["user-read-recently-played", 'user-top-read'], enable_env_write=False)
     if spotify_authenticator.authenticated:
         return SpotifyHandler(auth_manager=spotify_authenticator)
 
