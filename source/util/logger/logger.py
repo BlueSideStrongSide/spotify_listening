@@ -10,11 +10,11 @@ class SpotifyLogger(ABC):
         formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
         ch = logging.StreamHandler()
+
         ch.setLevel(getattr(logging, logging_level.upper()))
         ch.setFormatter(formatter)
 
         self.logger.addHandler((ch))
-
 
 
 if __name__ == '__main__':
