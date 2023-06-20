@@ -26,16 +26,14 @@ jobs:
           python -m pip install --upgrade pip 
           pip install -r requirements.txt
 
-      - name: run python script
+      - name: grab_recent_songs
         env:
           _client_id: ${{ secrets._CLIENT_ID }}
           _client_secret: ${{ secrets._CLIENT_SECRET }}
           _redirect_uri: ${{ secrets._REDIRECT_URI }}
           _refresh_token: ${{ secrets._REFRESH_TOKEN }}
 
-      - name: grab_recent_songs
-        run: |
-          python sample_github_recently_played.py
+        run: python sample_github_recently_played.py
 
       - name: commit_runner_file_to_branch
         run: |
