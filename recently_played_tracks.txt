@@ -1,0 +1,20 @@
+GitHub_Runner_Date: 2023-06-20 04:17:01.189779 Track Name: "Waiting" Artist Name: "Omarion" Web Link: https://open.spotify.com/artist/0f5nVCcR06GX8Qikz0COtT Explicit: False 
+GitHub_Runner_Date: 2023-06-20 04:17:01.189865 Track Name: "For Me" Artist Name: "Michal Leah" Web Link: https://open.spotify.com/artist/50AUL69nMKHvAFs20YXGqb Explicit: False 
+GitHub_Runner_Date: 2023-06-20 04:17:01.189898 Track Name: "Esther" Artist Name: "Stevie Rizo" Web Link: https://open.spotify.com/artist/2oL0lsdUDgJOSDTcXCf8BL Explicit: False 
+GitHub_Runner_Date: 2023-06-20 04:17:01.189950 Track Name: "Down Bad (feat. Ivory Scott)" Artist Name: "Hitmaka" Web Link: https://open.spotify.com/artist/1VeOsE6gNwoBsIAinCAb3l Explicit: True 
+GitHub_Runner_Date: 2023-06-20 04:17:01.189979 Track Name: "Flawless" Artist Name: "Euroz" Web Link: https://open.spotify.com/artist/23qSMYgeDsJv22G2rNLVgy Explicit: True 
+GitHub_Runner_Date: 2023-06-20 04:17:01.190005 Track Name: "I Don't Swear" Artist Name: "Joe Hertz" Web Link: https://open.spotify.com/artist/76QHVIjgqlkWB9LNGliman Explicit: True 
+GitHub_Runner_Date: 2023-06-20 04:17:01.190036 Track Name: "Butterfly (222)" Artist Name: "Maijah" Web Link: https://open.spotify.com/artist/2y8pJFA0H4yB8ABmfpvXr5 Explicit: True 
+GitHub_Runner_Date: 2023-06-20 04:17:01.190062 Track Name: "Can't Fight This Feel" Artist Name: "Raquel Castro" Web Link: https://open.spotify.com/artist/1FOw6qIycSqShZV57QtDIX Explicit: False 
+GitHub_Runner_Date: 2023-06-20 04:17:01.190089 Track Name: "Fever" Artist Name: "June Freedom" Web Link: https://open.spotify.com/artist/7dYb5EKtRnRaWM0GQ12cKC Explicit: False 
+GitHub_Runner_Date: 2023-06-20 04:17:01.190116 Track Name: "Afrodite" Artist Name: "Akira Ræ" Web Link: https://open.spotify.com/artist/5NFVnZpuhjaFnBHKtLnDds Explicit: True 
+GitHub_Runner_Date: 2023-06-20 04:17:01.190145 Track Name: "When It's Over" Artist Name: "Tom Doolie" Web Link: https://open.spotify.com/artist/4C7NcNb9V6lakzMGHQlm8i Explicit: False 
+GitHub_Runner_Date: 2023-06-20 04:17:01.190171 Track Name: "Watch It Grow (feat. Sevyn Streeter)" Artist Name: "Traetwothree" Web Link: https://open.spotify.com/artist/67cw6GPXHiwsDjFTvAoVfV Explicit: True 
+GitHub_Runner_Date: 2023-06-20 04:17:01.190197 Track Name: "Watch It Grow (feat. Sevyn Streeter)" Artist Name: "Traetwothree" Web Link: https://open.spotify.com/artist/67cw6GPXHiwsDjFTvAoVfV Explicit: True 
+GitHub_Runner_Date: 2023-06-20 04:17:01.190222 Track Name: "Missing Sumthin'" Artist Name: "Nbdy" Web Link: https://open.spotify.com/artist/1fQWUHoSWhlrc9rmHi2xnE Explicit: True 
+GitHub_Runner_Date: 2023-06-20 04:17:01.190247 Track Name: "Soul Searching" Artist Name: "Q" Web Link: https://open.spotify.com/artist/22vqVhfPJab5kkU9txDGX3 Explicit: False 
+GitHub_Runner_Date: 2023-06-20 04:17:01.190273 Track Name: "Earth Is Ghetto" Artist Name: "Aliah Sheffield" Web Link: https://open.spotify.com/artist/6qQANHDxlpq5OEz47UBzMJ Explicit: False 
+GitHub_Runner_Date: 2023-06-20 04:17:01.190299 Track Name: "F Yah Job" Artist Name: "Childish Major" Web Link: https://open.spotify.com/artist/4bMNzAopkqYTwkBLwMKsF1 Explicit: False 
+GitHub_Runner_Date: 2023-06-20 04:17:01.190325 Track Name: "some unspoken thing" Artist Name: "Leuca" Web Link: https://open.spotify.com/artist/3wCg2Idgypg6OjA0uDYctR Explicit: False 
+GitHub_Runner_Date: 2023-06-20 04:17:01.190350 Track Name: "So Into You" Artist Name: "Kayla Rae" Web Link: https://open.spotify.com/artist/0cz0uZX8a30POuEC2hDL9j Explicit: False 
+GitHub_Runner_Date: 2023-06-20 04:17:01.190376 Track Name: "Nobody But You" Artist Name: "Algebra Blessett" Web Link: https://open.spotify.com/artist/0ffXbLm7KIcfu3M1ee0UkP Explicit: False 
