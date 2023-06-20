@@ -36,8 +36,9 @@ jobs:
         run: python sample_github_recently_played.py
 
       - name: commit_runner_file_to_branch
-        run: |
-          git config gituhub.runner "github_runnner@runnerr.com"
+        run:
+          git config --global user.email "you@example.com"
+          git config --global user.name "Your Name"
           git add recently_played_tracks.txt
           git commit -m "new songs added"
           git push origin Just_Listened
