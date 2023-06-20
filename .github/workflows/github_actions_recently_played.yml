@@ -37,6 +37,7 @@ jobs:
 
       - name: commit_runner_file_to_branch
         run: |
+          git config gituhub.runner "github_runnner@runnerr.com"
           git add recently_played_tracks.txt
           git commit -m "new songs added"
           git push origin Just_Listened
