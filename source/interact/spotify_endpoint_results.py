@@ -33,6 +33,11 @@ class SpotifyTrackResult:
         return self.spotify_track["artists"][0]["type"]
 
     @property
+    def ext_spotify_url(self)-> list:
+        "/items/0/track/external_urls/spotify"
+        return self.spotify_track["artists"][0]["external_urls"]["spotify"]
+
+    @property
     def explicit(self)->bool:
         return self.spotify_track["explicit"]
 

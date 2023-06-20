@@ -1,3 +1,5 @@
+import datetime
+
 from source.auth.spotify_oauth_authorization import OauthSpotify_Authorization_Code_Flow
 from source.interact.spotify_api import SpotifyHandler
 
@@ -8,4 +10,10 @@ if spotify_authenticator.authenticated:
     result = spotify_interact.spotify_get_recently_played_tracks()
 
     for track in result.tracks:
-        print(f'Track Name: {track.track_name} Artist: {track.artist_name} Explicit: {str(track.explicit)}')
+        with open("recently_played_tracks.txt", "a+") as out_file:
+            out_file.write(f'GitHub_Runner_Date: {datetime.datetime.utcnow()} '
+                f'Track Name: "{track.track_name}" '
+                f'Artist Name: "{track.artist_name}" '
+                f'Web Link: {track.ext_spotify_url} '
+                f'Explicit: {track.explicit} \n'
+                  )
