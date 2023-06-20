@@ -35,10 +35,15 @@ jobs:
 
         run: python sample_github_recently_played.py
 
-      - name: commit_runner_file_to_branch
-        run:
-          git config --global user.email "you@example.com"
-          git config --global user.name "Your Name"
-          git add recently_played_tracks.txt
-          git commit -m "new songs added"
-          git push origin Just_Listened
+      - name: commit log file
+        run: | 
+          git config --local user.email "actions@github.com"
+          git config --local user.name "Github Action"
+          git add -A
+          git diff-index -queit HEAD || (git commit -a -m "recently_played_tracks.txt" --allow-empty)
+
+      - name: push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: Just_Listened
