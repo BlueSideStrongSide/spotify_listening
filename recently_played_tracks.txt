@@ -18,3 +18,23 @@ GitHub_Runner_Date: 2023-06-20 04:17:01.190299 Track Name: "F Yah Job" Artist Na
 GitHub_Runner_Date: 2023-06-20 04:17:01.190325 Track Name: "some unspoken thing" Artist Name: "Leuca" Web Link: https://open.spotify.com/artist/3wCg2Idgypg6OjA0uDYctR Explicit: False 
 GitHub_Runner_Date: 2023-06-20 04:17:01.190350 Track Name: "So Into You" Artist Name: "Kayla Rae" Web Link: https://open.spotify.com/artist/0cz0uZX8a30POuEC2hDL9j Explicit: False 
 GitHub_Runner_Date: 2023-06-20 04:17:01.190376 Track Name: "Nobody But You" Artist Name: "Algebra Blessett" Web Link: https://open.spotify.com/artist/0ffXbLm7KIcfu3M1ee0UkP Explicit: False 
+GitHub_Runner_Date: 2023-06-23 05:28:15.193199 Track Name: "Det Snurrar I Min Skalle" Artist Name: "Martin Senter" Web Link: https://open.spotify.com/artist/0JvgZZ0de9ul4aav8kqHNc Explicit: False 
+GitHub_Runner_Date: 2023-06-23 05:28:15.193269 Track Name: "Nike" Artist Name: "DyE" Web Link: https://open.spotify.com/artist/1zUARwQOZCs4MEzDt65eG6 Explicit: False 
+GitHub_Runner_Date: 2023-06-23 05:28:15.193299 Track Name: "Leave a Trace - Four Tet Remix" Artist Name: "CHVRCHES" Web Link: https://open.spotify.com/artist/3CjlHNtplJyTf9npxaPl5w Explicit: False 
+GitHub_Runner_Date: 2023-06-23 05:28:15.193334 Track Name: "Alice" Artist Name: "Pogo" Web Link: https://open.spotify.com/artist/1ng3xz2dyz57Z1WpnzM2G7 Explicit: False 
+GitHub_Runner_Date: 2023-06-23 05:28:15.193359 Track Name: "Say You Never Let Me Go" Artist Name: "Touchy Mob" Web Link: https://open.spotify.com/artist/2znw4sjkj2ZwWxrnXiCU9k Explicit: False 
+GitHub_Runner_Date: 2023-06-23 05:28:15.193384 Track Name: "Lips - Edu Imbernon Remix" Artist Name: "The xx" Web Link: https://open.spotify.com/artist/3iOvXCl6edW5Um0fXEBRXy Explicit: False 
+GitHub_Runner_Date: 2023-06-23 05:28:15.193414 Track Name: "Fall - Remixed by M83 VS Big Black Delta" Artist Name: "Daft Punk" Web Link: https://open.spotify.com/artist/4tZwfgrHOc3mvqYlEYSvVi Explicit: False 
+GitHub_Runner_Date: 2023-06-23 05:28:15.193439 Track Name: "Never Too Far" Artist Name: "Sorrow" Web Link: https://open.spotify.com/artist/3PHeRud25vIfvIChlwBMlC Explicit: False 
+GitHub_Runner_Date: 2023-06-23 05:28:15.193463 Track Name: "Feel Real - Ta-Ku Remix" Artist Name: "MOVEMENT" Web Link: https://open.spotify.com/artist/3x7BaW5q1SDNv6bVrbOCmX Explicit: False 
+GitHub_Runner_Date: 2023-06-23 05:28:15.193488 Track Name: "Tessellate" Artist Name: "alt-J" Web Link: https://open.spotify.com/artist/3XHO7cRUPCLOr6jwp8vsx5 Explicit: False 
+GitHub_Runner_Date: 2023-06-23 05:28:15.193512 Track Name: "FUSE" Artist Name: "Hudson Mohawke" Web Link: https://open.spotify.com/artist/6olWbKW2VLhFCHfOi0iEDb Explicit: False 
+GitHub_Runner_Date: 2023-06-23 05:28:15.193536 Track Name: "play" Artist Name: "iamamiwhoami" Web Link: https://open.spotify.com/artist/6UOcY6w4K6Ek5Lw5rFDHdP Explicit: False 
+GitHub_Runner_Date: 2023-06-23 05:28:15.193560 Track Name: "Very First Breath" Artist Name: "Hudson Mohawke" Web Link: https://open.spotify.com/artist/6olWbKW2VLhFCHfOi0iEDb Explicit: False 
+GitHub_Runner_Date: 2023-06-23 05:28:15.193584 Track Name: "Chasing After a Queen" Artist Name: "Sayem" Web Link: https://open.spotify.com/artist/5wz7NdJYlKykQu0P3TogF1 Explicit: False 
+GitHub_Runner_Date: 2023-06-23 05:28:15.193607 Track Name: "So Fresh" Artist Name: "Death Team" Web Link: https://open.spotify.com/artist/5Z3wNT3CwCujFCgY7xs9Yu Explicit: False 
+GitHub_Runner_Date: 2023-06-23 05:28:15.193631 Track Name: "Tether (Eric Prydz Vs. CHVRCHES) - Radio Edit" Artist Name: "Eric Prydz" Web Link: https://open.spotify.com/artist/5sm0jQ1mq0dusiLtDJ2b4R Explicit: False 
+GitHub_Runner_Date: 2023-06-23 05:28:15.193654 Track Name: "Adieu, Pt. II" Artist Name: "Tchami" Web Link: https://open.spotify.com/artist/1KpCi9BOfviCVhmpI4G2sY Explicit: False 
+GitHub_Runner_Date: 2023-06-23 05:28:15.193679 Track Name: "Hausch - George Morel's Mainstream Radio Edit" Artist Name: "andhim" Web Link: https://open.spotify.com/artist/6XJeFzmI6vrWyHcdB7EImP Explicit: False 
+GitHub_Runner_Date: 2023-06-23 05:28:15.193703 Track Name: "Pacific Coast Highway" Artist Name: "Kavinsky" Web Link: https://open.spotify.com/artist/0UF7XLthtbSF2Eur7559oV Explicit: False 
+GitHub_Runner_Date: 2023-06-23 05:28:15.193727 Track Name: "Neon Snakes" Artist Name: "Fontän" Web Link: https://open.spotify.com/artist/6EXurtehkPBoE9zRRHW9sO Explicit: False 
