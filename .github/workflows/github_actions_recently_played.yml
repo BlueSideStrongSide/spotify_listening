@@ -1,9 +1,8 @@
 name: run github_actions_recenetly_played
 
 on:
-  workflow_dispatch:
   schedule:
-   # Run every Tuesday at 0 UTC
+   # Run every 0 UTC
     - cron: '0 0 * * *'
 
 jobs:
