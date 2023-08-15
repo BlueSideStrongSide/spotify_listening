@@ -1,10 +1,9 @@
 name: run github_actions_recenetly_played
 
 on:
-  workflow_dispatch:
   schedule:
-   # Run every Tuesday at 0 UTC
-    - cron: '0 0 * * 2'
+   # Run every 0 UTC
+    - cron: '0 0 * * *'
 
 jobs:
   build:
@@ -14,7 +13,7 @@ jobs:
       - name: checkout repo content
         uses: actions/checkout@v3
         with:
-          ref: master
+          ref: Just_Listened
 
       - name: setup python
         uses: actions/setup-python@v4
@@ -26,12 +25,24 @@ jobs:
           python -m pip install --upgrade pip 
           pip install -r requirements.txt
 
-      - name: run python script
+      - name: grab_recent_songs
         env:
           _client_id: ${{ secrets._CLIENT_ID }}
           _client_secret: ${{ secrets._CLIENT_SECRET }}
           _redirect_uri: ${{ secrets._REDIRECT_URI }}
           _refresh_token: ${{ secrets._REFRESH_TOKEN }}
 
-
         run: python sample_github_recently_played.py
+
+      - name: commit log file
+        run: | 
+          git config --local user.email "actions@github.com"
+          git config --local user.name "Github Action"
+          git add -A
+          git diff-index -queit HEAD || (git commit -a -m "recently_played_tracks.txt" --allow-empty)
+
+      - name: push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: Just_Listened
