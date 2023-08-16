@@ -38,3 +38,23 @@ GitHub_Runner_Date: 2023-06-23 05:28:15.193654 Track Name: "Adieu, Pt. II" Artis
 GitHub_Runner_Date: 2023-06-23 05:28:15.193679 Track Name: "Hausch - George Morel's Mainstream Radio Edit" Artist Name: "andhim" Web Link: https://open.spotify.com/artist/6XJeFzmI6vrWyHcdB7EImP Explicit: False 
 GitHub_Runner_Date: 2023-06-23 05:28:15.193703 Track Name: "Pacific Coast Highway" Artist Name: "Kavinsky" Web Link: https://open.spotify.com/artist/0UF7XLthtbSF2Eur7559oV Explicit: False 
 GitHub_Runner_Date: 2023-06-23 05:28:15.193727 Track Name: "Neon Snakes" Artist Name: "Fontän" Web Link: https://open.spotify.com/artist/6EXurtehkPBoE9zRRHW9sO Explicit: False 
+GitHub_Runner_Date: 2023-08-16 01:01:59.365763 Track Name: "TWO DAYS" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-08-16 01:01:59.365844 Track Name: "SLUMMER" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-08-16 01:01:59.365875 Track Name: "SCIENTISTS & ENGINEERS (feat. Future & Eryn Allen Kane)" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-08-16 01:01:59.365905 Track Name: "MOTHERLESS" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-08-16 01:01:59.365933 Track Name: "NRICH (feat. 6LACK, Eryn Allen Kane)" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-08-16 01:01:59.365970 Track Name: "SPACESHIP VIEWS" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-08-16 01:01:59.365997 Track Name: "HIGH & HOLY" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-08-16 01:01:59.366024 Track Name: "SOMETHING FOR JUNKIES" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-08-16 01:01:59.366051 Track Name: "TALK'N THAT SHIT!" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-08-16 01:01:59.366077 Track Name: "DON'T LET THE DEVIL (feat. thankugoodsir)" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-08-16 01:01:59.366105 Track Name: "EXIT 9" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-08-16 01:01:59.366131 Track Name: "SHED TEARS (feat. Lena Bird Myles)" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-08-16 01:01:59.366159 Track Name: "RUN (feat. Young Thug)" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-08-16 01:01:59.366185 Track Name: "RUN (feat. Young Thug)" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-08-16 01:01:59.366212 Track Name: "Wootdawoot" Artist Name: "Shaun Milli" Web Link: https://open.spotify.com/artist/1e8UewEEe0Oo7CxwVC4Y04 Explicit: True 
+GitHub_Runner_Date: 2023-08-16 01:01:59.366238 Track Name: "Selfish" Artist Name: "Shaun Milli" Web Link: https://open.spotify.com/artist/1e8UewEEe0Oo7CxwVC4Y04 Explicit: False 
+GitHub_Runner_Date: 2023-08-16 01:01:59.366264 Track Name: "Lullaby (Live Freestyle Interlude)" Artist Name: "Shaun Milli" Web Link: https://open.spotify.com/artist/1e8UewEEe0Oo7CxwVC4Y04 Explicit: False 
+GitHub_Runner_Date: 2023-08-16 01:01:59.366291 Track Name: "Go Milli (Intro)" Artist Name: "Shaun Milli" Web Link: https://open.spotify.com/artist/1e8UewEEe0Oo7CxwVC4Y04 Explicit: False 
+GitHub_Runner_Date: 2023-08-16 01:01:59.366317 Track Name: "Like Dat" Artist Name: "Shaun Milli" Web Link: https://open.spotify.com/artist/1e8UewEEe0Oo7CxwVC4Y04 Explicit: True 
+GitHub_Runner_Date: 2023-08-16 01:01:59.366342 Track Name: "Wootdawoot" Artist Name: "Shaun Milli" Web Link: https://open.spotify.com/artist/1e8UewEEe0Oo7CxwVC4Y04 Explicit: False 
