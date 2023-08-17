@@ -40,6 +40,7 @@ this will get changed quite often as I continue to want to tinker with new thing
 Below are a few of the endpoints we support, and also an example script how how you can authenticate and start using the API. 
 
 You can also fork this project and update the repoisitory secrets and use the provided runner, to communicate directly with Spotify.
+You can review a small example of this within the text file here: https://github.com/BlueSideStrongSide/Spotify_Listening/blob/Just_Listened/recently_played_tracks.txt
 
 | REPO SECRET    | Value                                                                                                                                    |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------|
