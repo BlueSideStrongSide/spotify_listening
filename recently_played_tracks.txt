@@ -78,3 +78,23 @@ GitHub_Runner_Date: 2023-08-17 01:01:08.147080 Track Name: "RUN (feat. Young Thu
 GitHub_Runner_Date: 2023-08-17 01:01:08.147104 Track Name: "RUN (feat. Young Thug)" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
 GitHub_Runner_Date: 2023-08-17 01:01:08.147128 Track Name: "Wootdawoot" Artist Name: "Shaun Milli" Web Link: https://open.spotify.com/artist/1e8UewEEe0Oo7CxwVC4Y04 Explicit: True 
 GitHub_Runner_Date: 2023-08-17 01:01:08.147153 Track Name: "Selfish" Artist Name: "Shaun Milli" Web Link: https://open.spotify.com/artist/1e8UewEEe0Oo7CxwVC4Y04 Explicit: False 
+GitHub_Runner_Date: 2023-08-18 01:01:51.280306 Track Name: "YOURS (ft. India Shawn)" Artist Name: "DIXSON" Web Link: https://open.spotify.com/artist/61677A13kBwbTfqECI65p8 Explicit: True 
+GitHub_Runner_Date: 2023-08-18 01:01:51.280380 Track Name: "Innocence" Artist Name: "Tamaraebi" Web Link: https://open.spotify.com/artist/5PRqaEB5d1aoPXZzCHNmoZ Explicit: False 
+GitHub_Runner_Date: 2023-08-18 01:01:51.280411 Track Name: "Too Dry To Cry" Artist Name: "Willis Earl Beal" Web Link: https://open.spotify.com/artist/58CUVLn2xm7I9iFg97t9XC Explicit: False 
+GitHub_Runner_Date: 2023-08-18 01:01:51.280439 Track Name: "The Ocean" Artist Name: "Joseph Solomon" Web Link: https://open.spotify.com/artist/0hZEO1Bl2QRGUaeeSLWDYN Explicit: False 
+GitHub_Runner_Date: 2023-08-18 01:01:51.280489 Track Name: "Leisure" Artist Name: "Elujay" Web Link: https://open.spotify.com/artist/1CgbNAF3Stnz1Tpipu3xdO Explicit: True 
+GitHub_Runner_Date: 2023-08-18 01:01:51.280518 Track Name: "I Don't Want Your Money (feat. H.E.R.)" Artist Name: "Ed Sheeran" Web Link: https://open.spotify.com/artist/6eUKZXaKkcviH0Ku9w2n3V Explicit: False 
+GitHub_Runner_Date: 2023-08-18 01:01:51.280545 Track Name: "Wearin' You Down" Artist Name: "Obrian" Web Link: https://open.spotify.com/artist/4xXB4xP7gzcPRwg0H6Gn1L Explicit: False 
+GitHub_Runner_Date: 2023-08-18 01:01:51.280571 Track Name: "Little Black Dress" Artist Name: "One Drop" Web Link: https://open.spotify.com/artist/5pf5LNOq8NQJYCS44cF8Kw Explicit: False 
+GitHub_Runner_Date: 2023-08-18 01:01:51.280606 Track Name: "Peak (Fed Up)" Artist Name: "RAAHiiM" Web Link: https://open.spotify.com/artist/5Bo5WRNdz8ZOSVA6nJs5M9 Explicit: False 
+GitHub_Runner_Date: 2023-08-18 01:01:51.280632 Track Name: "Pillows" Artist Name: "Emanuel" Web Link: https://open.spotify.com/artist/4Dj6yFk1Y4v6J4jZyhtrZ7 Explicit: False 
+GitHub_Runner_Date: 2023-08-18 01:01:51.280659 Track Name: "Roots" Artist Name: "Refs" Web Link: https://open.spotify.com/artist/7yxpGyw5CZPsrTPpkERpc4 Explicit: False 
+GitHub_Runner_Date: 2023-08-18 01:01:51.280685 Track Name: "Be Somebody" Artist Name: "Sevana" Web Link: https://open.spotify.com/artist/2TZL5FEo1CGwmgdMSFwsdS Explicit: False 
+GitHub_Runner_Date: 2023-08-18 01:01:51.280712 Track Name: "Blue Mountain Ridge" Artist Name: "Vicktor Taiwò" Web Link: https://open.spotify.com/artist/30dFzY3dddH5mai3xo749h Explicit: False 
+GitHub_Runner_Date: 2023-08-18 01:01:51.280741 Track Name: "dreaming" Artist Name: "Mar" Web Link: https://open.spotify.com/artist/6e2Hf0OeWo1XAK5Sg70oBQ Explicit: False 
+GitHub_Runner_Date: 2023-08-18 01:01:51.280768 Track Name: "Kwaku the Traveller" Artist Name: "Black Sherif" Web Link: https://open.spotify.com/artist/2LiqbH7OhqP0yuaG8VL1wJ Explicit: True 
+GitHub_Runner_Date: 2023-08-18 01:01:51.280793 Track Name: "Slow Down - Acoustic" Artist Name: "Skip Marley" Web Link: https://open.spotify.com/artist/4ryoUS0W8qXokfMxrlJt6O Explicit: False 
+GitHub_Runner_Date: 2023-08-18 01:01:51.280819 Track Name: "Milk & Honey" Artist Name: "Goapele" Web Link: https://open.spotify.com/artist/5cgtn5YWC3Fr06wTps1dBq Explicit: False 
+GitHub_Runner_Date: 2023-08-18 01:01:51.280845 Track Name: "Palisades, CA" Artist Name: "Larry June" Web Link: https://open.spotify.com/artist/1grN0519h2zYqpRtYbDZAl Explicit: True 
+GitHub_Runner_Date: 2023-08-18 01:01:51.280871 Track Name: "LIGHTS PLEASE (feat. Pusha T & CHASE B)" Artist Name: "Khi Infinite" Web Link: https://open.spotify.com/artist/6wthNkb9tOcsMdNtrHI5vs Explicit: True 
+GitHub_Runner_Date: 2023-08-18 01:01:51.280897 Track Name: "Two Tens (feat. Anderson .Paak)" Artist Name: "Cordae" Web Link: https://open.spotify.com/artist/0huGjMyP507tBCARyzSkrv Explicit: True 
