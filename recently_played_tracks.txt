@@ -98,3 +98,23 @@ GitHub_Runner_Date: 2023-08-18 01:01:51.280819 Track Name: "Milk & Honey" Artist
 GitHub_Runner_Date: 2023-08-18 01:01:51.280845 Track Name: "Palisades, CA" Artist Name: "Larry June" Web Link: https://open.spotify.com/artist/1grN0519h2zYqpRtYbDZAl Explicit: True 
 GitHub_Runner_Date: 2023-08-18 01:01:51.280871 Track Name: "LIGHTS PLEASE (feat. Pusha T & CHASE B)" Artist Name: "Khi Infinite" Web Link: https://open.spotify.com/artist/6wthNkb9tOcsMdNtrHI5vs Explicit: True 
 GitHub_Runner_Date: 2023-08-18 01:01:51.280897 Track Name: "Two Tens (feat. Anderson .Paak)" Artist Name: "Cordae" Web Link: https://open.spotify.com/artist/0huGjMyP507tBCARyzSkrv Explicit: True 
+GitHub_Runner_Date: 2023-08-19 01:00:13.494124 Track Name: "Hol' It Down" Artist Name: "Ar'mon" Web Link: https://open.spotify.com/artist/4vXshjmmW0YRLo7yK9dhrr Explicit: True 
+GitHub_Runner_Date: 2023-08-19 01:00:13.494198 Track Name: "Lucky - GC PRESENTS: Evergreen - Live" Artist Name: "Tish Hyman" Web Link: https://open.spotify.com/artist/6WzffCtFJ1iDsAwEV35h6K Explicit: False 
+GitHub_Runner_Date: 2023-08-19 01:00:13.494229 Track Name: "What It Is" Artist Name: "Amber Mark" Web Link: https://open.spotify.com/artist/0tbeZu9lv8YEKSQ9tZSslu Explicit: False 
+GitHub_Runner_Date: 2023-08-19 01:00:13.494264 Track Name: "Milk & Honey" Artist Name: "Goapele" Web Link: https://open.spotify.com/artist/5cgtn5YWC3Fr06wTps1dBq Explicit: False 
+GitHub_Runner_Date: 2023-08-19 01:00:13.494291 Track Name: "SLUMMER" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-08-19 01:00:13.494317 Track Name: "You Are (feat. Amber Olivier)" Artist Name: "SamTRax" Web Link: https://open.spotify.com/artist/7oGdaJSr8Hz4w6DDPCBiW2 Explicit: False 
+GitHub_Runner_Date: 2023-08-19 01:00:13.494343 Track Name: "Gotta Get It" Artist Name: "Spodee" Web Link: https://open.spotify.com/artist/3b3DRCf7t5C5yV7WJrxvzo Explicit: True 
+GitHub_Runner_Date: 2023-08-19 01:00:13.494369 Track Name: "Lost One - Live" Artist Name: "Jazmine Sullivan" Web Link: https://open.spotify.com/artist/7gSjFKpVmDgC2MMsnN8CYq Explicit: True 
+GitHub_Runner_Date: 2023-08-19 01:00:13.494395 Track Name: "First Time" Artist Name: "TEEKS" Web Link: https://open.spotify.com/artist/4ofg0wyo4TjuNtWQ5XxZhJ Explicit: False 
+GitHub_Runner_Date: 2023-08-19 01:00:13.494421 Track Name: "Gugu" Artist Name: "Soul Kulture" Web Link: https://open.spotify.com/artist/1LZkUMy70sBaxwNWLr22ah Explicit: False 
+GitHub_Runner_Date: 2023-08-19 01:00:13.494456 Track Name: "Are You down for Love" Artist Name: "spring gang" Web Link: https://open.spotify.com/artist/5MwxRYT0ZWOpQQBPktD0Rf Explicit: False 
+GitHub_Runner_Date: 2023-08-19 01:00:13.494483 Track Name: "I Deserve It" Artist Name: "Lamboginny" Web Link: https://open.spotify.com/artist/4KK2BzTIojD7LTz9ndsVGF Explicit: False 
+GitHub_Runner_Date: 2023-08-19 01:00:13.494510 Track Name: "over and over" Artist Name: "sky" Web Link: https://open.spotify.com/artist/2CfhN5oSdaZIGfe2KTq2yB Explicit: False 
+GitHub_Runner_Date: 2023-08-19 01:00:13.494536 Track Name: "Keep In Touch" Artist Name: "Ye Ali" Web Link: https://open.spotify.com/artist/0Maq4Nk8ZM6keGZjTCXGIH Explicit: False 
+GitHub_Runner_Date: 2023-08-19 01:00:13.494562 Track Name: "M O O D" Artist Name: "Milli Moto" Web Link: https://open.spotify.com/artist/5HZ5cdgIp0KCphbHze4IE0 Explicit: True 
+GitHub_Runner_Date: 2023-08-19 01:00:13.494587 Track Name: "Be Here" Artist Name: "Boney James" Web Link: https://open.spotify.com/artist/1sBRcMH8DDR8Nsk2RoJmjS Explicit: False 
+GitHub_Runner_Date: 2023-08-19 01:00:13.494613 Track Name: "Guarding The Gates - From "Queen & Slim: The Soundtrack"" Artist Name: "Ms. Lauryn Hill" Web Link: https://open.spotify.com/artist/2Mu5NfyYm8n5iTomuKAEHl Explicit: False 
+GitHub_Runner_Date: 2023-08-19 01:00:13.494641 Track Name: "Sweet" Artist Name: "[ K S R ]" Web Link: https://open.spotify.com/artist/7BWjWVat8puiUriWads4kk Explicit: False 
+GitHub_Runner_Date: 2023-08-19 01:00:13.494666 Track Name: "Detune" Artist Name: "Kaleida" Web Link: https://open.spotify.com/artist/6zyPKJ4ePhYLsBEy4A6BVX Explicit: False 
+GitHub_Runner_Date: 2023-08-19 01:00:13.494693 Track Name: "Undertow" Artist Name: "Goapele" Web Link: https://open.spotify.com/artist/5cgtn5YWC3Fr06wTps1dBq Explicit: False 
