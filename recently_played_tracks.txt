@@ -118,3 +118,23 @@ GitHub_Runner_Date: 2023-08-19 01:00:13.494613 Track Name: "Guarding The Gates -
 GitHub_Runner_Date: 2023-08-19 01:00:13.494641 Track Name: "Sweet" Artist Name: "[ K S R ]" Web Link: https://open.spotify.com/artist/7BWjWVat8puiUriWads4kk Explicit: False 
 GitHub_Runner_Date: 2023-08-19 01:00:13.494666 Track Name: "Detune" Artist Name: "Kaleida" Web Link: https://open.spotify.com/artist/6zyPKJ4ePhYLsBEy4A6BVX Explicit: False 
 GitHub_Runner_Date: 2023-08-19 01:00:13.494693 Track Name: "Undertow" Artist Name: "Goapele" Web Link: https://open.spotify.com/artist/5cgtn5YWC3Fr06wTps1dBq Explicit: False 
+GitHub_Runner_Date: 2023-08-20 01:04:59.096957 Track Name: "Say It." Artist Name: "Ebz the Artist" Web Link: https://open.spotify.com/artist/0IhuINLhYxegbaGXjocTk1 Explicit: True 
+GitHub_Runner_Date: 2023-08-20 01:04:59.097038 Track Name: "MaryJane" Artist Name: "Will84" Web Link: https://open.spotify.com/artist/1BeeJoeMWmKFM93rL0fF09 Explicit: False 
+GitHub_Runner_Date: 2023-08-20 01:04:59.097072 Track Name: "Ode" Artist Name: "Collard" Web Link: https://open.spotify.com/artist/3UHGHiVMz1L0XqFi3oXHvH Explicit: True 
+GitHub_Runner_Date: 2023-08-20 01:04:59.097102 Track Name: "how deep?" Artist Name: "Tai Verdes" Web Link: https://open.spotify.com/artist/2kCO8LXN1usaOPL3iEE28I Explicit: False 
+GitHub_Runner_Date: 2023-08-20 01:04:59.097131 Track Name: "Let the Guitar Sing (Live)" Artist Name: "AJ Ghent [ j-ent ]" Web Link: https://open.spotify.com/artist/6gLGK4HewZQk0009RLQ3nx Explicit: False 
+GitHub_Runner_Date: 2023-08-20 01:04:59.097159 Track Name: "So Much More" Artist Name: "Xavier Omär" Web Link: https://open.spotify.com/artist/3UjPnt2nRmw10N58bBeNOg Explicit: False 
+GitHub_Runner_Date: 2023-08-20 01:04:59.097190 Track Name: "I See You" Artist Name: "Candiace Dillard" Web Link: https://open.spotify.com/artist/7pAX5zXGgPGtE7kGdoNONl Explicit: False 
+GitHub_Runner_Date: 2023-08-20 01:04:59.097218 Track Name: "Speed Dial No. 1" Artist Name: "Mcamp" Web Link: https://open.spotify.com/artist/6hT8w4uFh05IyRb5xkOAR3 Explicit: True 
+GitHub_Runner_Date: 2023-08-20 01:04:59.097245 Track Name: "MOTHERLESS" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-08-20 01:04:59.097272 Track Name: "Back In The Day" Artist Name: "Wayne Brady" Web Link: https://open.spotify.com/artist/1wLJTOL6Mz0AOni5EcH4v3 Explicit: False 
+GitHub_Runner_Date: 2023-08-20 01:04:59.097299 Track Name: "Lie for You - Acoustic Version" Artist Name: "Snakehips" Web Link: https://open.spotify.com/artist/2FwJwEswyIUAljqgjNSHgP Explicit: False 
+GitHub_Runner_Date: 2023-08-20 01:04:59.097348 Track Name: "Queen Appeal" Artist Name: "Crutchfield Jones" Web Link: https://open.spotify.com/artist/3j1hQvTjPkQeU2eeUGPanM Explicit: False 
+GitHub_Runner_Date: 2023-08-20 01:04:59.097388 Track Name: "Lucky - GC PRESENTS: Evergreen - Live" Artist Name: "Tish Hyman" Web Link: https://open.spotify.com/artist/6WzffCtFJ1iDsAwEV35h6K Explicit: False 
+GitHub_Runner_Date: 2023-08-20 01:04:59.097419 Track Name: "fade away" Artist Name: "kai" Web Link: https://open.spotify.com/artist/6xHUXzrfhFgnIv86EBR3Ml Explicit: False 
+GitHub_Runner_Date: 2023-08-20 01:04:59.097449 Track Name: "Dive Bar - Demo Version" Artist Name: "Caleb Hawley" Web Link: https://open.spotify.com/artist/5GF3JcY2h0SUPkDlo7ByCB Explicit: False 
+GitHub_Runner_Date: 2023-08-20 01:04:59.097478 Track Name: "Summer Evenings" Artist Name: "Marie Dahlstrom" Web Link: https://open.spotify.com/artist/49NfOTfSPhrb0sJBVYS1iM Explicit: False 
+GitHub_Runner_Date: 2023-08-20 01:04:59.097507 Track Name: "Falls (Reprise)" Artist Name: "ODESZA" Web Link: https://open.spotify.com/artist/21mKp7DqtSNHhCAU2ugvUw Explicit: False 
+GitHub_Runner_Date: 2023-08-20 01:04:59.097536 Track Name: "Too Good - The Wild Honey Pie Buzzsession" Artist Name: "Ayoni" Web Link: https://open.spotify.com/artist/2Tju7nLsAMD6RTBna56hj6 Explicit: False 
+GitHub_Runner_Date: 2023-08-20 01:04:59.097564 Track Name: "SLUMMER" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-08-20 01:04:59.097593 Track Name: "Hol' It Down" Artist Name: "Ar'mon" Web Link: https://open.spotify.com/artist/4vXshjmmW0YRLo7yK9dhrr Explicit: True 
