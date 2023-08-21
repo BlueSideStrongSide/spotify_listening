@@ -138,3 +138,23 @@ GitHub_Runner_Date: 2023-08-20 01:04:59.097507 Track Name: "Falls (Reprise)" Art
 GitHub_Runner_Date: 2023-08-20 01:04:59.097536 Track Name: "Too Good - The Wild Honey Pie Buzzsession" Artist Name: "Ayoni" Web Link: https://open.spotify.com/artist/2Tju7nLsAMD6RTBna56hj6 Explicit: False 
 GitHub_Runner_Date: 2023-08-20 01:04:59.097564 Track Name: "SLUMMER" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
 GitHub_Runner_Date: 2023-08-20 01:04:59.097593 Track Name: "Hol' It Down" Artist Name: "Ar'mon" Web Link: https://open.spotify.com/artist/4vXshjmmW0YRLo7yK9dhrr Explicit: True 
+GitHub_Runner_Date: 2023-08-21 01:02:25.354726 Track Name: "Need It" Artist Name: "Inayah" Web Link: https://open.spotify.com/artist/2jomvyAKdqYYimeLl3XcdZ Explicit: True 
+GitHub_Runner_Date: 2023-08-21 01:02:25.354797 Track Name: "Sum Good" Artist Name: "Rosehardt" Web Link: https://open.spotify.com/artist/4r6z3Bx1rDiuqkyKGXGvSN Explicit: False 
+GitHub_Runner_Date: 2023-08-21 01:02:25.354827 Track Name: "Easy (feat. 6LACK)" Artist Name: "Next Town Down" Web Link: https://open.spotify.com/artist/2jJCk4fs0irQjjrG0Yo4I9 Explicit: True 
+GitHub_Runner_Date: 2023-08-21 01:02:25.354853 Track Name: "Still - Mahogany Sessions" Artist Name: "Noah Slee" Web Link: https://open.spotify.com/artist/2inX1svE5swPuIBIJdrFyo Explicit: False 
+GitHub_Runner_Date: 2023-08-21 01:02:25.354878 Track Name: "Undertow" Artist Name: "Goapele" Web Link: https://open.spotify.com/artist/5cgtn5YWC3Fr06wTps1dBq Explicit: False 
+GitHub_Runner_Date: 2023-08-21 01:02:25.354903 Track Name: "Girl" Artist Name: "SAYGRACE" Web Link: https://open.spotify.com/artist/6y5amJcTjeDgLXIjtQLMst Explicit: False 
+GitHub_Runner_Date: 2023-08-21 01:02:25.354928 Track Name: "Cracks In The Ceiling" Artist Name: "Devon Gilfillian" Web Link: https://open.spotify.com/artist/5cbak2U6nZWXDYiG72E3lH Explicit: False 
+GitHub_Runner_Date: 2023-08-21 01:02:25.354952 Track Name: "Leave It All Behind" Artist Name: "John Splithoff" Web Link: https://open.spotify.com/artist/7A2x4Urpc4VKF1pb7qnNqD Explicit: False 
+GitHub_Runner_Date: 2023-08-21 01:02:25.354977 Track Name: "So Much More" Artist Name: "Xavier Omär" Web Link: https://open.spotify.com/artist/3UjPnt2nRmw10N58bBeNOg Explicit: False 
+GitHub_Runner_Date: 2023-08-21 01:02:25.355005 Track Name: "All I Seek" Artist Name: "Manana" Web Link: https://open.spotify.com/artist/6omm7OGZMQZ2XODf4JVKnQ Explicit: False 
+GitHub_Runner_Date: 2023-08-21 01:02:25.355029 Track Name: "Bloom" Artist Name: "RHODES" Web Link: https://open.spotify.com/artist/07FfkbljNIdl45Ijlh1aXS Explicit: False 
+GitHub_Runner_Date: 2023-08-21 01:02:25.355053 Track Name: "Cigarettes & Alcohol - A COLORS ENCORE" Artist Name: "Santino Le Saint" Web Link: https://open.spotify.com/artist/49WBtnIs3VA1tHR7jQG1F6 Explicit: True 
+GitHub_Runner_Date: 2023-08-21 01:02:25.355077 Track Name: "Let's Go to Work - Mystique Alternative Remix" Artist Name: "Michon Young" Web Link: https://open.spotify.com/artist/2JL7mMLV6GXlpudRLGcd56 Explicit: False 
+GitHub_Runner_Date: 2023-08-21 01:02:25.355102 Track Name: "Hunny" Artist Name: "Meron T" Web Link: https://open.spotify.com/artist/40jBR1w46zqDUfbVQttJrb Explicit: False 
+GitHub_Runner_Date: 2023-08-21 01:02:25.355135 Track Name: "Bittersweet - A COLORS SHOW" Artist Name: "Lianne La Havas" Web Link: https://open.spotify.com/artist/2RP4pPHTXlQpDnO9LvR7Yt Explicit: False 
+GitHub_Runner_Date: 2023-08-21 01:02:25.355160 Track Name: "Don't Mind" Artist Name: "Kent Jones" Web Link: https://open.spotify.com/artist/3jHBxvZ9gbBkZ17wKUqVsO Explicit: True 
+GitHub_Runner_Date: 2023-08-21 01:02:25.355183 Track Name: "Love Culture" Artist Name: "Johnta Austin" Web Link: https://open.spotify.com/artist/0DRTDBGl9fBAzVdF1IFA75 Explicit: True 
+GitHub_Runner_Date: 2023-08-21 01:02:25.355208 Track Name: "Fire" Artist Name: "SiR" Web Link: https://open.spotify.com/artist/3QTDHixorJelOLxoxcjqGx Explicit: True 
+GitHub_Runner_Date: 2023-08-21 01:02:25.355232 Track Name: "Home With You" Artist Name: "Marie Dahlstrom" Web Link: https://open.spotify.com/artist/49NfOTfSPhrb0sJBVYS1iM Explicit: False 
+GitHub_Runner_Date: 2023-08-21 01:02:25.355256 Track Name: "No Logic (Acoustic)" Artist Name: "Kara Marni" Web Link: https://open.spotify.com/artist/2lfOu2DjnvR4Xpolt3OPfv Explicit: False 
