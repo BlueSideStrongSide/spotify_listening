@@ -158,3 +158,23 @@ GitHub_Runner_Date: 2023-08-21 01:02:25.355183 Track Name: "Love Culture" Artist
 GitHub_Runner_Date: 2023-08-21 01:02:25.355208 Track Name: "Fire" Artist Name: "SiR" Web Link: https://open.spotify.com/artist/3QTDHixorJelOLxoxcjqGx Explicit: True 
 GitHub_Runner_Date: 2023-08-21 01:02:25.355232 Track Name: "Home With You" Artist Name: "Marie Dahlstrom" Web Link: https://open.spotify.com/artist/49NfOTfSPhrb0sJBVYS1iM Explicit: False 
 GitHub_Runner_Date: 2023-08-21 01:02:25.355256 Track Name: "No Logic (Acoustic)" Artist Name: "Kara Marni" Web Link: https://open.spotify.com/artist/2lfOu2DjnvR4Xpolt3OPfv Explicit: False 
+GitHub_Runner_Date: 2023-08-22 01:03:12.577066 Track Name: "Tropicana Fruit Juice" Artist Name: "Ycee" Web Link: https://open.spotify.com/artist/5zqRdlPXeCIuxgaPimSKXj Explicit: False 
+GitHub_Runner_Date: 2023-08-22 01:03:12.577132 Track Name: "Too Good - The Wild Honey Pie Buzzsession" Artist Name: "Ayoni" Web Link: https://open.spotify.com/artist/2Tju7nLsAMD6RTBna56hj6 Explicit: False 
+GitHub_Runner_Date: 2023-08-22 01:03:12.577161 Track Name: "Options" Artist Name: "GR€Y" Web Link: https://open.spotify.com/artist/7nG93Qrraq1TbXn8SqlzTd Explicit: False 
+GitHub_Runner_Date: 2023-08-22 01:03:12.577193 Track Name: "Zodiac Killer" Artist Name: "Mooski" Web Link: https://open.spotify.com/artist/4NqH3V7GS0Igs1VyGMXEi8 Explicit: True 
+GitHub_Runner_Date: 2023-08-22 01:03:12.577219 Track Name: "Easy (feat. 6LACK)" Artist Name: "Next Town Down" Web Link: https://open.spotify.com/artist/2jJCk4fs0irQjjrG0Yo4I9 Explicit: True 
+GitHub_Runner_Date: 2023-08-22 01:03:12.577243 Track Name: "Complicated" Artist Name: "Raiche" Web Link: https://open.spotify.com/artist/4yaRDENYr8yAAlEUf23DRI Explicit: False 
+GitHub_Runner_Date: 2023-08-22 01:03:12.577266 Track Name: "Ruby" Artist Name: "George Lovett" Web Link: https://open.spotify.com/artist/2QmEcmIkOW69UBFq3IQy3U Explicit: False 
+GitHub_Runner_Date: 2023-08-22 01:03:12.577290 Track Name: "So Much More" Artist Name: "Xavier Omär" Web Link: https://open.spotify.com/artist/3UjPnt2nRmw10N58bBeNOg Explicit: False 
+GitHub_Runner_Date: 2023-08-22 01:03:12.577316 Track Name: "Bat (For You)" Artist Name: "MMYYKK" Web Link: https://open.spotify.com/artist/1tCMk7g0K58M82X2kNxlGT Explicit: False 
+GitHub_Runner_Date: 2023-08-22 01:03:12.577340 Track Name: "Fall in Love" Artist Name: "KeKe Wyatt" Web Link: https://open.spotify.com/artist/0KWcq2E8ejxp78jdfpCd4K Explicit: False 
+GitHub_Runner_Date: 2023-08-22 01:03:12.577364 Track Name: "Shelter" Artist Name: "Karnaval Blues" Web Link: https://open.spotify.com/artist/4APHks5GcW1GrlfnSvL5O3 Explicit: False 
+GitHub_Runner_Date: 2023-08-22 01:03:12.577388 Track Name: "Stay for a While" Artist Name: "J Warner" Web Link: https://open.spotify.com/artist/2qFIyqgMSxeb3rb9UDnOuo Explicit: False 
+GitHub_Runner_Date: 2023-08-22 01:03:12.577412 Track Name: "Healing - Acoustic" Artist Name: "Arlissa" Web Link: https://open.spotify.com/artist/7wzaSKTsjE9HnuDuZTX452 Explicit: False 
+GitHub_Runner_Date: 2023-08-22 01:03:12.577436 Track Name: "BEADY EYES" Artist Name: "SIPHO." Web Link: https://open.spotify.com/artist/3qdhzmyZIDzgawvmSWLsGZ Explicit: False 
+GitHub_Runner_Date: 2023-08-22 01:03:12.577460 Track Name: "over and over" Artist Name: "sky" Web Link: https://open.spotify.com/artist/2CfhN5oSdaZIGfe2KTq2yB Explicit: False 
+GitHub_Runner_Date: 2023-08-22 01:03:12.577483 Track Name: "Can I Just Love You" Artist Name: "Sunday Rose" Web Link: https://open.spotify.com/artist/0on2Bi1asBv63WyzwbSQvE Explicit: False 
+GitHub_Runner_Date: 2023-08-22 01:03:12.577507 Track Name: "John Redcorn - A COLORS SHOW" Artist Name: "SiR" Web Link: https://open.spotify.com/artist/3QTDHixorJelOLxoxcjqGx Explicit: False 
+GitHub_Runner_Date: 2023-08-22 01:03:12.577539 Track Name: "Broken Heart" Artist Name: "Booker T." Web Link: https://open.spotify.com/artist/5O2Gph0YtABIs0zaP65nlm Explicit: False 
+GitHub_Runner_Date: 2023-08-22 01:03:12.577564 Track Name: "Touch" Artist Name: "Shura" Web Link: https://open.spotify.com/artist/1qpR5mURxk3d8f6mww6uKT Explicit: False 
+GitHub_Runner_Date: 2023-08-22 01:03:12.577588 Track Name: "Incomplete Kisses" Artist Name: "Sampha" Web Link: https://open.spotify.com/artist/2WoVwexZuODvclzULjPQtm Explicit: False 
