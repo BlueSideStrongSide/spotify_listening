@@ -178,3 +178,23 @@ GitHub_Runner_Date: 2023-08-22 01:03:12.577507 Track Name: "John Redcorn - A COL
 GitHub_Runner_Date: 2023-08-22 01:03:12.577539 Track Name: "Broken Heart" Artist Name: "Booker T." Web Link: https://open.spotify.com/artist/5O2Gph0YtABIs0zaP65nlm Explicit: False 
 GitHub_Runner_Date: 2023-08-22 01:03:12.577564 Track Name: "Touch" Artist Name: "Shura" Web Link: https://open.spotify.com/artist/1qpR5mURxk3d8f6mww6uKT Explicit: False 
 GitHub_Runner_Date: 2023-08-22 01:03:12.577588 Track Name: "Incomplete Kisses" Artist Name: "Sampha" Web Link: https://open.spotify.com/artist/2WoVwexZuODvclzULjPQtm Explicit: False 
+GitHub_Runner_Date: 2023-08-23 01:02:22.818467 Track Name: "About the Money (feat. Young Thug)" Artist Name: "T.I." Web Link: https://open.spotify.com/artist/4OBJLual30L7gRl5UkeRcT Explicit: True 
+GitHub_Runner_Date: 2023-08-23 01:02:22.818584 Track Name: "Don't Stop" Artist Name: "GoGo Morrow" Web Link: https://open.spotify.com/artist/5DdULwXLSGsEN2nMNoeaCO Explicit: False 
+GitHub_Runner_Date: 2023-08-23 01:02:22.818642 Track Name: "Gotta Get It" Artist Name: "Spodee" Web Link: https://open.spotify.com/artist/3b3DRCf7t5C5yV7WJrxvzo Explicit: True 
+GitHub_Runner_Date: 2023-08-23 01:02:22.818693 Track Name: "Satisfy Me" Artist Name: "Anderson East" Web Link: https://open.spotify.com/artist/5q6z6GTth6lMbL9I8CAgby Explicit: False 
+GitHub_Runner_Date: 2023-08-23 01:02:22.818742 Track Name: "Know Me" Artist Name: "Amal Marie" Web Link: https://open.spotify.com/artist/3lCxM8dhXShgCKyPzAfIul Explicit: False 
+GitHub_Runner_Date: 2023-08-23 01:02:22.818798 Track Name: "Tropicana Fruit Juice" Artist Name: "Ycee" Web Link: https://open.spotify.com/artist/5zqRdlPXeCIuxgaPimSKXj Explicit: False 
+GitHub_Runner_Date: 2023-08-23 01:02:22.818846 Track Name: "Too Good - The Wild Honey Pie Buzzsession" Artist Name: "Ayoni" Web Link: https://open.spotify.com/artist/2Tju7nLsAMD6RTBna56hj6 Explicit: False 
+GitHub_Runner_Date: 2023-08-23 01:02:22.818894 Track Name: "Options" Artist Name: "GR€Y" Web Link: https://open.spotify.com/artist/7nG93Qrraq1TbXn8SqlzTd Explicit: False 
+GitHub_Runner_Date: 2023-08-23 01:02:22.818956 Track Name: "Zodiac Killer" Artist Name: "Mooski" Web Link: https://open.spotify.com/artist/4NqH3V7GS0Igs1VyGMXEi8 Explicit: True 
+GitHub_Runner_Date: 2023-08-23 01:02:22.819004 Track Name: "Easy (feat. 6LACK)" Artist Name: "Next Town Down" Web Link: https://open.spotify.com/artist/2jJCk4fs0irQjjrG0Yo4I9 Explicit: True 
+GitHub_Runner_Date: 2023-08-23 01:02:22.819052 Track Name: "Complicated" Artist Name: "Raiche" Web Link: https://open.spotify.com/artist/4yaRDENYr8yAAlEUf23DRI Explicit: False 
+GitHub_Runner_Date: 2023-08-23 01:02:22.819098 Track Name: "Ruby" Artist Name: "George Lovett" Web Link: https://open.spotify.com/artist/2QmEcmIkOW69UBFq3IQy3U Explicit: False 
+GitHub_Runner_Date: 2023-08-23 01:02:22.819145 Track Name: "So Much More" Artist Name: "Xavier Omär" Web Link: https://open.spotify.com/artist/3UjPnt2nRmw10N58bBeNOg Explicit: False 
+GitHub_Runner_Date: 2023-08-23 01:02:22.819194 Track Name: "Bat (For You)" Artist Name: "MMYYKK" Web Link: https://open.spotify.com/artist/1tCMk7g0K58M82X2kNxlGT Explicit: False 
+GitHub_Runner_Date: 2023-08-23 01:02:22.819241 Track Name: "Fall in Love" Artist Name: "KeKe Wyatt" Web Link: https://open.spotify.com/artist/0KWcq2E8ejxp78jdfpCd4K Explicit: False 
+GitHub_Runner_Date: 2023-08-23 01:02:22.819288 Track Name: "Shelter" Artist Name: "Karnaval Blues" Web Link: https://open.spotify.com/artist/4APHks5GcW1GrlfnSvL5O3 Explicit: False 
+GitHub_Runner_Date: 2023-08-23 01:02:22.819334 Track Name: "Stay for a While" Artist Name: "J Warner" Web Link: https://open.spotify.com/artist/2qFIyqgMSxeb3rb9UDnOuo Explicit: False 
+GitHub_Runner_Date: 2023-08-23 01:02:22.819380 Track Name: "Healing - Acoustic" Artist Name: "Arlissa" Web Link: https://open.spotify.com/artist/7wzaSKTsjE9HnuDuZTX452 Explicit: False 
+GitHub_Runner_Date: 2023-08-23 01:02:22.819426 Track Name: "BEADY EYES" Artist Name: "SIPHO." Web Link: https://open.spotify.com/artist/3qdhzmyZIDzgawvmSWLsGZ Explicit: False 
+GitHub_Runner_Date: 2023-08-23 01:02:22.819491 Track Name: "over and over" Artist Name: "sky" Web Link: https://open.spotify.com/artist/2CfhN5oSdaZIGfe2KTq2yB Explicit: False 
