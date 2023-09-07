@@ -478,3 +478,23 @@ GitHub_Runner_Date: 2023-09-06 01:03:57.033596 Track Name: "Written In The Stars
 GitHub_Runner_Date: 2023-09-06 01:03:57.033623 Track Name: "I'm Done" Artist Name: "Tweet" Web Link: https://open.spotify.com/artist/6zDBeei6hHRiZdAJ6zoTCo Explicit: False 
 GitHub_Runner_Date: 2023-09-06 01:03:57.033651 Track Name: "Right For Me" Artist Name: "J.Howell" Web Link: https://open.spotify.com/artist/5GU7EEftOdxcqM7nPoXLwq Explicit: True 
 GitHub_Runner_Date: 2023-09-06 01:03:57.033678 Track Name: "Say It" Artist Name: "Coline Creuzot" Web Link: https://open.spotify.com/artist/0e8BJEvEIJptHB5UCmg3oc Explicit: False 
+GitHub_Runner_Date: 2023-09-07 01:04:07.213997 Track Name: "Gotta Get It" Artist Name: "Spodee" Web Link: https://open.spotify.com/artist/3b3DRCf7t5C5yV7WJrxvzo Explicit: True 
+GitHub_Runner_Date: 2023-09-07 01:04:07.214063 Track Name: "Gotta Get It" Artist Name: "Spodee" Web Link: https://open.spotify.com/artist/3b3DRCf7t5C5yV7WJrxvzo Explicit: True 
+GitHub_Runner_Date: 2023-09-07 01:04:07.214093 Track Name: "Treasure ft. PAMÉ" Artist Name: "CLEW." Web Link: https://open.spotify.com/artist/3yYZD0UYKWeQsR57MLxHLQ Explicit: False 
+GitHub_Runner_Date: 2023-09-07 01:04:07.214122 Track Name: "Talk Luv" Artist Name: "Zeina" Web Link: https://open.spotify.com/artist/2saNOYtb2v8aXMmezcwAiI Explicit: False 
+GitHub_Runner_Date: 2023-09-07 01:04:07.214148 Track Name: "Surreal" Artist Name: "Natural High Music" Web Link: https://open.spotify.com/artist/0YC4SDrEwmvpxsEM2hkH64 Explicit: False 
+GitHub_Runner_Date: 2023-09-07 01:04:07.214174 Track Name: "Who's There" Artist Name: "Kaleem Taylor" Web Link: https://open.spotify.com/artist/4eQKo2fvEqEbdopHhSjlug Explicit: False 
+GitHub_Runner_Date: 2023-09-07 01:04:07.214198 Track Name: "PICO" Artist Name: "Brandon Banks" Web Link: https://open.spotify.com/artist/66eJQM6S5JsDe0CdUXnwST Explicit: True 
+GitHub_Runner_Date: 2023-09-07 01:04:07.214223 Track Name: "About Time" Artist Name: "Justine Skye" Web Link: https://open.spotify.com/artist/0jUQSUOcM7lxVn5eVGTkzQ Explicit: False 
+GitHub_Runner_Date: 2023-09-07 01:04:07.214248 Track Name: "So Gone (feat. Naomi Wild)" Artist Name: "Tempest" Web Link: https://open.spotify.com/artist/2FBvlvG5TL6SPA2tCLiusa Explicit: True 
+GitHub_Runner_Date: 2023-09-07 01:04:07.214273 Track Name: "Make Me Wanna" Artist Name: "October London" Web Link: https://open.spotify.com/artist/1eNO1DUCOtZgCzlwtjtb1t Explicit: False 
+GitHub_Runner_Date: 2023-09-07 01:04:07.214298 Track Name: "Purpose" Artist Name: "Rose Gold" Web Link: https://open.spotify.com/artist/5ZvCpVAckM5gWTM5HYgSFb Explicit: False 
+GitHub_Runner_Date: 2023-09-07 01:04:07.214322 Track Name: "Pink Skies" Artist Name: "Joyia" Web Link: https://open.spotify.com/artist/5XmuPCMjLwYLKWvOCyh6jK Explicit: False 
+GitHub_Runner_Date: 2023-09-07 01:04:07.214347 Track Name: "HEAVEN" Artist Name: "Hablot Brown" Web Link: https://open.spotify.com/artist/6LtgEnShwvrqAaKohg7skM Explicit: False 
+GitHub_Runner_Date: 2023-09-07 01:04:07.214372 Track Name: "Not Your Love (Remix)" Artist Name: "R.A.E" Web Link: https://open.spotify.com/artist/1z3xC9ml81L5vugg78Eegq Explicit: True 
+GitHub_Runner_Date: 2023-09-07 01:04:07.214396 Track Name: "I'll Wait" Artist Name: "Madison Ryann Ward" Web Link: https://open.spotify.com/artist/6eAUAR4N9NOpirukqdIzVI Explicit: False 
+GitHub_Runner_Date: 2023-09-07 01:04:07.214429 Track Name: "Ascension (No One's Gonna Love You, So Don't Ever Wonder)[The Tribute][Cut]" Artist Name: "Maxwell" Web Link: https://open.spotify.com/artist/2AOt5htsbtyaHd5Eq3kl3j Explicit: False 
+GitHub_Runner_Date: 2023-09-07 01:04:07.214455 Track Name: "There for Ya" Artist Name: "Bridge Music" Web Link: https://open.spotify.com/artist/2dlCuzBPpSIeyY4ZCJBKGS Explicit: False 
+GitHub_Runner_Date: 2023-09-07 01:04:07.214480 Track Name: "Written In The Stars" Artist Name: "spring gang" Web Link: https://open.spotify.com/artist/5MwxRYT0ZWOpQQBPktD0Rf Explicit: False 
+GitHub_Runner_Date: 2023-09-07 01:04:07.214504 Track Name: "I'm Done" Artist Name: "Tweet" Web Link: https://open.spotify.com/artist/6zDBeei6hHRiZdAJ6zoTCo Explicit: False 
+GitHub_Runner_Date: 2023-09-07 01:04:07.214529 Track Name: "Right For Me" Artist Name: "J.Howell" Web Link: https://open.spotify.com/artist/5GU7EEftOdxcqM7nPoXLwq Explicit: True 
