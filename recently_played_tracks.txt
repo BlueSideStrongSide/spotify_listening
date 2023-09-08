@@ -498,3 +498,23 @@ GitHub_Runner_Date: 2023-09-07 01:04:07.214455 Track Name: "There for Ya" Artist
 GitHub_Runner_Date: 2023-09-07 01:04:07.214480 Track Name: "Written In The Stars" Artist Name: "spring gang" Web Link: https://open.spotify.com/artist/5MwxRYT0ZWOpQQBPktD0Rf Explicit: False 
 GitHub_Runner_Date: 2023-09-07 01:04:07.214504 Track Name: "I'm Done" Artist Name: "Tweet" Web Link: https://open.spotify.com/artist/6zDBeei6hHRiZdAJ6zoTCo Explicit: False 
 GitHub_Runner_Date: 2023-09-07 01:04:07.214529 Track Name: "Right For Me" Artist Name: "J.Howell" Web Link: https://open.spotify.com/artist/5GU7EEftOdxcqM7nPoXLwq Explicit: True 
+GitHub_Runner_Date: 2023-09-08 01:04:21.306174 Track Name: "Now" Artist Name: "Alex Isley" Web Link: https://open.spotify.com/artist/7E2ioKxoxI2J94tUkIx6As Explicit: False 
+GitHub_Runner_Date: 2023-09-08 01:04:21.306243 Track Name: "W.I.A (Where I’m At)" Artist Name: "TA Thomas" Web Link: https://open.spotify.com/artist/04EdUc6wcBIZXMc9dtC1Ul Explicit: False 
+GitHub_Runner_Date: 2023-09-08 01:04:21.306280 Track Name: "U" Artist Name: "emawk" Web Link: https://open.spotify.com/artist/2zAshenjqDlcL4pudfySBY Explicit: False 
+GitHub_Runner_Date: 2023-09-08 01:04:21.306306 Track Name: "Treasure ft. PAMÉ" Artist Name: "CLEW." Web Link: https://open.spotify.com/artist/3yYZD0UYKWeQsR57MLxHLQ Explicit: False 
+GitHub_Runner_Date: 2023-09-08 01:04:21.306332 Track Name: "Talk Luv" Artist Name: "Zeina" Web Link: https://open.spotify.com/artist/2saNOYtb2v8aXMmezcwAiI Explicit: False 
+GitHub_Runner_Date: 2023-09-08 01:04:21.306356 Track Name: "Surreal" Artist Name: "Natural High Music" Web Link: https://open.spotify.com/artist/0YC4SDrEwmvpxsEM2hkH64 Explicit: False 
+GitHub_Runner_Date: 2023-09-08 01:04:21.306381 Track Name: "Who's There" Artist Name: "Kaleem Taylor" Web Link: https://open.spotify.com/artist/4eQKo2fvEqEbdopHhSjlug Explicit: False 
+GitHub_Runner_Date: 2023-09-08 01:04:21.306406 Track Name: "PICO" Artist Name: "Brandon Banks" Web Link: https://open.spotify.com/artist/66eJQM6S5JsDe0CdUXnwST Explicit: True 
+GitHub_Runner_Date: 2023-09-08 01:04:21.306430 Track Name: "About Time" Artist Name: "Justine Skye" Web Link: https://open.spotify.com/artist/0jUQSUOcM7lxVn5eVGTkzQ Explicit: False 
+GitHub_Runner_Date: 2023-09-08 01:04:21.306454 Track Name: "So Gone (feat. Naomi Wild)" Artist Name: "Tempest" Web Link: https://open.spotify.com/artist/2FBvlvG5TL6SPA2tCLiusa Explicit: True 
+GitHub_Runner_Date: 2023-09-08 01:04:21.306478 Track Name: "SELFISH" Artist Name: "KALLITECHNIS" Web Link: https://open.spotify.com/artist/6i3sYlO1zUHf5IWHpXt4Sl Explicit: False 
+GitHub_Runner_Date: 2023-09-08 01:04:21.306502 Track Name: "Make Me Wanna" Artist Name: "October London" Web Link: https://open.spotify.com/artist/1eNO1DUCOtZgCzlwtjtb1t Explicit: False 
+GitHub_Runner_Date: 2023-09-08 01:04:21.306526 Track Name: "Purpose" Artist Name: "Rose Gold" Web Link: https://open.spotify.com/artist/5ZvCpVAckM5gWTM5HYgSFb Explicit: False 
+GitHub_Runner_Date: 2023-09-08 01:04:21.306550 Track Name: "Pink Skies" Artist Name: "Joyia" Web Link: https://open.spotify.com/artist/5XmuPCMjLwYLKWvOCyh6jK Explicit: False 
+GitHub_Runner_Date: 2023-09-08 01:04:21.306574 Track Name: "HEAVEN" Artist Name: "Hablot Brown" Web Link: https://open.spotify.com/artist/6LtgEnShwvrqAaKohg7skM Explicit: False 
+GitHub_Runner_Date: 2023-09-08 01:04:21.306598 Track Name: "Not Your Love (Remix)" Artist Name: "R.A.E" Web Link: https://open.spotify.com/artist/1z3xC9ml81L5vugg78Eegq Explicit: True 
+GitHub_Runner_Date: 2023-09-08 01:04:21.306623 Track Name: "I'll Wait" Artist Name: "Madison Ryann Ward" Web Link: https://open.spotify.com/artist/6eAUAR4N9NOpirukqdIzVI Explicit: False 
+GitHub_Runner_Date: 2023-09-08 01:04:21.306658 Track Name: "There for Ya" Artist Name: "Bridge Music" Web Link: https://open.spotify.com/artist/2dlCuzBPpSIeyY4ZCJBKGS Explicit: False 
+GitHub_Runner_Date: 2023-09-08 01:04:21.306682 Track Name: "Written In The Stars" Artist Name: "spring gang" Web Link: https://open.spotify.com/artist/5MwxRYT0ZWOpQQBPktD0Rf Explicit: False 
+GitHub_Runner_Date: 2023-09-08 01:04:21.306706 Track Name: "I'm Done" Artist Name: "Tweet" Web Link: https://open.spotify.com/artist/6zDBeei6hHRiZdAJ6zoTCo Explicit: False 
