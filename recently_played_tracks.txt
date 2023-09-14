@@ -618,3 +618,23 @@ GitHub_Runner_Date: 2023-09-13 01:05:21.474896 Track Name: "Amen" Artist Name: "
 GitHub_Runner_Date: 2023-09-13 01:05:21.474922 Track Name: "Amen" Artist Name: "Anthony Hamilton" Web Link: https://open.spotify.com/artist/2DzRMyWgjuMbYvt5BLbpCo Explicit: False 
 GitHub_Runner_Date: 2023-09-13 01:05:21.474948 Track Name: "SLUMMER" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
 GitHub_Runner_Date: 2023-09-13 01:05:21.474973 Track Name: "TALK'N THAT SHIT!" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-09-14 01:03:24.845631 Track Name: "Sweet" Artist Name: "[ K S R ]" Web Link: https://open.spotify.com/artist/7BWjWVat8puiUriWads4kk Explicit: False 
+GitHub_Runner_Date: 2023-09-14 01:03:24.845702 Track Name: "Angels" Artist Name: "Johnny Balik" Web Link: https://open.spotify.com/artist/6cXU3B0U7wNEOOU8UjaWww Explicit: True 
+GitHub_Runner_Date: 2023-09-14 01:03:24.845733 Track Name: "Look Up To The Sky" Artist Name: "Nicole Bus" Web Link: https://open.spotify.com/artist/0IeB4swNmNetlaZUgdHqBX Explicit: False 
+GitHub_Runner_Date: 2023-09-14 01:03:24.845759 Track Name: "One More Night" Artist Name: "Ivy Sole" Web Link: https://open.spotify.com/artist/4NcMrSi3B8eUVy6e1Ni3wu Explicit: True 
+GitHub_Runner_Date: 2023-09-14 01:03:24.845784 Track Name: "Need It" Artist Name: "Inayah" Web Link: https://open.spotify.com/artist/2jomvyAKdqYYimeLl3XcdZ Explicit: True 
+GitHub_Runner_Date: 2023-09-14 01:03:24.845809 Track Name: "Upside Down" Artist Name: "GoldFord" Web Link: https://open.spotify.com/artist/4I2QW85rkIhCRRZt1kuBqS Explicit: False 
+GitHub_Runner_Date: 2023-09-14 01:03:24.845833 Track Name: "Feels" Artist Name: "Raheem Bakare" Web Link: https://open.spotify.com/artist/40IuUXbYWhw6UcfU7hHmpM Explicit: False 
+GitHub_Runner_Date: 2023-09-14 01:03:24.845857 Track Name: "SOMEBODY" Artist Name: "Mike Classic" Web Link: https://open.spotify.com/artist/4I8nWa5GMqCw0yCOpTUYU4 Explicit: True 
+GitHub_Runner_Date: 2023-09-14 01:03:24.845882 Track Name: "Healing - Acoustic" Artist Name: "Arlissa" Web Link: https://open.spotify.com/artist/7wzaSKTsjE9HnuDuZTX452 Explicit: False 
+GitHub_Runner_Date: 2023-09-14 01:03:24.845915 Track Name: "FLY (Y.M.M.F.)" Artist Name: "Tennessee State University" Web Link: https://open.spotify.com/artist/1pgOjpZmwwPbREZi35aCNz Explicit: False 
+GitHub_Runner_Date: 2023-09-14 01:03:24.845940 Track Name: "Innocent Eyes" Artist Name: "Ash Minor" Web Link: https://open.spotify.com/artist/0P1bjDnIRWm0VUdA0urCNG Explicit: False 
+GitHub_Runner_Date: 2023-09-14 01:03:24.845964 Track Name: "SLUMMER" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-09-14 01:03:24.845989 Track Name: "TALK'N THAT SHIT!" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-09-14 01:03:24.846012 Track Name: "NRICH (feat. 6LACK, Eryn Allen Kane)" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-09-14 01:03:24.846036 Track Name: "RUN (feat. Young Thug)" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-09-14 01:03:24.846060 Track Name: "Gotta Get It" Artist Name: "Spodee" Web Link: https://open.spotify.com/artist/3b3DRCf7t5C5yV7WJrxvzo Explicit: True 
+GitHub_Runner_Date: 2023-09-14 01:03:24.846084 Track Name: "ALL YOU NEED TO KNOW" Artist Name: "Malik Baptiste" Web Link: https://open.spotify.com/artist/3kOQ7t9MH5gt289CcfWZUW Explicit: False 
+GitHub_Runner_Date: 2023-09-14 01:03:24.846108 Track Name: "The Makings of you" Artist Name: "Charlie Bereal" Web Link: https://open.spotify.com/artist/2uMEr7c0zWQrtoAzebTMsa Explicit: False 
+GitHub_Runner_Date: 2023-09-14 01:03:24.846131 Track Name: "DND" Artist Name: "Will Gittens" Web Link: https://open.spotify.com/artist/2Guif3r6Ys8lL1H5aGyuh1 Explicit: False 
+GitHub_Runner_Date: 2023-09-14 01:03:24.846155 Track Name: "Power Of A Woman" Artist Name: "Ella Mai" Web Link: https://open.spotify.com/artist/7HkdQ0gt53LP4zmHsL0nap Explicit: False 
