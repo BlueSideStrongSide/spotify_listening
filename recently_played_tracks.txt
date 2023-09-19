@@ -718,3 +718,23 @@ GitHub_Runner_Date: 2023-09-18 01:04:29.523274 Track Name: "Call On Me" Artist N
 GitHub_Runner_Date: 2023-09-18 01:04:29.523302 Track Name: "Love Me" Artist Name: "Shaun Milli" Web Link: https://open.spotify.com/artist/1e8UewEEe0Oo7CxwVC4Y04 Explicit: False 
 GitHub_Runner_Date: 2023-09-18 01:04:29.523344 Track Name: "Lullaby (Live Freestyle Interlude)" Artist Name: "Shaun Milli" Web Link: https://open.spotify.com/artist/1e8UewEEe0Oo7CxwVC4Y04 Explicit: False 
 GitHub_Runner_Date: 2023-09-18 01:04:29.523374 Track Name: "I Cant Wait" Artist Name: "Shaun Milli" Web Link: https://open.spotify.com/artist/1e8UewEEe0Oo7CxwVC4Y04 Explicit: True 
+GitHub_Runner_Date: 2023-09-19 01:04:56.702509 Track Name: "These Four Walls - A COLORS SHOW" Artist Name: "Khamari" Web Link: https://open.spotify.com/artist/6kmDosYCYjFQtywDq0DLPZ Explicit: False 
+GitHub_Runner_Date: 2023-09-19 01:04:56.702578 Track Name: "Fall Back" Artist Name: "Asiahn" Web Link: https://open.spotify.com/artist/1mKtlPrXjWK6oIdk9cSOjs Explicit: False 
+GitHub_Runner_Date: 2023-09-19 01:04:56.702608 Track Name: "Scene 1 - A COLORS SHOW" Artist Name: "Sebastian Mikael" Web Link: https://open.spotify.com/artist/4hknFHNFp3UMm2Rbc6Ansf Explicit: True 
+GitHub_Runner_Date: 2023-09-19 01:04:56.702635 Track Name: "SOMETHING FOR JUNKIES" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-09-19 01:04:56.702661 Track Name: "EXIT 9" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-09-19 01:04:56.702686 Track Name: "SPACESHIP VIEWS" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-09-19 01:04:56.702712 Track Name: "TWO DAYS" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-09-19 01:04:56.702736 Track Name: "SCIENTISTS & ENGINEERS (feat. Future & Eryn Allen Kane)" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-09-19 01:04:56.702761 Track Name: "SLUMMER" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-09-19 01:04:56.702785 Track Name: "TALK'N THAT SHIT!" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-09-19 01:04:56.702810 Track Name: "NRICH (feat. 6LACK, Eryn Allen Kane)" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-09-19 01:04:56.702834 Track Name: "SHED TEARS (feat. Lena Bird Myles)" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-09-19 01:04:56.702859 Track Name: "SHED TEARS (feat. Lena Bird Myles)" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-09-19 01:04:56.702883 Track Name: "Gotta Get It" Artist Name: "Spodee" Web Link: https://open.spotify.com/artist/3b3DRCf7t5C5yV7WJrxvzo Explicit: True 
+GitHub_Runner_Date: 2023-09-19 01:04:56.702907 Track Name: "SPACESHIP VIEWS" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-09-19 01:04:56.702931 Track Name: "TWO DAYS" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-09-19 01:04:56.702956 Track Name: "SCIENTISTS & ENGINEERS (feat. Future & Eryn Allen Kane)" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-09-19 01:04:56.702982 Track Name: "SLUMMER" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-09-19 01:04:56.703006 Track Name: "SHED TEARS (feat. Lena Bird Myles)" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-09-19 01:04:56.703040 Track Name: "Gotta Get It" Artist Name: "Spodee" Web Link: https://open.spotify.com/artist/3b3DRCf7t5C5yV7WJrxvzo Explicit: True 
