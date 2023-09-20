@@ -738,3 +738,23 @@ GitHub_Runner_Date: 2023-09-19 01:04:56.702956 Track Name: "SCIENTISTS & ENGINEE
 GitHub_Runner_Date: 2023-09-19 01:04:56.702982 Track Name: "SLUMMER" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
 GitHub_Runner_Date: 2023-09-19 01:04:56.703006 Track Name: "SHED TEARS (feat. Lena Bird Myles)" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
 GitHub_Runner_Date: 2023-09-19 01:04:56.703040 Track Name: "Gotta Get It" Artist Name: "Spodee" Web Link: https://open.spotify.com/artist/3b3DRCf7t5C5yV7WJrxvzo Explicit: True 
+GitHub_Runner_Date: 2023-09-20 01:04:22.179931 Track Name: "Don't Blame It On The Timing" Artist Name: "Shannon Lauren Callihan" Web Link: https://open.spotify.com/artist/4bbW7o78JYMG9yuIZgPXD2 Explicit: False 
+GitHub_Runner_Date: 2023-09-20 01:04:22.180013 Track Name: "Let the Guitar Sing (Live)" Artist Name: "AJ Ghent [ j-ent ]" Web Link: https://open.spotify.com/artist/6gLGK4HewZQk0009RLQ3nx Explicit: False 
+GitHub_Runner_Date: 2023-09-20 01:04:22.180047 Track Name: "Into You" Artist Name: "TEEKS" Web Link: https://open.spotify.com/artist/4ofg0wyo4TjuNtWQ5XxZhJ Explicit: False 
+GitHub_Runner_Date: 2023-09-20 01:04:22.180076 Track Name: "Back In The Day" Artist Name: "Wayne Brady" Web Link: https://open.spotify.com/artist/1wLJTOL6Mz0AOni5EcH4v3 Explicit: False 
+GitHub_Runner_Date: 2023-09-20 01:04:22.180103 Track Name: "Power" Artist Name: "Amanda Black" Web Link: https://open.spotify.com/artist/4tyWwKFEbho8Vh4qczqbIo Explicit: False 
+GitHub_Runner_Date: 2023-09-20 01:04:22.180130 Track Name: "Beggin' - Live" Artist Name: "Måneskin" Web Link: https://open.spotify.com/artist/0lAWpj5szCSwM4rUMHYmrr Explicit: False 
+GitHub_Runner_Date: 2023-09-20 01:04:22.180159 Track Name: "Kwaku the Traveller" Artist Name: "Black Sherif" Web Link: https://open.spotify.com/artist/2LiqbH7OhqP0yuaG8VL1wJ Explicit: True 
+GitHub_Runner_Date: 2023-09-20 01:04:22.180185 Track Name: "Upside Down" Artist Name: "GoldFord" Web Link: https://open.spotify.com/artist/4I2QW85rkIhCRRZt1kuBqS Explicit: False 
+GitHub_Runner_Date: 2023-09-20 01:04:22.180212 Track Name: "Care 4 Me" Artist Name: "Blair Perkins" Web Link: https://open.spotify.com/artist/609Q2Uooik1vA0iMZ4uOka Explicit: False 
+GitHub_Runner_Date: 2023-09-20 01:04:22.180239 Track Name: "The King's Affirmation" Artist Name: "Iniko" Web Link: https://open.spotify.com/artist/2ih5M0aTrQ97JX1nZuxDQY Explicit: False 
+GitHub_Runner_Date: 2023-09-20 01:04:22.180265 Track Name: "Cracks In The Ceiling" Artist Name: "Devon Gilfillian" Web Link: https://open.spotify.com/artist/5cbak2U6nZWXDYiG72E3lH Explicit: False 
+GitHub_Runner_Date: 2023-09-20 01:04:22.180292 Track Name: "Broken Heart" Artist Name: "Booker T." Web Link: https://open.spotify.com/artist/5O2Gph0YtABIs0zaP65nlm Explicit: False 
+GitHub_Runner_Date: 2023-09-20 01:04:22.180317 Track Name: "DFMU" Artist Name: "Ella Mai" Web Link: https://open.spotify.com/artist/7HkdQ0gt53LP4zmHsL0nap Explicit: True 
+GitHub_Runner_Date: 2023-09-20 01:04:22.180344 Track Name: "Lie for You - Acoustic Version" Artist Name: "Snakehips" Web Link: https://open.spotify.com/artist/2FwJwEswyIUAljqgjNSHgP Explicit: False 
+GitHub_Runner_Date: 2023-09-20 01:04:22.180369 Track Name: "Lie for You - Acoustic Version" Artist Name: "Snakehips" Web Link: https://open.spotify.com/artist/2FwJwEswyIUAljqgjNSHgP Explicit: False 
+GitHub_Runner_Date: 2023-09-20 01:04:22.180395 Track Name: "Lie for You - Acoustic Version" Artist Name: "Snakehips" Web Link: https://open.spotify.com/artist/2FwJwEswyIUAljqgjNSHgP Explicit: False 
+GitHub_Runner_Date: 2023-09-20 01:04:22.180421 Track Name: "Today I Saved The World" Artist Name: "5 Alarm" Web Link: https://open.spotify.com/artist/5EDsYfsqCEMiGojCS6UNic Explicit: False 
+GitHub_Runner_Date: 2023-09-20 01:04:22.180447 Track Name: "Same Cloth" Artist Name: "Top Floor" Web Link: https://open.spotify.com/artist/6t4th8Kbvb0EJuPBCNJTFk Explicit: True 
+GitHub_Runner_Date: 2023-09-20 01:04:22.180473 Track Name: "John Redcorn - A COLORS SHOW" Artist Name: "SiR" Web Link: https://open.spotify.com/artist/3QTDHixorJelOLxoxcjqGx Explicit: False 
+GitHub_Runner_Date: 2023-09-20 01:04:22.180498 Track Name: "Blackberry Sap (with Ari Lennox)" Artist Name: "Dreamville" Web Link: https://open.spotify.com/artist/1iNqsUDUraNWrj00bqssQG Explicit: True 
