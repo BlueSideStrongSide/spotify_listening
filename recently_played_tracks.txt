@@ -778,3 +778,23 @@ GitHub_Runner_Date: 2023-09-21 01:03:57.283446 Track Name: "The King's Affirmati
 GitHub_Runner_Date: 2023-09-21 01:03:57.283471 Track Name: "Cracks In The Ceiling" Artist Name: "Devon Gilfillian" Web Link: https://open.spotify.com/artist/5cbak2U6nZWXDYiG72E3lH Explicit: False 
 GitHub_Runner_Date: 2023-09-21 01:03:57.283496 Track Name: "Broken Heart" Artist Name: "Booker T." Web Link: https://open.spotify.com/artist/5O2Gph0YtABIs0zaP65nlm Explicit: False 
 GitHub_Runner_Date: 2023-09-21 01:03:57.283522 Track Name: "DFMU" Artist Name: "Ella Mai" Web Link: https://open.spotify.com/artist/7HkdQ0gt53LP4zmHsL0nap Explicit: True 
+GitHub_Runner_Date: 2023-09-22 01:04:39.785521 Track Name: "Innocent Eyes" Artist Name: "Ash Minor" Web Link: https://open.spotify.com/artist/0P1bjDnIRWm0VUdA0urCNG Explicit: False 
+GitHub_Runner_Date: 2023-09-22 01:04:39.785588 Track Name: "Concrete" Artist Name: "Teyana Taylor" Web Link: https://open.spotify.com/artist/4ULO7IGI3M2bo0Ap7B9h8a Explicit: True 
+GitHub_Runner_Date: 2023-09-22 01:04:39.785617 Track Name: "SHED TEARS (feat. Lena Bird Myles)" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-09-22 01:04:39.785651 Track Name: "Soul Ties" Artist Name: "Shaun Milli" Web Link: https://open.spotify.com/artist/1e8UewEEe0Oo7CxwVC4Y04 Explicit: True 
+GitHub_Runner_Date: 2023-09-22 01:04:39.785677 Track Name: "Hol' It Down" Artist Name: "Ar'mon" Web Link: https://open.spotify.com/artist/4vXshjmmW0YRLo7yK9dhrr Explicit: True 
+GitHub_Runner_Date: 2023-09-22 01:04:39.785705 Track Name: "Intro" Artist Name: "3 PIECE" Web Link: https://open.spotify.com/artist/0bfQ2mHJoIp4GTqS6WwRhF Explicit: False 
+GitHub_Runner_Date: 2023-09-22 01:04:39.785730 Track Name: "Zodiac Killer" Artist Name: "Mooski" Web Link: https://open.spotify.com/artist/4NqH3V7GS0Igs1VyGMXEi8 Explicit: True 
+GitHub_Runner_Date: 2023-09-22 01:04:39.785755 Track Name: "Blow My Mind" Artist Name: "Shaun Milli" Web Link: https://open.spotify.com/artist/1e8UewEEe0Oo7CxwVC4Y04 Explicit: True 
+GitHub_Runner_Date: 2023-09-22 01:04:39.785779 Track Name: "Temporary" Artist Name: "Shaun Milli" Web Link: https://open.spotify.com/artist/1e8UewEEe0Oo7CxwVC4Y04 Explicit: False 
+GitHub_Runner_Date: 2023-09-22 01:04:39.785804 Track Name: "Call On Me" Artist Name: "Shaun Milli" Web Link: https://open.spotify.com/artist/1e8UewEEe0Oo7CxwVC4Y04 Explicit: False 
+GitHub_Runner_Date: 2023-09-22 01:04:39.785828 Track Name: "Love Me" Artist Name: "Shaun Milli" Web Link: https://open.spotify.com/artist/1e8UewEEe0Oo7CxwVC4Y04 Explicit: False 
+GitHub_Runner_Date: 2023-09-22 01:04:39.785852 Track Name: "I Cant Wait" Artist Name: "Shaun Milli" Web Link: https://open.spotify.com/artist/1e8UewEEe0Oo7CxwVC4Y04 Explicit: True 
+GitHub_Runner_Date: 2023-09-22 01:04:39.785877 Track Name: "Wootdawoot" Artist Name: "Shaun Milli" Web Link: https://open.spotify.com/artist/1e8UewEEe0Oo7CxwVC4Y04 Explicit: False 
+GitHub_Runner_Date: 2023-09-22 01:04:39.785901 Track Name: "Jhene" Artist Name: "Shaun Milli" Web Link: https://open.spotify.com/artist/1e8UewEEe0Oo7CxwVC4Y04 Explicit: True 
+GitHub_Runner_Date: 2023-09-22 01:04:39.785925 Track Name: "Go Milli (Intro)" Artist Name: "Shaun Milli" Web Link: https://open.spotify.com/artist/1e8UewEEe0Oo7CxwVC4Y04 Explicit: False 
+GitHub_Runner_Date: 2023-09-22 01:04:39.785949 Track Name: "Concrete" Artist Name: "Teyana Taylor" Web Link: https://open.spotify.com/artist/4ULO7IGI3M2bo0Ap7B9h8a Explicit: True 
+GitHub_Runner_Date: 2023-09-22 01:04:39.785975 Track Name: "Plastic Plants" Artist Name: "Mahalia" Web Link: https://open.spotify.com/artist/16rCzZOMQX7P8Kmn5YKexI Explicit: False 
+GitHub_Runner_Date: 2023-09-22 01:04:39.785999 Track Name: "Love Transaction" Artist Name: "Tyrese" Web Link: https://open.spotify.com/artist/08p7B5OtcUuVblvkQIlBhJ Explicit: False 
+GitHub_Runner_Date: 2023-09-22 01:04:39.786023 Track Name: "1 hour and 15 minutes" Artist Name: "11:11" Web Link: https://open.spotify.com/artist/5gsyao2Qm21EKylbVIuRQ3 Explicit: True 
+GitHub_Runner_Date: 2023-09-22 01:04:39.786047 Track Name: "inšpiráciu" Artist Name: "Music Inspiration" Web Link: https://open.spotify.com/artist/4M1LEjgNcq5OLWLEQShqZM Explicit: False 
