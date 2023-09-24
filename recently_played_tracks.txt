@@ -818,3 +818,23 @@ GitHub_Runner_Date: 2023-09-23 01:02:40.415974 Track Name: "Innocent Eyes" Artis
 GitHub_Runner_Date: 2023-09-23 01:02:40.416013 Track Name: "Concrete" Artist Name: "Teyana Taylor" Web Link: https://open.spotify.com/artist/4ULO7IGI3M2bo0Ap7B9h8a Explicit: True 
 GitHub_Runner_Date: 2023-09-23 01:02:40.416053 Track Name: "NRICH (feat. 6LACK, Eryn Allen Kane)" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
 GitHub_Runner_Date: 2023-09-23 01:02:40.416092 Track Name: "SHED TEARS (feat. Lena Bird Myles)" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-09-24 01:08:01.246191 Track Name: "Dinaledi" Artist Name: "Major League Djz" Web Link: https://open.spotify.com/artist/0N3AcLTAS3vcx93PxN2Agb Explicit: True 
+GitHub_Runner_Date: 2023-09-24 01:08:01.246261 Track Name: "Meu Amor" Artist Name: "Joyia" Web Link: https://open.spotify.com/artist/5XmuPCMjLwYLKWvOCyh6jK Explicit: False 
+GitHub_Runner_Date: 2023-09-24 01:08:01.246292 Track Name: "Blow My Mind" Artist Name: "Shaun Milli" Web Link: https://open.spotify.com/artist/1e8UewEEe0Oo7CxwVC4Y04 Explicit: True 
+GitHub_Runner_Date: 2023-09-24 01:08:01.246318 Track Name: "My Everything (Acoustic)" Artist Name: "J.Howell" Web Link: https://open.spotify.com/artist/5GU7EEftOdxcqM7nPoXLwq Explicit: False 
+GitHub_Runner_Date: 2023-09-24 01:08:01.246345 Track Name: "Groovy Love" Artist Name: "Cashma" Web Link: https://open.spotify.com/artist/7M9KMse1eIAp5FYERZI0b2 Explicit: False 
+GitHub_Runner_Date: 2023-09-24 01:08:01.246369 Track Name: "Anchor" Artist Name: "Madison Ryann Ward" Web Link: https://open.spotify.com/artist/6eAUAR4N9NOpirukqdIzVI Explicit: False 
+GitHub_Runner_Date: 2023-09-24 01:08:01.246394 Track Name: "BEADY EYES" Artist Name: "SIPHO." Web Link: https://open.spotify.com/artist/3qdhzmyZIDzgawvmSWLsGZ Explicit: False 
+GitHub_Runner_Date: 2023-09-24 01:08:01.246419 Track Name: "Say The Word" Artist Name: "Will Gittens" Web Link: https://open.spotify.com/artist/2Guif3r6Ys8lL1H5aGyuh1 Explicit: False 
+GitHub_Runner_Date: 2023-09-24 01:08:01.246453 Track Name: "The Plug" Artist Name: "Ronald Isley" Web Link: https://open.spotify.com/artist/6W9RUw7xnNRYtgh8dimg7L Explicit: False 
+GitHub_Runner_Date: 2023-09-24 01:08:01.246478 Track Name: "Pillows" Artist Name: "Emanuel" Web Link: https://open.spotify.com/artist/4Dj6yFk1Y4v6J4jZyhtrZ7 Explicit: False 
+GitHub_Runner_Date: 2023-09-24 01:08:01.246503 Track Name: "Pillows" Artist Name: "Emanuel" Web Link: https://open.spotify.com/artist/4Dj6yFk1Y4v6J4jZyhtrZ7 Explicit: False 
+GitHub_Runner_Date: 2023-09-24 01:08:01.246527 Track Name: "Hrs and Hrs" Artist Name: "Nathan Allen" Web Link: https://open.spotify.com/artist/6IRnIHHQ6Fj5bEsGkHH2Ce Explicit: False 
+GitHub_Runner_Date: 2023-09-24 01:08:01.246553 Track Name: "Mine" Artist Name: "Cat Burns" Web Link: https://open.spotify.com/artist/6WFDpw4u23uSpon4BHvFRn Explicit: False 
+GitHub_Runner_Date: 2023-09-24 01:08:01.246577 Track Name: "Late Nightshades" Artist Name: "Myssa More" Web Link: https://open.spotify.com/artist/4UOhA31ItPKimYALyRkxsB Explicit: True 
+GitHub_Runner_Date: 2023-09-24 01:08:01.246602 Track Name: "The Baddest" Artist Name: "Magic One" Web Link: https://open.spotify.com/artist/4vs5mPRSYZcvBhFruP9oDw Explicit: False 
+GitHub_Runner_Date: 2023-09-24 01:08:01.246627 Track Name: "YOURS (ft. India Shawn)" Artist Name: "DIXSON" Web Link: https://open.spotify.com/artist/61677A13kBwbTfqECI65p8 Explicit: True 
+GitHub_Runner_Date: 2023-09-24 01:08:01.246651 Track Name: "Shitty Day" Artist Name: "Amanda Reifer" Web Link: https://open.spotify.com/artist/1PpDfXOUG7gxUjR1quWnwp Explicit: True 
+GitHub_Runner_Date: 2023-09-24 01:08:01.246675 Track Name: "Keep In Touch" Artist Name: "Ye Ali" Web Link: https://open.spotify.com/artist/0Maq4Nk8ZM6keGZjTCXGIH Explicit: False 
+GitHub_Runner_Date: 2023-09-24 01:08:01.246700 Track Name: "All I Seek" Artist Name: "Manana" Web Link: https://open.spotify.com/artist/6omm7OGZMQZ2XODf4JVKnQ Explicit: False 
+GitHub_Runner_Date: 2023-09-24 01:08:01.246725 Track Name: "Go" Artist Name: "Love, Mae C." Web Link: https://open.spotify.com/artist/6IhN9aMob1ZbQwRj1Nerlq Explicit: False 
