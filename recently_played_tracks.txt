@@ -918,3 +918,23 @@ GitHub_Runner_Date: 2023-09-28 01:04:47.017020 Track Name: "I'll Wait" Artist Na
 GitHub_Runner_Date: 2023-09-28 01:04:47.017053 Track Name: "Alone A Lot" Artist Name: "Louis York" Web Link: https://open.spotify.com/artist/0owrNlxvcLL8KI0U5sYBUb Explicit: False 
 GitHub_Runner_Date: 2023-09-28 01:04:47.017079 Track Name: "Right For Me" Artist Name: "J.Howell" Web Link: https://open.spotify.com/artist/5GU7EEftOdxcqM7nPoXLwq Explicit: True 
 GitHub_Runner_Date: 2023-09-28 01:04:47.017103 Track Name: "I'm Done" Artist Name: "Tweet" Web Link: https://open.spotify.com/artist/6zDBeei6hHRiZdAJ6zoTCo Explicit: False 
+GitHub_Runner_Date: 2023-09-29 01:04:59.292128 Track Name: "Out Of My Way" Artist Name: "RIMON" Web Link: https://open.spotify.com/artist/4DtUsfaVQBhypuwYmobdSm Explicit: True 
+GitHub_Runner_Date: 2023-09-29 01:04:59.292196 Track Name: "So In Love (feat. Darrel 'MusiqCity' Walls & Zacardi Cortez)" Artist Name: "PJ Morton" Web Link: https://open.spotify.com/artist/2FMOHE79X98yptp4RpPrt7 Explicit: False 
+GitHub_Runner_Date: 2023-09-29 01:04:59.292228 Track Name: "You Should Know" Artist Name: "Keeyen Martin" Web Link: https://open.spotify.com/artist/50rvEyhTLlWQ5gIjEM6ZxT Explicit: False 
+GitHub_Runner_Date: 2023-09-29 01:04:59.292260 Track Name: "Red" Artist Name: "Noya Rao" Web Link: https://open.spotify.com/artist/16XiowWxtn1LmT6aTMnzlv Explicit: False 
+GitHub_Runner_Date: 2023-09-29 01:04:59.292286 Track Name: "I Hate That I Love You So Little" Artist Name: "Mathilda Homer" Web Link: https://open.spotify.com/artist/0uwGk8b2zINQFSKiLbK50Y Explicit: False 
+GitHub_Runner_Date: 2023-09-29 01:04:59.292311 Track Name: "What is Love" Artist Name: "Romy Dya" Web Link: https://open.spotify.com/artist/5gWzmnHTLNXz5CjOc0wAuK Explicit: True 
+GitHub_Runner_Date: 2023-09-29 01:04:59.292336 Track Name: "Atone" Artist Name: "SLO" Web Link: https://open.spotify.com/artist/4w0X9CxVeoMeDucb4QT6Zl Explicit: False 
+GitHub_Runner_Date: 2023-09-29 01:04:59.292361 Track Name: "IGNITE" Artist Name: "Nissi" Web Link: https://open.spotify.com/artist/4586oPyU8t6d4hGb1BPFTU Explicit: False 
+GitHub_Runner_Date: 2023-09-29 01:04:59.292386 Track Name: "Madelyn" Artist Name: "Anderson East" Web Link: https://open.spotify.com/artist/5q6z6GTth6lMbL9I8CAgby Explicit: False 
+GitHub_Runner_Date: 2023-09-29 01:04:59.292410 Track Name: "Satisfy Me" Artist Name: "Anderson East" Web Link: https://open.spotify.com/artist/5q6z6GTth6lMbL9I8CAgby Explicit: False 
+GitHub_Runner_Date: 2023-09-29 01:04:59.292434 Track Name: "Beggin' - Live" Artist Name: "Måneskin" Web Link: https://open.spotify.com/artist/0lAWpj5szCSwM4rUMHYmrr Explicit: False 
+GitHub_Runner_Date: 2023-09-29 01:04:59.292462 Track Name: "Amazing" Artist Name: "Joonie" Web Link: https://open.spotify.com/artist/3a1CAJK39sSdhaS4fWBAru Explicit: False 
+GitHub_Runner_Date: 2023-09-29 01:04:59.292487 Track Name: "Into You" Artist Name: "TEEKS" Web Link: https://open.spotify.com/artist/4ofg0wyo4TjuNtWQ5XxZhJ Explicit: False 
+GitHub_Runner_Date: 2023-09-29 01:04:59.292511 Track Name: "Broken Heart" Artist Name: "Booker T." Web Link: https://open.spotify.com/artist/5O2Gph0YtABIs0zaP65nlm Explicit: False 
+GitHub_Runner_Date: 2023-09-29 01:04:59.292535 Track Name: "Upside Down" Artist Name: "GoldFord" Web Link: https://open.spotify.com/artist/4I2QW85rkIhCRRZt1kuBqS Explicit: False 
+GitHub_Runner_Date: 2023-09-29 01:04:59.292560 Track Name: "Back In The Day" Artist Name: "Wayne Brady" Web Link: https://open.spotify.com/artist/1wLJTOL6Mz0AOni5EcH4v3 Explicit: False 
+GitHub_Runner_Date: 2023-09-29 01:04:59.292584 Track Name: "Cracks In The Ceiling" Artist Name: "Devon Gilfillian" Web Link: https://open.spotify.com/artist/5cbak2U6nZWXDYiG72E3lH Explicit: False 
+GitHub_Runner_Date: 2023-09-29 01:04:59.292608 Track Name: "DFMU" Artist Name: "Ella Mai" Web Link: https://open.spotify.com/artist/7HkdQ0gt53LP4zmHsL0nap Explicit: True 
+GitHub_Runner_Date: 2023-09-29 01:04:59.292632 Track Name: "Lie for You - Acoustic Version" Artist Name: "Snakehips" Web Link: https://open.spotify.com/artist/2FwJwEswyIUAljqgjNSHgP Explicit: False 
+GitHub_Runner_Date: 2023-09-29 01:04:59.292666 Track Name: "Care 4 Me" Artist Name: "Blair Perkins" Web Link: https://open.spotify.com/artist/609Q2Uooik1vA0iMZ4uOka Explicit: False 
