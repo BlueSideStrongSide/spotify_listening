@@ -938,3 +938,23 @@ GitHub_Runner_Date: 2023-09-29 01:04:59.292584 Track Name: "Cracks In The Ceilin
 GitHub_Runner_Date: 2023-09-29 01:04:59.292608 Track Name: "DFMU" Artist Name: "Ella Mai" Web Link: https://open.spotify.com/artist/7HkdQ0gt53LP4zmHsL0nap Explicit: True 
 GitHub_Runner_Date: 2023-09-29 01:04:59.292632 Track Name: "Lie for You - Acoustic Version" Artist Name: "Snakehips" Web Link: https://open.spotify.com/artist/2FwJwEswyIUAljqgjNSHgP Explicit: False 
 GitHub_Runner_Date: 2023-09-29 01:04:59.292666 Track Name: "Care 4 Me" Artist Name: "Blair Perkins" Web Link: https://open.spotify.com/artist/609Q2Uooik1vA0iMZ4uOka Explicit: False 
+GitHub_Runner_Date: 2023-09-30 01:03:19.631603 Track Name: "Gotta Get It" Artist Name: "Spodee" Web Link: https://open.spotify.com/artist/3b3DRCf7t5C5yV7WJrxvzo Explicit: True 
+GitHub_Runner_Date: 2023-09-30 01:03:19.631681 Track Name: "Footsteps (feat. Musiq Soulchild)" Artist Name: "Kehlani" Web Link: https://open.spotify.com/artist/0cGUm45nv7Z6M6qdXYQGTX Explicit: False 
+GitHub_Runner_Date: 2023-09-30 01:03:19.631724 Track Name: "I Need to Know" Artist Name: "R.LUM.R" Web Link: https://open.spotify.com/artist/7JBZN2pehWRUu3fX11lP2y Explicit: False 
+GitHub_Runner_Date: 2023-09-30 01:03:19.631756 Track Name: "Lights Out" Artist Name: "Sonn" Web Link: https://open.spotify.com/artist/1VURTzU1i6o1agHFXs3V4E Explicit: False 
+GitHub_Runner_Date: 2023-09-30 01:03:19.631788 Track Name: "The Girl with the Tattoo - Miguel Cover" Artist Name: "JAEL" Web Link: https://open.spotify.com/artist/5p77ntJBUVTiJ00bmwhQaO Explicit: False 
+GitHub_Runner_Date: 2023-09-30 01:03:19.631818 Track Name: "AiCarumba" Artist Name: "Telana" Web Link: https://open.spotify.com/artist/4M4H0qldbkrJemwMqanT4a Explicit: True 
+GitHub_Runner_Date: 2023-09-30 01:03:19.631848 Track Name: "Treat Me Like I'm All Yours" Artist Name: "Sasha Keable" Web Link: https://open.spotify.com/artist/7MxGWmiAbqjNOGmj23wbWf Explicit: True 
+GitHub_Runner_Date: 2023-09-30 01:03:19.631878 Track Name: "Alive" Artist Name: "Dami Oniru" Web Link: https://open.spotify.com/artist/0WwZMQoxKjgOOicFhd08yx Explicit: False 
+GitHub_Runner_Date: 2023-09-30 01:03:19.631909 Track Name: "Look Up To The Sky" Artist Name: "Nicole Bus" Web Link: https://open.spotify.com/artist/0IeB4swNmNetlaZUgdHqBX Explicit: False 
+GitHub_Runner_Date: 2023-09-30 01:03:19.631939 Track Name: "Drunk & Alone" Artist Name: "Pip Millett" Web Link: https://open.spotify.com/artist/1QfEfvB62EEl4upf2ANKkR Explicit: False 
+GitHub_Runner_Date: 2023-09-30 01:03:19.631969 Track Name: "Part Of Me" Artist Name: "Musiq Soulchild" Web Link: https://open.spotify.com/artist/3UVRliakQfa1pMWIsNuiZ8 Explicit: False 
+GitHub_Runner_Date: 2023-09-30 01:03:19.631999 Track Name: "Boofiness" Artist Name: "1010benja" Web Link: https://open.spotify.com/artist/7xBrMNV9UKo2THKIk9xpBK Explicit: False 
+GitHub_Runner_Date: 2023-09-30 01:03:19.632029 Track Name: "Shortcomings" Artist Name: "Bjurman" Web Link: https://open.spotify.com/artist/2Mah50rowOCI0gYAZOaLbY Explicit: False 
+GitHub_Runner_Date: 2023-09-30 01:03:19.632060 Track Name: "Sum Good" Artist Name: "Rosehardt" Web Link: https://open.spotify.com/artist/4r6z3Bx1rDiuqkyKGXGvSN Explicit: False 
+GitHub_Runner_Date: 2023-09-30 01:03:19.632089 Track Name: "Blue Mountain Ridge" Artist Name: "Vicktor Taiwò" Web Link: https://open.spotify.com/artist/30dFzY3dddH5mai3xo749h Explicit: False 
+GitHub_Runner_Date: 2023-09-30 01:03:19.632123 Track Name: "Top Down" Artist Name: "Leikeli47" Web Link: https://open.spotify.com/artist/0DtXHIvJ8NWBg5pGvsgWnR Explicit: True 
+GitHub_Runner_Date: 2023-09-30 01:03:19.632152 Track Name: "You - Remix" Artist Name: "Dayo Bello" Web Link: https://open.spotify.com/artist/41mwTkqJfMxPMbQmEdN2S2 Explicit: False 
+GitHub_Runner_Date: 2023-09-30 01:03:19.632181 Track Name: "Lyrics of Pleasure" Artist Name: "Eric Roberson" Web Link: https://open.spotify.com/artist/2ewAU3d4El7WSIxWUJaZJn Explicit: False 
+GitHub_Runner_Date: 2023-09-30 01:03:19.632217 Track Name: "July on Film" Artist Name: "Zeauxi" Web Link: https://open.spotify.com/artist/2tGkqm7DdGhJgAeOU5tZOu Explicit: False 
+GitHub_Runner_Date: 2023-09-30 01:03:19.632247 Track Name: "Abracadabra" Artist Name: "Anna Wise" Web Link: https://open.spotify.com/artist/0N41KJ4H6bkPAm2tx7VS8C Explicit: False 
