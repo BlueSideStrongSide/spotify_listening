@@ -1038,3 +1038,23 @@ GitHub_Runner_Date: 2023-10-04 01:06:38.248863 Track Name: "Don't Stop" Artist N
 GitHub_Runner_Date: 2023-10-04 01:06:38.248897 Track Name: "SHED TEARS (feat. Lena Bird Myles)" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
 GitHub_Runner_Date: 2023-10-04 01:06:38.248931 Track Name: "MOTHERLESS" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
 GitHub_Runner_Date: 2023-10-04 01:06:38.248964 Track Name: "90's Woman" Artist Name: "Lewis Sky" Web Link: https://open.spotify.com/artist/3ezlkOpuXn3BcU4ScwfM5o Explicit: True 
+GitHub_Runner_Date: 2023-10-05 01:05:18.305117 Track Name: "Gotta Get It" Artist Name: "Spodee" Web Link: https://open.spotify.com/artist/3b3DRCf7t5C5yV7WJrxvzo Explicit: True 
+GitHub_Runner_Date: 2023-10-05 01:05:18.305188 Track Name: "So In Love (feat. Darrel 'MusiqCity' Walls & Zacardi Cortez)" Artist Name: "PJ Morton" Web Link: https://open.spotify.com/artist/2FMOHE79X98yptp4RpPrt7 Explicit: False 
+GitHub_Runner_Date: 2023-10-05 01:05:18.305219 Track Name: "Good Pussy" Artist Name: "Alia Kadir" Web Link: https://open.spotify.com/artist/1CtsMytaxoEKUxiqRm02F1 Explicit: True 
+GitHub_Runner_Date: 2023-10-05 01:05:18.305247 Track Name: "SAY SO (feat. JoJo)" Artist Name: "PJ Morton" Web Link: https://open.spotify.com/artist/2FMOHE79X98yptp4RpPrt7 Explicit: False 
+GitHub_Runner_Date: 2023-10-05 01:05:18.305272 Track Name: "Can't Live Without You" Artist Name: "Charlie Wilson" Web Link: https://open.spotify.com/artist/6CxZzQFUTM6AzgluGwtq5w Explicit: False 
+GitHub_Runner_Date: 2023-10-05 01:05:18.305298 Track Name: "Love You In The Morning (L.U.I.M)" Artist Name: "J.Howell" Web Link: https://open.spotify.com/artist/5GU7EEftOdxcqM7nPoXLwq Explicit: True 
+GitHub_Runner_Date: 2023-10-05 01:05:18.305323 Track Name: "Touch" Artist Name: "Shura" Web Link: https://open.spotify.com/artist/1qpR5mURxk3d8f6mww6uKT Explicit: False 
+GitHub_Runner_Date: 2023-10-05 01:05:18.305349 Track Name: "SOMEBODY" Artist Name: "Mike Classic" Web Link: https://open.spotify.com/artist/4I8nWa5GMqCw0yCOpTUYU4 Explicit: True 
+GitHub_Runner_Date: 2023-10-05 01:05:18.305404 Track Name: "SLUMMER" Artist Name: "Killer Mike" Web Link: https://open.spotify.com/artist/2N4EYkIlG1kv25g6Wv8LGI Explicit: True 
+GitHub_Runner_Date: 2023-10-05 01:05:18.305440 Track Name: "BORN 2 BE" Artist Name: "Lovelogiq" Web Link: https://open.spotify.com/artist/20MpfYc52X491731KoJ8ds Explicit: False 
+GitHub_Runner_Date: 2023-10-05 01:05:18.305466 Track Name: "I'll Wait" Artist Name: "Madison Ryann Ward" Web Link: https://open.spotify.com/artist/6eAUAR4N9NOpirukqdIzVI Explicit: False 
+GitHub_Runner_Date: 2023-10-05 01:05:18.305490 Track Name: "Alone A Lot" Artist Name: "Louis York" Web Link: https://open.spotify.com/artist/0owrNlxvcLL8KI0U5sYBUb Explicit: False 
+GitHub_Runner_Date: 2023-10-05 01:05:18.305515 Track Name: "Right For Me" Artist Name: "J.Howell" Web Link: https://open.spotify.com/artist/5GU7EEftOdxcqM7nPoXLwq Explicit: True 
+GitHub_Runner_Date: 2023-10-05 01:05:18.305539 Track Name: "I'm Done" Artist Name: "Tweet" Web Link: https://open.spotify.com/artist/6zDBeei6hHRiZdAJ6zoTCo Explicit: False 
+GitHub_Runner_Date: 2023-10-05 01:05:18.305563 Track Name: "Surreal" Artist Name: "Natural High Music" Web Link: https://open.spotify.com/artist/0YC4SDrEwmvpxsEM2hkH64 Explicit: False 
+GitHub_Runner_Date: 2023-10-05 01:05:18.305588 Track Name: "On The Market" Artist Name: "Marco McKinnis" Web Link: https://open.spotify.com/artist/2hnEiOVSXzO81ruLVH0KUR Explicit: False 
+GitHub_Runner_Date: 2023-10-05 01:05:18.305612 Track Name: "Innocent Eyes" Artist Name: "Ash Minor" Web Link: https://open.spotify.com/artist/0P1bjDnIRWm0VUdA0urCNG Explicit: False 
+GitHub_Runner_Date: 2023-10-05 01:05:18.305636 Track Name: "Concrete" Artist Name: "Teyana Taylor" Web Link: https://open.spotify.com/artist/4ULO7IGI3M2bo0Ap7B9h8a Explicit: True 
+GitHub_Runner_Date: 2023-10-05 01:05:18.305662 Track Name: "ego talkin - A COLORS SHOW" Artist Name: "Saint Harison" Web Link: https://open.spotify.com/artist/16AILHA3N2C3ngRuR2FdfH Explicit: False 
+GitHub_Runner_Date: 2023-10-05 01:05:18.305686 Track Name: "B.A.N" Artist Name: "Nemchel" Web Link: https://open.spotify.com/artist/7g0FhvYZY0xU9wklCVheEZ Explicit: True 
