@@ -1178,3 +1178,23 @@ GitHub_Runner_Date: 2023-10-11 01:04:52.730387 Track Name: "Hol' It Down" Artist
 GitHub_Runner_Date: 2023-10-11 01:04:52.730413 Track Name: "Lucky - GC PRESENTS: Evergreen - Live" Artist Name: "Tish Hyman" Web Link: https://open.spotify.com/artist/6WzffCtFJ1iDsAwEV35h6K Explicit: False 
 GitHub_Runner_Date: 2023-10-11 01:04:52.730440 Track Name: "What It Is" Artist Name: "Amber Mark" Web Link: https://open.spotify.com/artist/0tbeZu9lv8YEKSQ9tZSslu Explicit: False 
 GitHub_Runner_Date: 2023-10-11 01:04:52.730465 Track Name: "Milk & Honey" Artist Name: "Goapele" Web Link: https://open.spotify.com/artist/5cgtn5YWC3Fr06wTps1dBq Explicit: False 
+GitHub_Runner_Date: 2023-10-12 01:03:14.136909 Track Name: "Cracks In The Ceiling" Artist Name: "Devon Gilfillian" Web Link: https://open.spotify.com/artist/5cbak2U6nZWXDYiG72E3lH Explicit: False 
+GitHub_Runner_Date: 2023-10-12 01:03:14.137001 Track Name: "DFMU" Artist Name: "Ella Mai" Web Link: https://open.spotify.com/artist/7HkdQ0gt53LP4zmHsL0nap Explicit: True 
+GitHub_Runner_Date: 2023-10-12 01:03:14.137044 Track Name: "Lie for You - Acoustic Version" Artist Name: "Snakehips" Web Link: https://open.spotify.com/artist/2FwJwEswyIUAljqgjNSHgP Explicit: False 
+GitHub_Runner_Date: 2023-10-12 01:03:14.137096 Track Name: "Care 4 Me" Artist Name: "Blair Perkins" Web Link: https://open.spotify.com/artist/609Q2Uooik1vA0iMZ4uOka Explicit: False 
+GitHub_Runner_Date: 2023-10-12 01:03:14.137133 Track Name: "Kwaku the Traveller" Artist Name: "Black Sherif" Web Link: https://open.spotify.com/artist/2LiqbH7OhqP0yuaG8VL1wJ Explicit: True 
+GitHub_Runner_Date: 2023-10-12 01:03:14.137168 Track Name: "The King's Affirmation" Artist Name: "Iniko" Web Link: https://open.spotify.com/artist/2ih5M0aTrQ97JX1nZuxDQY Explicit: False 
+GitHub_Runner_Date: 2023-10-12 01:03:14.137209 Track Name: "NOT TOO DEEP (feat. 6LACK)" Artist Name: "India Shawn" Web Link: https://open.spotify.com/artist/7g0SC4F149FUX5rKFuSpqL Explicit: True 
+GitHub_Runner_Date: 2023-10-12 01:03:14.137246 Track Name: "Power" Artist Name: "Amanda Black" Web Link: https://open.spotify.com/artist/4tyWwKFEbho8Vh4qczqbIo Explicit: False 
+GitHub_Runner_Date: 2023-10-12 01:03:14.137281 Track Name: "Higher" Artist Name: "Tems" Web Link: https://open.spotify.com/artist/687cZJR45JO7jhk1LHIbgq Explicit: False 
+GitHub_Runner_Date: 2023-10-12 01:03:14.137314 Track Name: "Mad Bitches (feat. Ro James) [from Insecure: Music From The HBO Original Series, Season 5]" Artist Name: "Mikhala Jené" Web Link: https://open.spotify.com/artist/1wbags12HDkfPHnyyH5Qiy Explicit: True 
+GitHub_Runner_Date: 2023-10-12 01:03:14.137355 Track Name: "Superstar" Artist Name: "Anthony Hamilton" Web Link: https://open.spotify.com/artist/2DzRMyWgjuMbYvt5BLbpCo Explicit: False 
+GitHub_Runner_Date: 2023-10-12 01:03:14.137391 Track Name: "Undertow" Artist Name: "Goapele" Web Link: https://open.spotify.com/artist/5cgtn5YWC3Fr06wTps1dBq Explicit: False 
+GitHub_Runner_Date: 2023-10-12 01:03:14.137425 Track Name: "Don't Dream It's Over" Artist Name: "Liv Dawson" Web Link: https://open.spotify.com/artist/7i8fq2gFSVgPdWVXOlDEx7 Explicit: False 
+GitHub_Runner_Date: 2023-10-12 01:03:14.137459 Track Name: "Do Me Right" Artist Name: "Wildson" Web Link: https://open.spotify.com/artist/1Zy7BWE5e2cJFeXvawEJjV Explicit: False 
+GitHub_Runner_Date: 2023-10-12 01:03:14.137492 Track Name: "Falling" Artist Name: "Maverick Sabre" Web Link: https://open.spotify.com/artist/0ukgrNYk51TkMQr0f2Br4Q Explicit: False 
+GitHub_Runner_Date: 2023-10-12 01:03:14.137527 Track Name: "Queen Appeal" Artist Name: "Crutchfield Jones" Web Link: https://open.spotify.com/artist/3j1hQvTjPkQeU2eeUGPanM Explicit: False 
+GitHub_Runner_Date: 2023-10-12 01:03:14.137561 Track Name: "Brighter Day" Artist Name: "Louis Baker" Web Link: https://open.spotify.com/artist/6cKB91cRebrHboAUTx5uUy Explicit: False 
+GitHub_Runner_Date: 2023-10-12 01:03:14.137595 Track Name: "Angels" Artist Name: "Johnny Balik" Web Link: https://open.spotify.com/artist/6cXU3B0U7wNEOOU8UjaWww Explicit: True 
+GitHub_Runner_Date: 2023-10-12 01:03:14.137628 Track Name: "Gravitate" Artist Name: "Jessica Domingo" Web Link: https://open.spotify.com/artist/3ote0zYtTM5HzVyDKEJrzR Explicit: False 
+GitHub_Runner_Date: 2023-10-12 01:03:14.137663 Track Name: "Taboo" Artist Name: "Sevyn Streeter" Web Link: https://open.spotify.com/artist/6If57j6e3TXXk0HiLcIZca Explicit: True 
