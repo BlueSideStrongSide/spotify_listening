@@ -151,8 +151,9 @@ class SpotifyInternalHelper(SpotifyLogger):
 
     async def realtime_process_response(self):
 
-        trimmed_out = f"HTTP_Status_Code {self._resp.status_code} Runner_Timestamp:'{self._auth_manager.current_time_fmt}' Artist: '{self.api_response['item']['artists'][0]['name']}' Song: '{self.api_response['item']['name']}' API_timestamp: {self.api_response['timestamp']}"
-
+        # trimmed_out = f"HTTP_Status_Code {self._resp.status_code} Runner_Timestamp:'{self._auth_manager.current_time_fmt}' Artist: '{self.api_response['item']['artists'][0]['name']}' Song: '{self.api_response['item']['name']}' API_timestamp: {self.api_response['timestamp']}"
+        trimmed_out = f"HTTP_Status_Code {self._resp.status_code} Runner_Timestamp: '{self._auth_manager.current_time_fmt}' Artist: '{self.api_response.get('item', {}).get('artists', [{}])[0].get('name', 'N/A')}' Song: '{self.api_response.get('item', {}).get('name', 'N/A')}' API_timestamp: {self.api_response.get('timestamp', 'N/A')}"
+        
         self.logger.info(f'{trimmed_out}')
 
     async def _update_logging(self):
