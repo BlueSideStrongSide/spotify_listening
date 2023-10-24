@@ -1418,3 +1418,23 @@ GitHub_Runner_Date: 2023-10-23 01:05:25.912571 Track Name: "Greatness" Artist Na
 GitHub_Runner_Date: 2023-10-23 01:05:25.912602 Track Name: "CINDERELLA, Pt. 2" Artist Name: "CHIKA" Web Link: https://open.spotify.com/artist/6UtYvUtXnmg5EtllDFlWp8 Explicit: False 
 GitHub_Runner_Date: 2023-10-23 01:05:25.912632 Track Name: "FTU" Artist Name: "JON VINYL" Web Link: https://open.spotify.com/artist/6PvScqSJuICxvoA3UDYPmu Explicit: True 
 GitHub_Runner_Date: 2023-10-23 01:05:25.912663 Track Name: "444" Artist Name: "Justin Nozuka" Web Link: https://open.spotify.com/artist/1uquUYtkdKei0zuhBY9P0t Explicit: False 
+GitHub_Runner_Date: 2023-10-24 01:05:08.484152 Track Name: "Could be for You" Artist Name: "ISAIAS" Web Link: https://open.spotify.com/artist/3TNGWZI8njrlX8GQtiMdxg Explicit: False 
+GitHub_Runner_Date: 2023-10-24 01:05:08.484252 Track Name: "Come Over" Artist Name: "RetroBands" Web Link: https://open.spotify.com/artist/1QtrQ3Gz0s3erqRrhoBiBD Explicit: False 
+GitHub_Runner_Date: 2023-10-24 01:05:08.484300 Track Name: "Cold Showers" Artist Name: "Tia Gordon" Web Link: https://open.spotify.com/artist/5rXNmuTfaGC8hw0JEQOpLc Explicit: False 
+GitHub_Runner_Date: 2023-10-24 01:05:08.484341 Track Name: "Lalala (feat. Jayla Darden)" Artist Name: "Mnelia" Web Link: https://open.spotify.com/artist/4DDsQzXhKIC2F70cjMP7ec Explicit: True 
+GitHub_Runner_Date: 2023-10-24 01:05:08.484380 Track Name: "Cinnamon" Artist Name: "Tash" Web Link: https://open.spotify.com/artist/3kX6nt9QiDarAkCsIGRIgR Explicit: False 
+GitHub_Runner_Date: 2023-10-24 01:05:08.484419 Track Name: "N@STY" Artist Name: "Billymaree" Web Link: https://open.spotify.com/artist/54WEGLBrZDqfZgZaJgrxj2 Explicit: True 
+GitHub_Runner_Date: 2023-10-24 01:05:08.484474 Track Name: "Shoestring" Artist Name: "Felix Ames" Web Link: https://open.spotify.com/artist/0UBIK7mjIJeYZ5qy6fUPG2 Explicit: False 
+GitHub_Runner_Date: 2023-10-24 01:05:08.484514 Track Name: "Shoestring" Artist Name: "Felix Ames" Web Link: https://open.spotify.com/artist/0UBIK7mjIJeYZ5qy6fUPG2 Explicit: False 
+GitHub_Runner_Date: 2023-10-24 01:05:08.484551 Track Name: "Another Lifetime" Artist Name: "Amie Blu" Web Link: https://open.spotify.com/artist/3WWvqxymB3Nypxej8XcQKC Explicit: True 
+GitHub_Runner_Date: 2023-10-24 01:05:08.484589 Track Name: "Could be for You" Artist Name: "ISAIAS" Web Link: https://open.spotify.com/artist/3TNGWZI8njrlX8GQtiMdxg Explicit: False 
+GitHub_Runner_Date: 2023-10-24 01:05:08.484627 Track Name: "Stuck On You" Artist Name: "Alice Aera" Web Link: https://open.spotify.com/artist/1r6ajY5Cgb1Rhl88UWG4B7 Explicit: False 
+GitHub_Runner_Date: 2023-10-24 01:05:08.484666 Track Name: "Sex On GPS" Artist Name: "Maesu" Web Link: https://open.spotify.com/artist/2kk1THOr0gsQaAqOj02tbl Explicit: True 
+GitHub_Runner_Date: 2023-10-24 01:05:08.484704 Track Name: "THINKIN BOUT YOU II" Artist Name: "QUIN" Web Link: https://open.spotify.com/artist/3sHS70DMNgPxRqx2fUNrRA Explicit: False 
+GitHub_Runner_Date: 2023-10-24 01:05:08.484741 Track Name: "Touch Me with Your Words" Artist Name: "7HO3NIX" Web Link: https://open.spotify.com/artist/6Pvcsx25eAgvvG1dsUVTX1 Explicit: False 
+GitHub_Runner_Date: 2023-10-24 01:05:08.484779 Track Name: "You Treat Me Better In My (Dreams)" Artist Name: "Lily Massie" Web Link: https://open.spotify.com/artist/2kQ4RPZzQ5YVAcWNC162x9 Explicit: False 
+GitHub_Runner_Date: 2023-10-24 01:05:08.484818 Track Name: "Cold Showers" Artist Name: "Tia Gordon" Web Link: https://open.spotify.com/artist/5rXNmuTfaGC8hw0JEQOpLc Explicit: False 
+GitHub_Runner_Date: 2023-10-24 01:05:08.484855 Track Name: "Reasons." Artist Name: "HXRY" Web Link: https://open.spotify.com/artist/2iqM6ytAoq3ckSITRNOaWB Explicit: False 
+GitHub_Runner_Date: 2023-10-24 01:05:08.484893 Track Name: "N@STY" Artist Name: "Billymaree" Web Link: https://open.spotify.com/artist/54WEGLBrZDqfZgZaJgrxj2 Explicit: True 
+GitHub_Runner_Date: 2023-10-24 01:05:08.484931 Track Name: "How Soon" Artist Name: "ASTN" Web Link: https://open.spotify.com/artist/7zkwepHPyac6tCYl0fL0co Explicit: False 
+GitHub_Runner_Date: 2023-10-24 01:05:08.484968 Track Name: "Right My Wrongs - Acoustic" Artist Name: "Jastin Martin" Web Link: https://open.spotify.com/artist/44JW18XzNr86kKNWJq8eg1 Explicit: False 
