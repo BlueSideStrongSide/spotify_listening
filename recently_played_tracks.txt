@@ -1498,3 +1498,23 @@ GitHub_Runner_Date: 2023-10-27 01:04:09.984678 Track Name: "On The Market" Artis
 GitHub_Runner_Date: 2023-10-27 01:04:09.984719 Track Name: "Innocent Eyes" Artist Name: "Ash Minor" Web Link: https://open.spotify.com/artist/0P1bjDnIRWm0VUdA0urCNG Explicit: False 
 GitHub_Runner_Date: 2023-10-27 01:04:09.984756 Track Name: "Concrete" Artist Name: "Teyana Taylor" Web Link: https://open.spotify.com/artist/4ULO7IGI3M2bo0Ap7B9h8a Explicit: True 
 GitHub_Runner_Date: 2023-10-27 01:04:09.984794 Track Name: "ego talkin - A COLORS SHOW" Artist Name: "Saint Harison" Web Link: https://open.spotify.com/artist/16AILHA3N2C3ngRuR2FdfH Explicit: False 
+GitHub_Runner_Date: 2023-10-28 01:02:47.720924 Track Name: "Hard For" Artist Name: "Kevin Gates" Web Link: https://open.spotify.com/artist/1gPhS1zisyXr5dHTYZyiMe Explicit: True 
+GitHub_Runner_Date: 2023-10-28 01:02:47.721005 Track Name: "I Don't Get Tired (#IDGT) (feat. August Alsina)" Artist Name: "Kevin Gates" Web Link: https://open.spotify.com/artist/1gPhS1zisyXr5dHTYZyiMe Explicit: True 
+GitHub_Runner_Date: 2023-10-28 01:02:47.721038 Track Name: "Bad For Me" Artist Name: "Kevin Gates" Web Link: https://open.spotify.com/artist/1gPhS1zisyXr5dHTYZyiMe Explicit: True 
+GitHub_Runner_Date: 2023-10-28 01:02:47.721067 Track Name: "Walls Talking" Artist Name: "Kevin Gates" Web Link: https://open.spotify.com/artist/1gPhS1zisyXr5dHTYZyiMe Explicit: True 
+GitHub_Runner_Date: 2023-10-28 01:02:47.721095 Track Name: "Time for That" Artist Name: "Kevin Gates" Web Link: https://open.spotify.com/artist/1gPhS1zisyXr5dHTYZyiMe Explicit: True 
+GitHub_Runner_Date: 2023-10-28 01:02:47.721121 Track Name: "Truth Be Told" Artist Name: "Kevin Gates" Web Link: https://open.spotify.com/artist/1gPhS1zisyXr5dHTYZyiMe Explicit: True 
+GitHub_Runner_Date: 2023-10-28 01:02:47.721149 Track Name: "Bags" Artist Name: "Kevin Gates" Web Link: https://open.spotify.com/artist/1gPhS1zisyXr5dHTYZyiMe Explicit: True 
+GitHub_Runner_Date: 2023-10-28 01:02:47.721176 Track Name: "Cuban Links (feat. Kevin Gates)" Artist Name: "Rod Wave" Web Link: https://open.spotify.com/artist/45TgXXqMDdF8BkjA83OM7z Explicit: True 
+GitHub_Runner_Date: 2023-10-28 01:02:47.721203 Track Name: "Dusa (feat. Kevin Gates)" Artist Name: "FL Dusa" Web Link: https://open.spotify.com/artist/1l39BupEDqsioWGVDXluVG Explicit: True 
+GitHub_Runner_Date: 2023-10-28 01:02:47.721229 Track Name: "Me Too" Artist Name: "Kevin Gates" Web Link: https://open.spotify.com/artist/1gPhS1zisyXr5dHTYZyiMe Explicit: True 
+GitHub_Runner_Date: 2023-10-28 01:02:47.721255 Track Name: "Thinking with My Dick (feat. Juicy J)" Artist Name: "Kevin Gates" Web Link: https://open.spotify.com/artist/1gPhS1zisyXr5dHTYZyiMe Explicit: True 
+GitHub_Runner_Date: 2023-10-28 01:02:47.721282 Track Name: "Interlude" Artist Name: "Stormzy" Web Link: https://open.spotify.com/artist/2SrSdSvpminqmStGELCSNd Explicit: False 
+GitHub_Runner_Date: 2023-10-28 01:02:47.721309 Track Name: "Drift - Sped Up" Artist Name: "Teejay" Web Link: https://open.spotify.com/artist/30hElzuHCZ1qzCl364SHma Explicit: True 
+GitHub_Runner_Date: 2023-10-28 01:02:47.721334 Track Name: "Oceans 2" Artist Name: "iLL BLU" Web Link: https://open.spotify.com/artist/550Zxz0BTZi3yd8gX9QINw Explicit: False 
+GitHub_Runner_Date: 2023-10-28 01:02:47.721360 Track Name: "Smile" Artist Name: "K'NAAN" Web Link: https://open.spotify.com/artist/7pGyQZx9thVa8GxMBeXscB Explicit: False 
+GitHub_Runner_Date: 2023-10-28 01:02:47.721397 Track Name: "Sun Models" Artist Name: "ODESZA" Web Link: https://open.spotify.com/artist/21mKp7DqtSNHhCAU2ugvUw Explicit: False 
+GitHub_Runner_Date: 2023-10-28 01:02:47.721424 Track Name: "Stutter" Artist Name: "Danniella Dee" Web Link: https://open.spotify.com/artist/0bW55NA4HYcn0Hjur42b5y Explicit: False 
+GitHub_Runner_Date: 2023-10-28 01:02:47.721451 Track Name: "Cinnamon" Artist Name: "Tash" Web Link: https://open.spotify.com/artist/3kX6nt9QiDarAkCsIGRIgR Explicit: False 
+GitHub_Runner_Date: 2023-10-28 01:02:47.721477 Track Name: "Pray 4 U" Artist Name: "Gic0e" Web Link: https://open.spotify.com/artist/7CkRwvPIIL5cDRgpPPLkvF Explicit: True 
+GitHub_Runner_Date: 2023-10-28 01:02:47.721504 Track Name: "Come Over" Artist Name: "RetroBands" Web Link: https://open.spotify.com/artist/1QtrQ3Gz0s3erqRrhoBiBD Explicit: False 
