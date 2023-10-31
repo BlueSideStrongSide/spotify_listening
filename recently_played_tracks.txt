@@ -1558,3 +1558,23 @@ GitHub_Runner_Date: 2023-10-30 01:05:41.455377 Track Name: "Clothes Off" Artist 
 GitHub_Runner_Date: 2023-10-30 01:05:41.455407 Track Name: "Contagious" Artist Name: "Bee-B" Web Link: https://open.spotify.com/artist/13FgCXn7z3ld9mR2Pz8eqc Explicit: False 
 GitHub_Runner_Date: 2023-10-30 01:05:41.455437 Track Name: "Anything" Artist Name: "Lee England Jr" Web Link: https://open.spotify.com/artist/7FabEcDtzenndrHSHMqyQL Explicit: False 
 GitHub_Runner_Date: 2023-10-30 01:05:41.455468 Track Name: "Pamela (Interlude)" Artist Name: "Sishii" Web Link: https://open.spotify.com/artist/7qSWBbKrqf8gIGvvZLY2KG Explicit: False 
+GitHub_Runner_Date: 2023-10-31 01:05:43.956766 Track Name: "Paper Chasers" Artist Name: "Kevin Gates" Web Link: https://open.spotify.com/artist/1gPhS1zisyXr5dHTYZyiMe Explicit: True 
+GitHub_Runner_Date: 2023-10-31 01:05:43.956851 Track Name: "Mr. Brasi" Artist Name: "Kevin Gates" Web Link: https://open.spotify.com/artist/1gPhS1zisyXr5dHTYZyiMe Explicit: True 
+GitHub_Runner_Date: 2023-10-31 01:05:43.956889 Track Name: "I Don’t Apologize" Artist Name: "Kevin Gates" Web Link: https://open.spotify.com/artist/1gPhS1zisyXr5dHTYZyiMe Explicit: True 
+GitHub_Runner_Date: 2023-10-31 01:05:43.956927 Track Name: "Broken Love" Artist Name: "MO3" Web Link: https://open.spotify.com/artist/44JEJiBvti7NiEhAfzWstv Explicit: True 
+GitHub_Runner_Date: 2023-10-31 01:05:43.956958 Track Name: "Hard For" Artist Name: "Kevin Gates" Web Link: https://open.spotify.com/artist/1gPhS1zisyXr5dHTYZyiMe Explicit: True 
+GitHub_Runner_Date: 2023-10-31 01:05:43.956989 Track Name: "Time for That" Artist Name: "Kevin Gates" Web Link: https://open.spotify.com/artist/1gPhS1zisyXr5dHTYZyiMe Explicit: True 
+GitHub_Runner_Date: 2023-10-31 01:05:43.957019 Track Name: "I Don't Get Tired (#IDGT) (feat. August Alsina)" Artist Name: "Kevin Gates" Web Link: https://open.spotify.com/artist/1gPhS1zisyXr5dHTYZyiMe Explicit: True 
+GitHub_Runner_Date: 2023-10-31 01:05:43.957049 Track Name: "Me Too" Artist Name: "Kevin Gates" Web Link: https://open.spotify.com/artist/1gPhS1zisyXr5dHTYZyiMe Explicit: True 
+GitHub_Runner_Date: 2023-10-31 01:05:43.957080 Track Name: "Weight" Artist Name: "Kevin Gates" Web Link: https://open.spotify.com/artist/1gPhS1zisyXr5dHTYZyiMe Explicit: True 
+GitHub_Runner_Date: 2023-10-31 01:05:43.957110 Track Name: "Paper Chasers" Artist Name: "Kevin Gates" Web Link: https://open.spotify.com/artist/1gPhS1zisyXr5dHTYZyiMe Explicit: True 
+GitHub_Runner_Date: 2023-10-31 01:05:43.957140 Track Name: "Mr. Brasi" Artist Name: "Kevin Gates" Web Link: https://open.spotify.com/artist/1gPhS1zisyXr5dHTYZyiMe Explicit: True 
+GitHub_Runner_Date: 2023-10-31 01:05:43.957170 Track Name: "I Don’t Apologize" Artist Name: "Kevin Gates" Web Link: https://open.spotify.com/artist/1gPhS1zisyXr5dHTYZyiMe Explicit: True 
+GitHub_Runner_Date: 2023-10-31 01:05:43.957201 Track Name: "Broken Love" Artist Name: "MO3" Web Link: https://open.spotify.com/artist/44JEJiBvti7NiEhAfzWstv Explicit: True 
+GitHub_Runner_Date: 2023-10-31 01:05:43.957231 Track Name: "Hard For" Artist Name: "Kevin Gates" Web Link: https://open.spotify.com/artist/1gPhS1zisyXr5dHTYZyiMe Explicit: True 
+GitHub_Runner_Date: 2023-10-31 01:05:43.957262 Track Name: "Time for That" Artist Name: "Kevin Gates" Web Link: https://open.spotify.com/artist/1gPhS1zisyXr5dHTYZyiMe Explicit: True 
+GitHub_Runner_Date: 2023-10-31 01:05:43.957293 Track Name: "I Don't Get Tired (#IDGT) (feat. August Alsina)" Artist Name: "Kevin Gates" Web Link: https://open.spotify.com/artist/1gPhS1zisyXr5dHTYZyiMe Explicit: True 
+GitHub_Runner_Date: 2023-10-31 01:05:43.957323 Track Name: "Me Too" Artist Name: "Kevin Gates" Web Link: https://open.spotify.com/artist/1gPhS1zisyXr5dHTYZyiMe Explicit: True 
+GitHub_Runner_Date: 2023-10-31 01:05:43.957354 Track Name: "IDFK" Artist Name: "Rowena Fysx" Web Link: https://open.spotify.com/artist/6y4JQgtvRMTNfA5YVMPv3p Explicit: False 
+GitHub_Runner_Date: 2023-10-31 01:05:43.957384 Track Name: "Pick Up Your Phone" Artist Name: "Play Nice" Web Link: https://open.spotify.com/artist/1ghxd86r7phiK0vgytiGkh Explicit: False 
+GitHub_Runner_Date: 2023-10-31 01:05:43.957414 Track Name: "World In My Hands" Artist Name: "LAVI$H" Web Link: https://open.spotify.com/artist/5E4159ttrOB57XW0YdLT32 Explicit: False 
