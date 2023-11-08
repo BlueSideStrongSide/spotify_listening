@@ -11,7 +11,7 @@ if spotify_authenticator.authenticated:
 
     for track in result.tracks:
         if not track.explicit:
-            with open("recently_played_tracks.txt", "a+") as out_file:
+            with open("recently_played_tracks.txt", "a+", newline='\n') as out_file:
                 out_file.write(f'GitHub_Runner_Date: {datetime.datetime.utcnow()} '
                     f'Track Name: "{track.track_name}" '
                     f'Artist Name: "{track.artist_name}" '
