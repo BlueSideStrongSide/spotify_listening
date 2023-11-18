@@ -15,5 +15,5 @@ if spotify_authenticator.authenticated:
                 f'Track Name: "{track.track_name}" '
                 f'Artist Name: "{track.artist_name}" '
                 f'Web Link: {track.ext_spotify_url} '
-                f'Explicit: {track.explicit} \n'
+                f'Explicit: {track.explicit}'
                   )
