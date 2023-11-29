@@ -107,3 +107,16 @@ GitHub_Runner_Date: 2023-11-28 01:09:23.577012 Track Name: "Dedication" Artist N
 GitHub_Runner_Date: 2023-11-28 01:09:23.577036 Track Name: "It's Okay to Cry" Artist Name: "Yinka Bernie" Web Link: https://open.spotify.com/artist/5TuVpSIsvh6lKoKLBsAxFL 
 GitHub_Runner_Date: 2023-11-28 01:09:23.577059 Track Name: "DIAMOND (I NEED LOVE)" Artist Name: "CHOSZN" Web Link: https://open.spotify.com/artist/2B9U7mQ6lCD1a7nycReVUK 
 GitHub_Runner_Date: 2023-11-28 01:09:23.577082 Track Name: "Pillows" Artist Name: "Emanuel" Web Link: https://open.spotify.com/artist/4Dj6yFk1Y4v6J4jZyhtrZ7 
+GitHub_Runner_Date: 2023-11-29 01:09:25.114164 Track Name: "Conversation" Artist Name: "Muni Long" Web Link: https://open.spotify.com/artist/7tjVFCxJdwT4NdrTmjyjQ6 
+GitHub_Runner_Date: 2023-11-29 01:09:25.114229 Track Name: "Put D'Angelo On" Artist Name: "Bailey Wiley" Web Link: https://open.spotify.com/artist/48mqgfPfJ8cyxGNNJ2jpSO 
+GitHub_Runner_Date: 2023-11-29 01:09:25.114260 Track Name: "Decided" Artist Name: "Odunsi (The Engine)" Web Link: https://open.spotify.com/artist/3QAWvRmq1TMLuNtDKVyRaW 
+GitHub_Runner_Date: 2023-11-29 01:09:25.114287 Track Name: "Missing Us" Artist Name: "JRDN" Web Link: https://open.spotify.com/artist/2YVjMQPHJLrs0zA0ILNoEs 
+GitHub_Runner_Date: 2023-11-29 01:09:25.114313 Track Name: "I Love You" Artist Name: "Cleo Sol" Web Link: https://open.spotify.com/artist/3ETLPQkcEd7z4k3IbZmXMq 
+GitHub_Runner_Date: 2023-11-29 01:09:25.114338 Track Name: "THAT'S OK" Artist Name: "Bluestaeb" Web Link: https://open.spotify.com/artist/67pW04a6jpdQR2yWqjcfxs 
+GitHub_Runner_Date: 2023-11-29 01:09:25.114362 Track Name: "Control" Artist Name: "Syd" Web Link: https://open.spotify.com/artist/3jk39CGeaaSO3FPKNx1RUx 
+GitHub_Runner_Date: 2023-11-29 01:09:25.114386 Track Name: "Love Songs About You" Artist Name: "Etta Bond" Web Link: https://open.spotify.com/artist/0zanHkxN0P38oWegA8iSQA 
+GitHub_Runner_Date: 2023-11-29 01:09:25.114410 Track Name: "What's Good" Artist Name: "Skylar Simone" Web Link: https://open.spotify.com/artist/4Xt0mNxZEZWjgJwsZKDuvQ 
+GitHub_Runner_Date: 2023-11-29 01:09:25.114434 Track Name: "Interlude" Artist Name: "JANE HANDCOCK" Web Link: https://open.spotify.com/artist/2wgW0CiQRwbWlkT6nM8suD 
+GitHub_Runner_Date: 2023-11-29 01:09:25.114458 Track Name: "Weak" Artist Name: "Notifi" Web Link: https://open.spotify.com/artist/4d0LzyckWWWn04Jt8amiLY 
+GitHub_Runner_Date: 2023-11-29 01:09:25.114481 Track Name: "Bliss Abroad" Artist Name: "Masego" Web Link: https://open.spotify.com/artist/3ycxRkcZ67ALN3GQJ57Vig 
+GitHub_Runner_Date: 2023-11-29 01:09:25.114516 Track Name: "Are You in Love?" Artist Name: "Kyle Lux" Web Link: https://open.spotify.com/artist/63g7H7tihdsX4LtRQioKrR 
