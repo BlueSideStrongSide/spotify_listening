@@ -120,3 +120,15 @@ GitHub_Runner_Date: 2023-11-29 01:09:25.114434 Track Name: "Interlude" Artist Na
 GitHub_Runner_Date: 2023-11-29 01:09:25.114458 Track Name: "Weak" Artist Name: "Notifi" Web Link: https://open.spotify.com/artist/4d0LzyckWWWn04Jt8amiLY 
 GitHub_Runner_Date: 2023-11-29 01:09:25.114481 Track Name: "Bliss Abroad" Artist Name: "Masego" Web Link: https://open.spotify.com/artist/3ycxRkcZ67ALN3GQJ57Vig 
 GitHub_Runner_Date: 2023-11-29 01:09:25.114516 Track Name: "Are You in Love?" Artist Name: "Kyle Lux" Web Link: https://open.spotify.com/artist/63g7H7tihdsX4LtRQioKrR 
+GitHub_Runner_Date: 2023-11-30 01:08:29.599444 Track Name: "All In Again" Artist Name: "Duchess" Web Link: https://open.spotify.com/artist/6s0EQIA8heD6JVi8jNW207 
+GitHub_Runner_Date: 2023-11-30 01:08:29.599507 Track Name: "CAGED BIRDS (NPR MUSIC'S TINY DESK CONCERT)" Artist Name: "Tobe Nwigwe" Web Link: https://open.spotify.com/artist/3Qh89pgJeZq6d8uM1bTot3 
+GitHub_Runner_Date: 2023-11-30 01:08:29.599539 Track Name: "Absolute Reprise" Artist Name: "midnight" Web Link: https://open.spotify.com/artist/7rlI9s1CrQD5Gj4vRW1vvw 
+GitHub_Runner_Date: 2023-11-30 01:08:29.599567 Track Name: "Pamela (Interlude)" Artist Name: "Sishii" Web Link: https://open.spotify.com/artist/7qSWBbKrqf8gIGvvZLY2KG 
+GitHub_Runner_Date: 2023-11-30 01:08:29.599592 Track Name: "DIAMOND (I NEED LOVE)" Artist Name: "CHOSZN" Web Link: https://open.spotify.com/artist/2B9U7mQ6lCD1a7nycReVUK 
+GitHub_Runner_Date: 2023-11-30 01:08:29.599617 Track Name: "All In Again" Artist Name: "Duchess" Web Link: https://open.spotify.com/artist/6s0EQIA8heD6JVi8jNW207 
+GitHub_Runner_Date: 2023-11-30 01:08:29.599642 Track Name: "CAGED BIRDS (NPR MUSIC'S TINY DESK CONCERT)" Artist Name: "Tobe Nwigwe" Web Link: https://open.spotify.com/artist/3Qh89pgJeZq6d8uM1bTot3 
+GitHub_Runner_Date: 2023-11-30 01:08:29.599667 Track Name: "Absolute Reprise" Artist Name: "midnight" Web Link: https://open.spotify.com/artist/7rlI9s1CrQD5Gj4vRW1vvw 
+GitHub_Runner_Date: 2023-11-30 01:08:29.599691 Track Name: "Weak" Artist Name: "Notifi" Web Link: https://open.spotify.com/artist/4d0LzyckWWWn04Jt8amiLY 
+GitHub_Runner_Date: 2023-11-30 01:08:29.599716 Track Name: "Bliss Abroad" Artist Name: "Masego" Web Link: https://open.spotify.com/artist/3ycxRkcZ67ALN3GQJ57Vig 
+GitHub_Runner_Date: 2023-11-30 01:08:29.599739 Track Name: "Are You in Love?" Artist Name: "Kyle Lux" Web Link: https://open.spotify.com/artist/63g7H7tihdsX4LtRQioKrR 
+GitHub_Runner_Date: 2023-11-30 01:08:29.599763 Track Name: "Another Guy - Acoustic" Artist Name: "FLO" Web Link: https://open.spotify.com/artist/0s4kXsjYeH0S1xRyVGN4NO 
