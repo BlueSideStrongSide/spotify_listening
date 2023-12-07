@@ -191,3 +191,19 @@ GitHub_Runner_Date: 2023-12-06 01:09:26.936277 Track Name: "Can't Fight This Fee
 GitHub_Runner_Date: 2023-12-06 01:09:26.936301 Track Name: "TO CHANGE MY MIND" Artist Name: "India Shawn" Web Link: https://open.spotify.com/artist/7g0SC4F149FUX5rKFuSpqL 
 GitHub_Runner_Date: 2023-12-06 01:09:26.936324 Track Name: "Pretty" Artist Name: "August Alsina" Web Link: https://open.spotify.com/artist/19Fi1Rj7kk8kyiwxpXy3yM 
 GitHub_Runner_Date: 2023-12-06 01:09:26.936348 Track Name: "Her Past" Artist Name: "Mar Omin" Web Link: https://open.spotify.com/artist/6zOPs5R5TIlc5VSm8bfC7F 
+GitHub_Runner_Date: 2023-12-07 01:09:12.639895 Track Name: "Celebrate Myself" Artist Name: "Dawn Tallman" Web Link: https://open.spotify.com/artist/0aCxspxNd9b6qyT8LJTpXW 
+GitHub_Runner_Date: 2023-12-07 01:09:12.639963 Track Name: "Love Songs About You" Artist Name: "Etta Bond" Web Link: https://open.spotify.com/artist/0zanHkxN0P38oWegA8iSQA 
+GitHub_Runner_Date: 2023-12-07 01:09:12.639994 Track Name: "**Bonus Track** 861" Artist Name: "POSTA" Web Link: https://open.spotify.com/artist/604QAtMkctn9BTblaajvhW 
+GitHub_Runner_Date: 2023-12-07 01:09:12.640022 Track Name: "All Over Again" Artist Name: "Copyright Free Lofi" Web Link: https://open.spotify.com/artist/6O9dbU0gri3cUCz3yFs2I5 
+GitHub_Runner_Date: 2023-12-07 01:09:12.640047 Track Name: "Lie for You - Acoustic Version" Artist Name: "Snakehips" Web Link: https://open.spotify.com/artist/2FwJwEswyIUAljqgjNSHgP 
+GitHub_Runner_Date: 2023-12-07 01:09:12.640073 Track Name: "Baby Will You Love Me" Artist Name: "MAJOR." Web Link: https://open.spotify.com/artist/2YjrvPxeToeP8MyPH2Viky 
+GitHub_Runner_Date: 2023-12-07 01:09:12.640098 Track Name: "Surreal" Artist Name: "Natural High Music" Web Link: https://open.spotify.com/artist/0YC4SDrEwmvpxsEM2hkH64 
+GitHub_Runner_Date: 2023-12-07 01:09:12.640122 Track Name: "Mine" Artist Name: "Cat Burns" Web Link: https://open.spotify.com/artist/6WFDpw4u23uSpon4BHvFRn 
+GitHub_Runner_Date: 2023-12-07 01:09:12.640145 Track Name: "Another Guy - Acoustic" Artist Name: "FLO" Web Link: https://open.spotify.com/artist/0s4kXsjYeH0S1xRyVGN4NO 
+GitHub_Runner_Date: 2023-12-07 01:09:12.640169 Track Name: "Groovy Love" Artist Name: "Cashma" Web Link: https://open.spotify.com/artist/7M9KMse1eIAp5FYERZI0b2 
+GitHub_Runner_Date: 2023-12-07 01:09:12.640192 Track Name: "Who's There" Artist Name: "Kaleem Taylor" Web Link: https://open.spotify.com/artist/4eQKo2fvEqEbdopHhSjlug 
+GitHub_Runner_Date: 2023-12-07 01:09:12.640216 Track Name: "Who's There" Artist Name: "Kaleem Taylor" Web Link: https://open.spotify.com/artist/4eQKo2fvEqEbdopHhSjlug 
+GitHub_Runner_Date: 2023-12-07 01:09:12.640240 Track Name: "Tethered" Artist Name: "Rationale" Web Link: https://open.spotify.com/artist/2IQDM5URYGYfSMmwhTCmyy 
+GitHub_Runner_Date: 2023-12-07 01:09:12.640264 Track Name: "CINDERELLA, Pt. 2" Artist Name: "CHIKA" Web Link: https://open.spotify.com/artist/6UtYvUtXnmg5EtllDFlWp8 
+GitHub_Runner_Date: 2023-12-07 01:09:12.640287 Track Name: "Healing - Acoustic" Artist Name: "Arlissa" Web Link: https://open.spotify.com/artist/7wzaSKTsjE9HnuDuZTX452 
+GitHub_Runner_Date: 2023-12-07 01:09:12.640310 Track Name: "Healing - Acoustic" Artist Name: "Arlissa" Web Link: https://open.spotify.com/artist/7wzaSKTsjE9HnuDuZTX452 
