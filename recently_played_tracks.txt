@@ -293,3 +293,16 @@ GitHub_Runner_Date: 2023-12-13 01:09:16.945317 Track Name: "I Can" Artist Name: 
 GitHub_Runner_Date: 2023-12-13 01:09:16.945341 Track Name: "Absolute Reprise" Artist Name: "midnight" Web Link: https://open.spotify.com/artist/7rlI9s1CrQD5Gj4vRW1vvw 
 GitHub_Runner_Date: 2023-12-13 01:09:16.945364 Track Name: "Kiss The Sky" Artist Name: "Avery Wilson" Web Link: https://open.spotify.com/artist/2c6geVFkxNT2BKQyHUvnT3 
 GitHub_Runner_Date: 2023-12-13 01:09:16.945388 Track Name: "Get You - Recorded at Spotify Studios NYC" Artist Name: "Miguel" Web Link: https://open.spotify.com/artist/360IAlyVv4PCEVjgyMZrxK 
+GitHub_Runner_Date: 2023-12-14 01:08:10.723135 Track Name: "ego talkin - A COLORS SHOW" Artist Name: "Saint Harison" Web Link: https://open.spotify.com/artist/16AILHA3N2C3ngRuR2FdfH 
+GitHub_Runner_Date: 2023-12-14 01:08:10.723200 Track Name: "All My Sweetest Dreams" Artist Name: "Emmaline" Web Link: https://open.spotify.com/artist/4qCLr26rRwbXkdhcEBKjc5 
+GitHub_Runner_Date: 2023-12-14 01:08:10.723230 Track Name: "Addict" Artist Name: "Louis Baker" Web Link: https://open.spotify.com/artist/6cKB91cRebrHboAUTx5uUy 
+GitHub_Runner_Date: 2023-12-14 01:08:10.723257 Track Name: "Absolute Reprise" Artist Name: "midnight" Web Link: https://open.spotify.com/artist/7rlI9s1CrQD5Gj4vRW1vvw 
+GitHub_Runner_Date: 2023-12-14 01:08:10.723282 Track Name: "Look Up To The Sky" Artist Name: "Nicole Bus" Web Link: https://open.spotify.com/artist/0IeB4swNmNetlaZUgdHqBX 
+GitHub_Runner_Date: 2023-12-14 01:08:10.723307 Track Name: "Favorite Pillow" Artist Name: "Gio Washington" Web Link: https://open.spotify.com/artist/09Cag3SZ0lCxxXKouzcdAY 
+GitHub_Runner_Date: 2023-12-14 01:08:10.723330 Track Name: "BORN 2 BE" Artist Name: "Lovelogiq" Web Link: https://open.spotify.com/artist/20MpfYc52X491731KoJ8ds 
+GitHub_Runner_Date: 2023-12-14 01:08:10.723354 Track Name: "Pity" Artist Name: "Navy" Web Link: https://open.spotify.com/artist/5lcuEyOhY94UGnsCgzTFao 
+GitHub_Runner_Date: 2023-12-14 01:08:10.723378 Track Name: "fade away" Artist Name: "kai" Web Link: https://open.spotify.com/artist/6xHUXzrfhFgnIv86EBR3Ml 
+GitHub_Runner_Date: 2023-12-14 01:08:10.723402 Track Name: "CAGED BIRDS (NPR MUSIC'S TINY DESK CONCERT)" Artist Name: "Tobe Nwigwe" Web Link: https://open.spotify.com/artist/3Qh89pgJeZq6d8uM1bTot3 
+GitHub_Runner_Date: 2023-12-14 01:08:10.723426 Track Name: "Falling" Artist Name: "Maverick Sabre" Web Link: https://open.spotify.com/artist/0ukgrNYk51TkMQr0f2Br4Q 
+GitHub_Runner_Date: 2023-12-14 01:08:10.723450 Track Name: "Falling" Artist Name: "Maverick Sabre" Web Link: https://open.spotify.com/artist/0ukgrNYk51TkMQr0f2Br4Q 
+GitHub_Runner_Date: 2023-12-14 01:08:10.723474 Track Name: "Innocent Eyes" Artist Name: "Ash Minor" Web Link: https://open.spotify.com/artist/0P1bjDnIRWm0VUdA0urCNG 
