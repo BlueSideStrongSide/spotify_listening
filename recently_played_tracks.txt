@@ -617,3 +617,20 @@ GitHub_Runner_Date: 2024-01-11 01:09:59.644043 Track Name: "Yesterday Was Heaven
 GitHub_Runner_Date: 2024-01-11 01:09:59.644066 Track Name: "Meant2B" Artist Name: "Al Hostile" Web Link: https://open.spotify.com/artist/1eRxftrJjUxQTut4Svctfm 
 GitHub_Runner_Date: 2024-01-11 01:09:59.644089 Track Name: "Black Folk" Artist Name: "Tank and The Bangas" Web Link: https://open.spotify.com/artist/5cAtakaadWHJLxmGKrKcX7 
 GitHub_Runner_Date: 2024-01-11 01:09:59.644112 Track Name: "Yesterday Was Heaven" Artist Name: "Stefan Mahendra" Web Link: https://open.spotify.com/artist/17lfIZ8ozwR7vDYqRdr8UF 
+GitHub_Runner_Date: 2024-01-12 01:10:09.396576 Track Name: "isthislove" Artist Name: "goodboy noah" Web Link: https://open.spotify.com/artist/021wqpA4geq0mtJlARXjon 
+GitHub_Runner_Date: 2024-01-12 01:10:09.396631 Track Name: "Only Love" Artist Name: "Thirdstory" Web Link: https://open.spotify.com/artist/7GJbWH8vhhuW22707B8HsW 
+GitHub_Runner_Date: 2024-01-12 01:10:09.396661 Track Name: "All (Live)" Artist Name: "Terrell Grice" Web Link: https://open.spotify.com/artist/2uyVNFnf9icQH8UizUvxHP 
+GitHub_Runner_Date: 2024-01-12 01:10:09.396688 Track Name: "Naked" Artist Name: "MaKenzie Thomas" Web Link: https://open.spotify.com/artist/23w7neRfZOyJl8BbAYkBJ0 
+GitHub_Runner_Date: 2024-01-12 01:10:09.396714 Track Name: "Roots" Artist Name: "Refs" Web Link: https://open.spotify.com/artist/7yxpGyw5CZPsrTPpkERpc4 
+GitHub_Runner_Date: 2024-01-12 01:10:09.396738 Track Name: "This Song (Radio)" Artist Name: "Danny Boy" Web Link: https://open.spotify.com/artist/3Cntpdjm5aq13H1IalBAga 
+GitHub_Runner_Date: 2024-01-12 01:10:09.396761 Track Name: "The King's Affirmation" Artist Name: "Iniko" Web Link: https://open.spotify.com/artist/2ih5M0aTrQ97JX1nZuxDQY 
+GitHub_Runner_Date: 2024-01-12 01:10:09.396785 Track Name: "Contagious" Artist Name: "Bee-B" Web Link: https://open.spotify.com/artist/13FgCXn7z3ld9mR2Pz8eqc 
+GitHub_Runner_Date: 2024-01-12 01:10:09.396808 Track Name: "Honest" Artist Name: "Koji." Web Link: https://open.spotify.com/artist/5CwnPLe14OgA87UgZhzDBc 
+GitHub_Runner_Date: 2024-01-12 01:10:09.396832 Track Name: "Home With You" Artist Name: "Marie Dahlstrom" Web Link: https://open.spotify.com/artist/49NfOTfSPhrb0sJBVYS1iM 
+GitHub_Runner_Date: 2024-01-12 01:10:09.396865 Track Name: "Drunk & Alone" Artist Name: "Pip Millett" Web Link: https://open.spotify.com/artist/1QfEfvB62EEl4upf2ANKkR 
+GitHub_Runner_Date: 2024-01-12 01:10:09.396889 Track Name: "The Baddest" Artist Name: "Magic One" Web Link: https://open.spotify.com/artist/4vs5mPRSYZcvBhFruP9oDw 
+GitHub_Runner_Date: 2024-01-12 01:10:09.396913 Track Name: "Pamela (Interlude)" Artist Name: "Sishii" Web Link: https://open.spotify.com/artist/7qSWBbKrqf8gIGvvZLY2KG 
+GitHub_Runner_Date: 2024-01-12 01:10:09.396936 Track Name: "Pamela (Interlude)" Artist Name: "Sishii" Web Link: https://open.spotify.com/artist/7qSWBbKrqf8gIGvvZLY2KG 
+GitHub_Runner_Date: 2024-01-12 01:10:09.396959 Track Name: "Anchor" Artist Name: "Madison Ryann Ward" Web Link: https://open.spotify.com/artist/6eAUAR4N9NOpirukqdIzVI 
+GitHub_Runner_Date: 2024-01-12 01:10:09.396982 Track Name: "CINDERELLA, Pt. 2" Artist Name: "CHIKA" Web Link: https://open.spotify.com/artist/6UtYvUtXnmg5EtllDFlWp8 
+GitHub_Runner_Date: 2024-01-12 01:10:09.397005 Track Name: "Shelter" Artist Name: "Karnaval Blues" Web Link: https://open.spotify.com/artist/4APHks5GcW1GrlfnSvL5O3 
