@@ -844,3 +844,20 @@ GitHub_Runner_Date: 2024-01-30 01:04:28.365109 Track Name: "SLOOOWLY" Artist Nam
 GitHub_Runner_Date: 2024-01-30 01:04:28.365133 Track Name: "Peak (Fed Up)" Artist Name: "RAAHiiM" Web Link: https://open.spotify.com/artist/5Bo5WRNdz8ZOSVA6nJs5M9 
 GitHub_Runner_Date: 2024-01-30 01:04:28.365156 Track Name: "2 Become 1" Artist Name: "Fdluxx" Web Link: https://open.spotify.com/artist/4J6llszQj5aasQouHnuC1k 
 GitHub_Runner_Date: 2024-01-30 01:04:28.365180 Track Name: "Feels" Artist Name: "Raheem Bakare" Web Link: https://open.spotify.com/artist/40IuUXbYWhw6UcfU7hHmpM 
+GitHub_Runner_Date: 2024-01-31 01:04:56.675305 Track Name: "Perfect Company" Artist Name: "James Vickery" Web Link: https://open.spotify.com/artist/68tR0TsEKX89ID4fyBMgch 
+GitHub_Runner_Date: 2024-01-31 01:04:56.675370 Track Name: "SLOOOWLY" Artist Name: "Marie Noreger" Web Link: https://open.spotify.com/artist/5xyRNaMYYZySaNqjiFyR47 
+GitHub_Runner_Date: 2024-01-31 01:04:56.675401 Track Name: "Caught In A Lie" Artist Name: "The Hics" Web Link: https://open.spotify.com/artist/2XHJ36WzMJKpDk6fLl6lMo 
+GitHub_Runner_Date: 2024-01-31 01:04:56.675438 Track Name: "Perfect Company" Artist Name: "James Vickery" Web Link: https://open.spotify.com/artist/68tR0TsEKX89ID4fyBMgch 
+GitHub_Runner_Date: 2024-01-31 01:04:56.675464 Track Name: "SLOOOWLY" Artist Name: "Marie Noreger" Web Link: https://open.spotify.com/artist/5xyRNaMYYZySaNqjiFyR47 
+GitHub_Runner_Date: 2024-01-31 01:04:56.675488 Track Name: "Island In The Sun" Artist Name: "Weezer" Web Link: https://open.spotify.com/artist/3jOstUTkEu2JkjvRdBA5Gu 
+GitHub_Runner_Date: 2024-01-31 01:04:56.675512 Track Name: "Meant2B" Artist Name: "Al Hostile" Web Link: https://open.spotify.com/artist/1eRxftrJjUxQTut4Svctfm 
+GitHub_Runner_Date: 2024-01-31 01:04:56.675535 Track Name: "Always There" Artist Name: "Aint Afraid" Web Link: https://open.spotify.com/artist/1E6I6xhlNmVIgnDGkikmj5 
+GitHub_Runner_Date: 2024-01-31 01:04:56.675558 Track Name: "If The Love Goes - A COLORS SHOW" Artist Name: "Jamilah Barry" Web Link: https://open.spotify.com/artist/2XSaBoykurbHLXS5WwDewv 
+GitHub_Runner_Date: 2024-01-31 01:04:56.675581 Track Name: "On God!" Artist Name: "Tiana Major9" Web Link: https://open.spotify.com/artist/1Naqgo0HMRoumRP0e2MXD9 
+GitHub_Runner_Date: 2024-01-31 01:04:56.675604 Track Name: "On God!" Artist Name: "Tiana Major9" Web Link: https://open.spotify.com/artist/1Naqgo0HMRoumRP0e2MXD9 
+GitHub_Runner_Date: 2024-01-31 01:04:56.675626 Track Name: "Rescue Me" Artist Name: "Teedra Moses" Web Link: https://open.spotify.com/artist/6vfR5QRc3xca0KvpG8KZBE 
+GitHub_Runner_Date: 2024-01-31 01:04:56.675649 Track Name: "Perfect Company" Artist Name: "James Vickery" Web Link: https://open.spotify.com/artist/68tR0TsEKX89ID4fyBMgch 
+GitHub_Runner_Date: 2024-01-31 01:04:56.675672 Track Name: "SLOOOWLY" Artist Name: "Marie Noreger" Web Link: https://open.spotify.com/artist/5xyRNaMYYZySaNqjiFyR47 
+GitHub_Runner_Date: 2024-01-31 01:04:56.675694 Track Name: "Island In The Sun" Artist Name: "Weezer" Web Link: https://open.spotify.com/artist/3jOstUTkEu2JkjvRdBA5Gu 
+GitHub_Runner_Date: 2024-01-31 01:04:56.675717 Track Name: "Caught In A Lie" Artist Name: "The Hics" Web Link: https://open.spotify.com/artist/2XHJ36WzMJKpDk6fLl6lMo 
+GitHub_Runner_Date: 2024-01-31 01:04:56.675741 Track Name: "Perfect Company" Artist Name: "James Vickery" Web Link: https://open.spotify.com/artist/68tR0TsEKX89ID4fyBMgch 
