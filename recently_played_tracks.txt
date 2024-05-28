@@ -2528,3 +2528,20 @@ GitHub_Runner_Date: 2024-05-27 01:11:30.627695 Track Name: "Southern Man" Artist
 GitHub_Runner_Date: 2024-05-27 01:11:30.627719 Track Name: "Get Off Your Ass And Jam" Artist Name: "Funkadelic" Web Link: https://open.spotify.com/artist/450o9jw6AtiQlQkHCdH6Ru 
 GitHub_Runner_Date: 2024-05-27 01:11:30.627743 Track Name: "This Is for the Lover in You" Artist Name: "Shalamar" Web Link: https://open.spotify.com/artist/3REpOYo13YkVj1dFzda12A 
 GitHub_Runner_Date: 2024-05-27 01:11:30.627766 Track Name: "Just My Imagination (Running Away With Me)" Artist Name: "The Temptations" Web Link: https://open.spotify.com/artist/3RwQ26hR2tJtA8F9p2n7jG 
+GitHub_Runner_Date: 2024-05-28 01:10:32.324578 Track Name: "Get Wild" Artist Name: "BEBICROWN" Web Link: https://open.spotify.com/artist/7yfI1XOxJhgHGhBi35qaQc 
+GitHub_Runner_Date: 2024-05-28 01:10:32.324641 Track Name: "Shake It Off (Taylor's Version)" Artist Name: "Taylor Swift" Web Link: https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02 
+GitHub_Runner_Date: 2024-05-28 01:10:32.324683 Track Name: "I'm So Into You" Artist Name: "SWV" Web Link: https://open.spotify.com/artist/2NmK5FyrQ18HOPXq1UBzqa 
+GitHub_Runner_Date: 2024-05-28 01:10:32.324711 Track Name: "Can We Talk" Artist Name: "Tevin Campbell" Web Link: https://open.spotify.com/artist/5VfqJBmXcf6ZqXoGij5qTE 
+GitHub_Runner_Date: 2024-05-28 01:10:32.324738 Track Name: "Gotta Be Lovin Me" Artist Name: "The HamilTones" Web Link: https://open.spotify.com/artist/1Nj9dLuiwh4DHn8AIkQyqs 
+GitHub_Runner_Date: 2024-05-28 01:10:32.324763 Track Name: "Treat 'Em Right" Artist Name: "Chubb Rock" Web Link: https://open.spotify.com/artist/4dVRITwfej74WkmNpgYVPb 
+GitHub_Runner_Date: 2024-05-28 01:10:32.324788 Track Name: "Single Woman" Artist Name: "T.K. Soul" Web Link: https://open.spotify.com/artist/5S5ZSqk0z2CBHuCbqHjzCz 
+GitHub_Runner_Date: 2024-05-28 01:10:32.324813 Track Name: "Say Less" Artist Name: "Don Trip" Web Link: https://open.spotify.com/artist/0W6Vi3JrMz1BtEOUqG2mcG 
+GitHub_Runner_Date: 2024-05-28 01:10:32.324839 Track Name: "Just Can't Let Go" Artist Name: "Sir Charles Jones" Web Link: https://open.spotify.com/artist/3BxAFJvyhPEhLEeBZ6XEDe 
+GitHub_Runner_Date: 2024-05-28 01:10:32.324864 Track Name: "Friday" Artist Name: "Sir Charles Jones" Web Link: https://open.spotify.com/artist/3BxAFJvyhPEhLEeBZ6XEDe 
+GitHub_Runner_Date: 2024-05-28 01:10:32.324888 Track Name: "Is There Anybody Lonely?" Artist Name: "Sir Charles Jones" Web Link: https://open.spotify.com/artist/3BxAFJvyhPEhLEeBZ6XEDe 
+GitHub_Runner_Date: 2024-05-28 01:10:32.324924 Track Name: "Got No Curfew" Artist Name: "Mel Waiters" Web Link: https://open.spotify.com/artist/3shtTHtmebW7LPnzO5KAJc 
+GitHub_Runner_Date: 2024-05-28 01:10:32.324948 Track Name: "Hole In the Wall" Artist Name: "Mel Waiters" Web Link: https://open.spotify.com/artist/3shtTHtmebW7LPnzO5KAJc 
+GitHub_Runner_Date: 2024-05-28 01:10:32.324972 Track Name: "Got My Whiskey" Artist Name: "Mel Waiters" Web Link: https://open.spotify.com/artist/3shtTHtmebW7LPnzO5KAJc 
+GitHub_Runner_Date: 2024-05-28 01:10:32.324996 Track Name: "Love Rollercoaster" Artist Name: "Ohio Players" Web Link: https://open.spotify.com/artist/6m30rs1IQqnWqV5nKMpU7U 
+GitHub_Runner_Date: 2024-05-28 01:10:32.325020 Track Name: "Move Your Boogie Body" Artist Name: "The Bar-Kays" Web Link: https://open.spotify.com/artist/0Z4CzYz9ieK8q9XiVMPkW5 
+GitHub_Runner_Date: 2024-05-28 01:10:32.325044 Track Name: "Southern Man" Artist Name: "Cecily Wilborn" Web Link: https://open.spotify.com/artist/0aLKJGWDsFBMc4uVbGH6zS 
