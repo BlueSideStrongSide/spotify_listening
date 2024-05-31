@@ -2565,3 +2565,13 @@ GitHub_Runner_Date: 2024-05-30 01:11:16.732673 Track Name: "Shake It Off (Taylor
 GitHub_Runner_Date: 2024-05-30 01:11:16.732697 Track Name: "I'm So Into You" Artist Name: "SWV" Web Link: https://open.spotify.com/artist/2NmK5FyrQ18HOPXq1UBzqa 
 GitHub_Runner_Date: 2024-05-30 01:11:16.732721 Track Name: "Can We Talk" Artist Name: "Tevin Campbell" Web Link: https://open.spotify.com/artist/5VfqJBmXcf6ZqXoGij5qTE 
 GitHub_Runner_Date: 2024-05-30 01:11:16.732746 Track Name: "Gotta Be Lovin Me" Artist Name: "The HamilTones" Web Link: https://open.spotify.com/artist/1Nj9dLuiwh4DHn8AIkQyqs 
+GitHub_Runner_Date: 2024-05-31 01:11:52.016681 Track Name: "Say Less" Artist Name: "Don Trip" Web Link: https://open.spotify.com/artist/0W6Vi3JrMz1BtEOUqG2mcG 
+GitHub_Runner_Date: 2024-05-31 01:11:52.016753 Track Name: "Can We Talk" Artist Name: "Tevin Campbell" Web Link: https://open.spotify.com/artist/5VfqJBmXcf6ZqXoGij5qTE 
+GitHub_Runner_Date: 2024-05-31 01:11:52.016787 Track Name: "Adorn" Artist Name: "Miguel" Web Link: https://open.spotify.com/artist/360IAlyVv4PCEVjgyMZrxK 
+GitHub_Runner_Date: 2024-05-31 01:11:52.016816 Track Name: "Give Me A Minute" Artist Name: "christina munsey" Web Link: https://open.spotify.com/artist/6SEmefIEO7pUhRc79FNmjW 
+GitHub_Runner_Date: 2024-05-31 01:11:52.016842 Track Name: "Lucky To Love You" Artist Name: "Brynn Cartelli" Web Link: https://open.spotify.com/artist/4NIPR04MgEH0K5uv8Gn7ek 
+GitHub_Runner_Date: 2024-05-31 01:11:52.016868 Track Name: "Lose Control" Artist Name: "Teddy Swims" Web Link: https://open.spotify.com/artist/33qOK5uJ8AR2xuQQAhHump 
+GitHub_Runner_Date: 2024-05-31 01:11:52.016893 Track Name: "In My Room" Artist Name: "Chance Peña" Web Link: https://open.spotify.com/artist/4lhUHpVOXmkEBGGHV71QCh 
+GitHub_Runner_Date: 2024-05-31 01:11:52.016922 Track Name: "Church (feat. EARTHGANG)" Artist Name: "Samm Henshaw" Web Link: https://open.spotify.com/artist/1Q2mS59tFYLm2KGFoCgWN4 
+GitHub_Runner_Date: 2024-05-31 01:11:52.016948 Track Name: "Lover" Artist Name: "Taylor Swift" Web Link: https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02 
+GitHub_Runner_Date: 2024-05-31 01:11:52.016973 Track Name: "Sure Thing" Artist Name: "Miguel" Web Link: https://open.spotify.com/artist/360IAlyVv4PCEVjgyMZrxK 
