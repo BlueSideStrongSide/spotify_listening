@@ -2736,3 +2736,19 @@ GitHub_Runner_Date: 2024-06-13 01:12:31.346032 Track Name: "Special Feeling" Art
 GitHub_Runner_Date: 2024-06-13 01:12:31.346057 Track Name: "Bare Minimum" Artist Name: "Isea" Web Link: https://open.spotify.com/artist/6zXvAqkCxo8BPDdLHhJQHI 
 GitHub_Runner_Date: 2024-06-13 01:12:31.346082 Track Name: "Ride 4 Me" Artist Name: "Isadora" Web Link: https://open.spotify.com/artist/61Br6Weriwjaa2MMeIVx9v 
 GitHub_Runner_Date: 2024-06-13 01:12:31.346106 Track Name: "You And I" Artist Name: "Sekou" Web Link: https://open.spotify.com/artist/1mYgKcXdbklH5RwjU6XA8c 
+GitHub_Runner_Date: 2024-06-14 01:12:29.911639 Track Name: "Care 4 Me" Artist Name: "Blair Perkins" Web Link: https://open.spotify.com/artist/609Q2Uooik1vA0iMZ4uOka 
+GitHub_Runner_Date: 2024-06-14 01:12:29.911705 Track Name: "Two Trees" Artist Name: "Ben L'Oncle Soul" Web Link: https://open.spotify.com/artist/2dJTa3mUidZAO9sKcY72tK 
+GitHub_Runner_Date: 2024-06-14 01:12:29.911735 Track Name: "Honey Eye" Artist Name: "Inner State 81" Web Link: https://open.spotify.com/artist/0PTnrHjEmqUdaEQlZB4WPS 
+GitHub_Runner_Date: 2024-06-14 01:12:29.911762 Track Name: "Heartbreak Anniversary" Artist Name: "Giveon" Web Link: https://open.spotify.com/artist/4fxd5Ee7UefO4CUXgwJ7IP 
+GitHub_Runner_Date: 2024-06-14 01:12:29.911787 Track Name: "Atone" Artist Name: "SLO" Web Link: https://open.spotify.com/artist/4w0X9CxVeoMeDucb4QT6Zl 
+GitHub_Runner_Date: 2024-06-14 01:12:29.911812 Track Name: "Let the Guitar Sing (Live)" Artist Name: "AJ Ghent [ j-ent ]" Web Link: https://open.spotify.com/artist/6gLGK4HewZQk0009RLQ3nx 
+GitHub_Runner_Date: 2024-06-14 01:12:29.911836 Track Name: "Mercy" Artist Name: "JP Cooper" Web Link: https://open.spotify.com/artist/4kYGAK2zu9EAomwj3hXkXy 
+GitHub_Runner_Date: 2024-06-14 01:12:29.911860 Track Name: "Free Mind" Artist Name: "Tems" Web Link: https://open.spotify.com/artist/687cZJR45JO7jhk1LHIbgq 
+GitHub_Runner_Date: 2024-06-14 01:12:29.911884 Track Name: "Give You Blue" Artist Name: "Allen Stone" Web Link: https://open.spotify.com/artist/536osqBGKzeozje8BfcGsa 
+GitHub_Runner_Date: 2024-06-14 01:12:29.911907 Track Name: "10" Artist Name: "Sonny Tennet" Web Link: https://open.spotify.com/artist/2hPtxFv2Ftb7xGRdU76bOd 
+GitHub_Runner_Date: 2024-06-14 01:12:29.911931 Track Name: "Naked" Artist Name: "MaKenzie" Web Link: https://open.spotify.com/artist/23w7neRfZOyJl8BbAYkBJ0 
+GitHub_Runner_Date: 2024-06-14 01:12:29.911954 Track Name: "Where You Are" Artist Name: "Vivian Green" Web Link: https://open.spotify.com/artist/3t83f2J04dRWOpNBe9GTfs 
+GitHub_Runner_Date: 2024-06-14 01:12:29.911977 Track Name: "I See You" Artist Name: "Candiace Dillard" Web Link: https://open.spotify.com/artist/7pAX5zXGgPGtE7kGdoNONl 
+GitHub_Runner_Date: 2024-06-14 01:12:29.912001 Track Name: "I See You" Artist Name: "Candiace Dillard" Web Link: https://open.spotify.com/artist/7pAX5zXGgPGtE7kGdoNONl 
+GitHub_Runner_Date: 2024-06-14 01:12:29.912024 Track Name: "Good" Artist Name: "Jake Isaac" Web Link: https://open.spotify.com/artist/6q94KewnCnut4Ta36dCoaB 
+GitHub_Runner_Date: 2024-06-14 01:12:29.912059 Track Name: "Satisfy Me" Artist Name: "Anderson East" Web Link: https://open.spotify.com/artist/5q6z6GTth6lMbL9I8CAgby 
