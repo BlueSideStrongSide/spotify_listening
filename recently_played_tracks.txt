@@ -3609,3 +3609,13 @@ GitHub_Runner_Date: 2024-08-27 01:18:41.445928 Track Name: "Who's That Lady" Art
 GitHub_Runner_Date: 2024-08-27 01:18:41.445954 Track Name: "Cold - Live From The Academy of Country Music Honors" Artist Name: "The War And Treaty" Web Link: https://open.spotify.com/artist/6HhV0jtMMK5HYnYgG0xgtz 
 GitHub_Runner_Date: 2024-08-27 01:18:41.445980 Track Name: "Better Days" Artist Name: "Joe" Web Link: https://open.spotify.com/artist/3zTOe1BtyTkwNvYZOxXktX 
 GitHub_Runner_Date: 2024-08-27 01:18:41.446005 Track Name: "Feelings - Live" Artist Name: "Dre Scot" Web Link: https://open.spotify.com/artist/2DYHQcNeA2fbIsSx7kYvE1 
+GitHub_Runner_Date: 2024-08-28 01:19:19.400386 Track Name: "Who's That Lady" Artist Name: "Peter White" Web Link: https://open.spotify.com/artist/4siC0n7Bs9OzoZlB1HKquS 
+GitHub_Runner_Date: 2024-08-28 01:19:19.400447 Track Name: "Cold - Live From The Academy of Country Music Honors" Artist Name: "The War And Treaty" Web Link: https://open.spotify.com/artist/6HhV0jtMMK5HYnYgG0xgtz 
+GitHub_Runner_Date: 2024-08-28 01:19:19.400479 Track Name: "Feelings - Live" Artist Name: "Dre Scot" Web Link: https://open.spotify.com/artist/2DYHQcNeA2fbIsSx7kYvE1 
+GitHub_Runner_Date: 2024-08-28 01:19:19.400507 Track Name: "I Just Can't Love You" Artist Name: "J. Brown" Web Link: https://open.spotify.com/artist/2EUGkQxJXfpkTMTZ3xQplb 
+GitHub_Runner_Date: 2024-08-28 01:19:19.400534 Track Name: "Weightless" Artist Name: "J. Brown" Web Link: https://open.spotify.com/artist/2EUGkQxJXfpkTMTZ3xQplb 
+GitHub_Runner_Date: 2024-08-28 01:19:19.400560 Track Name: "Feelings - Live" Artist Name: "Dre Scot" Web Link: https://open.spotify.com/artist/2DYHQcNeA2fbIsSx7kYvE1 
+GitHub_Runner_Date: 2024-08-28 01:19:19.400585 Track Name: "I Just Can't Love You" Artist Name: "J. Brown" Web Link: https://open.spotify.com/artist/2EUGkQxJXfpkTMTZ3xQplb 
+GitHub_Runner_Date: 2024-08-28 01:19:19.400610 Track Name: "Who's That Lady" Artist Name: "Peter White" Web Link: https://open.spotify.com/artist/4siC0n7Bs9OzoZlB1HKquS 
+GitHub_Runner_Date: 2024-08-28 01:19:19.400634 Track Name: "Cold - Live From The Academy of Country Music Honors" Artist Name: "The War And Treaty" Web Link: https://open.spotify.com/artist/6HhV0jtMMK5HYnYgG0xgtz 
+GitHub_Runner_Date: 2024-08-28 01:19:19.400659 Track Name: "Better Days" Artist Name: "Joe" Web Link: https://open.spotify.com/artist/3zTOe1BtyTkwNvYZOxXktX 
