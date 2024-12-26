@@ -4928,3 +4928,21 @@ GitHub_Runner_Date: 2024-12-25 01:24:29.488249 Track Name: "Before I Take A Whil
 GitHub_Runner_Date: 2024-12-25 01:24:29.488269 Track Name: "Promise To Love" Artist Name: "LeVelle" Web Link: https://open.spotify.com/artist/4n3eYLfPqAvWcorjUW3vyP 
 GitHub_Runner_Date: 2024-12-25 01:24:29.488287 Track Name: "Callin' for You" Artist Name: "Vicki Vox" Web Link: https://open.spotify.com/artist/7cPHWzJNSiVkCenk3nxQdJ 
 GitHub_Runner_Date: 2024-12-25 01:24:29.488306 Track Name: "Looking Back" Artist Name: "Brian Culbertson" Web Link: https://open.spotify.com/artist/4WQ8grqJHB2Y0IDjpro1FE 
+GitHub_Runner_Date: 2024-12-26 01:24:55.430935 Track Name: "I Saw Mommy Kissing Santa Claus" Artist Name: "The Jackson 5" Web Link: https://open.spotify.com/artist/2iE18Oxc8YSumAU232n4rW 
+GitHub_Runner_Date: 2024-12-26 01:24:55.430998 Track Name: "Rudolph The Red-Nosed Reindeer - Stereo LP Version" Artist Name: "The Temptations" Web Link: https://open.spotify.com/artist/3RwQ26hR2tJtA8F9p2n7jG 
+GitHub_Runner_Date: 2024-12-26 01:24:55.431025 Track Name: "Let It Snow - Remastered 2024" Artist Name: "Boyz II Men" Web Link: https://open.spotify.com/artist/6O74knDqdv3XaWtkII7Xjp 
+GitHub_Runner_Date: 2024-12-26 01:24:55.431047 Track Name: "What Do The Lonely Do At Christmas?" Artist Name: "The Emotions" Web Link: https://open.spotify.com/artist/64CuUOOirKmdAYLQSfaOyr 
+GitHub_Runner_Date: 2024-12-26 01:24:55.431067 Track Name: "Merry Christmas Baby" Artist Name: "Otis Redding" Web Link: https://open.spotify.com/artist/60df5JBRRPcnSpsIMxxwQm 
+GitHub_Runner_Date: 2024-12-26 01:24:55.431092 Track Name: "Touch in Mine (fingers)" Artist Name: "Esperanza Spalding" Web Link: https://open.spotify.com/artist/5bepW5vcdRzheNc0F8lHJ5 
+GitHub_Runner_Date: 2024-12-26 01:24:55.431123 Track Name: "Touch in Mine (fingers)" Artist Name: "Esperanza Spalding" Web Link: https://open.spotify.com/artist/5bepW5vcdRzheNc0F8lHJ5 
+GitHub_Runner_Date: 2024-12-26 01:24:55.431144 Track Name: "Touch" Artist Name: "Shura" Web Link: https://open.spotify.com/artist/1qpR5mURxk3d8f6mww6uKT 
+GitHub_Runner_Date: 2024-12-26 01:24:55.431164 Track Name: "Caught In A Lie" Artist Name: "The Hics" Web Link: https://open.spotify.com/artist/2XHJ36WzMJKpDk6fLl6lMo 
+GitHub_Runner_Date: 2024-12-26 01:24:55.431183 Track Name: "Perfect Company" Artist Name: "James Vickery" Web Link: https://open.spotify.com/artist/68tR0TsEKX89ID4fyBMgch 
+GitHub_Runner_Date: 2024-12-26 01:24:55.431203 Track Name: "SLOOOWLY" Artist Name: "Marie Noreger" Web Link: https://open.spotify.com/artist/5xyRNaMYYZySaNqjiFyR47 
+GitHub_Runner_Date: 2024-12-26 01:24:55.431222 Track Name: "Glow Queen" Artist Name: "Valntna" Web Link: https://open.spotify.com/artist/2MRXJHWrV72Bd35kawjirn 
+GitHub_Runner_Date: 2024-12-26 01:24:55.431241 Track Name: "Hold My Hand" Artist Name: "Kenneth Whalum" Web Link: https://open.spotify.com/artist/2lnrl1gyJvhaFtNIIRnB16 
+GitHub_Runner_Date: 2024-12-26 01:24:55.431259 Track Name: "If Only (MajorStage Live)" Artist Name: "D'GORD" Web Link: https://open.spotify.com/artist/0F41K3Rqw4LJII3BGd8Pet 
+GitHub_Runner_Date: 2024-12-26 01:24:55.431278 Track Name: "Lucky" Artist Name: "Tish Hyman" Web Link: https://open.spotify.com/artist/6WzffCtFJ1iDsAwEV35h6K 
+GitHub_Runner_Date: 2024-12-26 01:24:55.431296 Track Name: "Come Closer" Artist Name: "V. Cartier" Web Link: https://open.spotify.com/artist/5Spozi8ZrO7PLm99USCdop 
+GitHub_Runner_Date: 2024-12-26 01:24:55.431315 Track Name: "Flowers" Artist Name: "Wé Ani" Web Link: https://open.spotify.com/artist/0VcXm1al35QNsj9tbAnCJm 
+GitHub_Runner_Date: 2024-12-26 01:24:55.431336 Track Name: "Good On Me" Artist Name: "Leela James" Web Link: https://open.spotify.com/artist/5sennRot4Ls82wfspEQuf2 
