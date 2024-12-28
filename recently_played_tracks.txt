@@ -4964,3 +4964,21 @@ GitHub_Runner_Date: 2024-12-27 01:25:11.650606 Track Name: "Lucky" Artist Name: 
 GitHub_Runner_Date: 2024-12-27 01:25:11.650626 Track Name: "Come Closer" Artist Name: "V. Cartier" Web Link: https://open.spotify.com/artist/5Spozi8ZrO7PLm99USCdop 
 GitHub_Runner_Date: 2024-12-27 01:25:11.650645 Track Name: "Flowers" Artist Name: "Wé Ani" Web Link: https://open.spotify.com/artist/0VcXm1al35QNsj9tbAnCJm 
 GitHub_Runner_Date: 2024-12-27 01:25:11.650699 Track Name: "Good On Me" Artist Name: "Leela James" Web Link: https://open.spotify.com/artist/5sennRot4Ls82wfspEQuf2 
+GitHub_Runner_Date: 2024-12-28 01:23:46.718870 Track Name: "Know Me" Artist Name: "Amal Marie" Web Link: https://open.spotify.com/artist/3lCxM8dhXShgCKyPzAfIul 
+GitHub_Runner_Date: 2024-12-28 01:23:46.718929 Track Name: "Still Dreaming" Artist Name: "Raveena" Web Link: https://open.spotify.com/artist/2kQnsbKnIiMahOetwlfcaS 
+GitHub_Runner_Date: 2024-12-28 01:23:46.718956 Track Name: "Still - Mahogany Sessions" Artist Name: "Noah Slee" Web Link: https://open.spotify.com/artist/2inX1svE5swPuIBIJdrFyo 
+GitHub_Runner_Date: 2024-12-28 01:23:46.718985 Track Name: "Slow Down - Acoustic" Artist Name: "Skip Marley" Web Link: https://open.spotify.com/artist/4ryoUS0W8qXokfMxrlJt6O 
+GitHub_Runner_Date: 2024-12-28 01:23:46.719008 Track Name: "Your Will" Artist Name: "Lee Vasi" Web Link: https://open.spotify.com/artist/4bkzAmMBYHBfpSIecicRhf 
+GitHub_Runner_Date: 2024-12-28 01:23:46.719028 Track Name: "NIce with Christ Acoustic" Artist Name: "IMRHAN" Web Link: https://open.spotify.com/artist/1q4putin60VdRXfDSTl5f3 
+GitHub_Runner_Date: 2024-12-28 01:23:46.719048 Track Name: "Home" Artist Name: "Annatoria" Web Link: https://open.spotify.com/artist/6008gjU9UTUCfLZoSun5SH 
+GitHub_Runner_Date: 2024-12-28 01:23:46.719068 Track Name: "Love & Music (Outro)" Artist Name: "TSoul" Web Link: https://open.spotify.com/artist/1mEyB7CigTvYxmznsZBht4 
+GitHub_Runner_Date: 2024-12-28 01:23:46.719087 Track Name: "Heal" Artist Name: "Lewis Sky" Web Link: https://open.spotify.com/artist/3ezlkOpuXn3BcU4ScwfM5o 
+GitHub_Runner_Date: 2024-12-28 01:23:46.719107 Track Name: "Choosing Myself / Still Alone - Acoustic" Artist Name: "Naomi Raine" Web Link: https://open.spotify.com/artist/4rc8nzClXj7sUjvsHVg6AD 
+GitHub_Runner_Date: 2024-12-28 01:23:46.719126 Track Name: "Sleigh Ride" Artist Name: "TLC" Web Link: https://open.spotify.com/artist/0TImkz4nPqjegtVSMZnMRq 
+GitHub_Runner_Date: 2024-12-28 01:23:46.719145 Track Name: "I Saw Mommy Kissing Santa Claus" Artist Name: "The Jackson 5" Web Link: https://open.spotify.com/artist/2iE18Oxc8YSumAU232n4rW 
+GitHub_Runner_Date: 2024-12-28 01:23:46.719165 Track Name: "Rudolph The Red-Nosed Reindeer - Stereo LP Version" Artist Name: "The Temptations" Web Link: https://open.spotify.com/artist/3RwQ26hR2tJtA8F9p2n7jG 
+GitHub_Runner_Date: 2024-12-28 01:23:46.719184 Track Name: "Let It Snow - Remastered 2024" Artist Name: "Boyz II Men" Web Link: https://open.spotify.com/artist/6O74knDqdv3XaWtkII7Xjp 
+GitHub_Runner_Date: 2024-12-28 01:23:46.719203 Track Name: "What Do The Lonely Do At Christmas?" Artist Name: "The Emotions" Web Link: https://open.spotify.com/artist/64CuUOOirKmdAYLQSfaOyr 
+GitHub_Runner_Date: 2024-12-28 01:23:46.719223 Track Name: "Merry Christmas Baby" Artist Name: "Otis Redding" Web Link: https://open.spotify.com/artist/60df5JBRRPcnSpsIMxxwQm 
+GitHub_Runner_Date: 2024-12-28 01:23:46.719242 Track Name: "Touch in Mine (fingers)" Artist Name: "Esperanza Spalding" Web Link: https://open.spotify.com/artist/5bepW5vcdRzheNc0F8lHJ5 
+GitHub_Runner_Date: 2024-12-28 01:23:46.719272 Track Name: "Touch in Mine (fingers)" Artist Name: "Esperanza Spalding" Web Link: https://open.spotify.com/artist/5bepW5vcdRzheNc0F8lHJ5 
