@@ -5424,3 +5424,18 @@ GitHub_Runner_Date: 2025-01-27 01:24:47.567705 Track Name: "SLOOOWLY" Artist Nam
 GitHub_Runner_Date: 2025-01-27 01:24:47.567725 Track Name: "Glow Queen" Artist Name: "Valntna" Web Link: https://open.spotify.com/artist/2MRXJHWrV72Bd35kawjirn 
 GitHub_Runner_Date: 2025-01-27 01:24:47.567744 Track Name: "Hold My Hand" Artist Name: "Kenneth Whalum" Web Link: https://open.spotify.com/artist/2lnrl1gyJvhaFtNIIRnB16 
 GitHub_Runner_Date: 2025-01-27 01:24:47.567763 Track Name: "If Only (MajorStage Live)" Artist Name: "D'GORD" Web Link: https://open.spotify.com/artist/0F41K3Rqw4LJII3BGd8Pet 
+GitHub_Runner_Date: 2025-01-28 01:23:09.950126 Track Name: "Somewhere Wonderful" Artist Name: "Ras-I" Web Link: https://open.spotify.com/artist/1AiPTeSRCKWwP2o7OXtoY9 
+GitHub_Runner_Date: 2025-01-28 01:23:09.950189 Track Name: "Somewhere Wonderful" Artist Name: "Ras-I" Web Link: https://open.spotify.com/artist/1AiPTeSRCKWwP2o7OXtoY9 
+GitHub_Runner_Date: 2025-01-28 01:23:09.950215 Track Name: "Somewhere Wonderful" Artist Name: "Ras-I" Web Link: https://open.spotify.com/artist/1AiPTeSRCKWwP2o7OXtoY9 
+GitHub_Runner_Date: 2025-01-28 01:23:09.950237 Track Name: "Somewhere Wonderful" Artist Name: "Ras-I" Web Link: https://open.spotify.com/artist/1AiPTeSRCKWwP2o7OXtoY9 
+GitHub_Runner_Date: 2025-01-28 01:23:09.950263 Track Name: "Weightless" Artist Name: "J. Brown" Web Link: https://open.spotify.com/artist/2EUGkQxJXfpkTMTZ3xQplb 
+GitHub_Runner_Date: 2025-01-28 01:23:09.950284 Track Name: "Feelings - Live in-studio, New York, 2023" Artist Name: "Dre Scot" Web Link: https://open.spotify.com/artist/2DYHQcNeA2fbIsSx7kYvE1 
+GitHub_Runner_Date: 2025-01-28 01:23:09.950305 Track Name: "I Just Can't Love You" Artist Name: "J. Brown" Web Link: https://open.spotify.com/artist/2EUGkQxJXfpkTMTZ3xQplb 
+GitHub_Runner_Date: 2025-01-28 01:23:09.950326 Track Name: "Somewhere Wonderful" Artist Name: "Ras-I" Web Link: https://open.spotify.com/artist/1AiPTeSRCKWwP2o7OXtoY9 
+GitHub_Runner_Date: 2025-01-28 01:23:09.950347 Track Name: "Somewhere Wonderful" Artist Name: "Ras-I" Web Link: https://open.spotify.com/artist/1AiPTeSRCKWwP2o7OXtoY9 
+GitHub_Runner_Date: 2025-01-28 01:23:09.950367 Track Name: "On God!" Artist Name: "Tiana Major9" Web Link: https://open.spotify.com/artist/1Naqgo0HMRoumRP0e2MXD9 
+GitHub_Runner_Date: 2025-01-28 01:23:09.950387 Track Name: "Caught In A Lie" Artist Name: "The Hics" Web Link: https://open.spotify.com/artist/2XHJ36WzMJKpDk6fLl6lMo 
+GitHub_Runner_Date: 2025-01-28 01:23:09.950406 Track Name: "Perfect Company" Artist Name: "James Vickery" Web Link: https://open.spotify.com/artist/68tR0TsEKX89ID4fyBMgch 
+GitHub_Runner_Date: 2025-01-28 01:23:09.950425 Track Name: "SLOOOWLY" Artist Name: "Marie Noreger" Web Link: https://open.spotify.com/artist/5xyRNaMYYZySaNqjiFyR47 
+GitHub_Runner_Date: 2025-01-28 01:23:09.950443 Track Name: "Glow Queen" Artist Name: "Valntna" Web Link: https://open.spotify.com/artist/2MRXJHWrV72Bd35kawjirn 
+GitHub_Runner_Date: 2025-01-28 01:23:09.950462 Track Name: "Hold My Hand" Artist Name: "Kenneth Whalum" Web Link: https://open.spotify.com/artist/2lnrl1gyJvhaFtNIIRnB16 
